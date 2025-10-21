@@ -18,13 +18,10 @@ main:
     url: /teach/    
     
   - title: "Leadership & Service"
-    url: /portfolio/
+    url: /leadership/
         
   - title: "Honors & Awards"
     url: /honor/
-    
-  # - title: "CV"
-  #   url: /cv-json/
     
   - title: "Contacts"
     url: /contacts/
