@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "SIFAT ABDUL BARI"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
