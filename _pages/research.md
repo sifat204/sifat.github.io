@@ -30,12 +30,12 @@ This project investigates the structural evolution and deformation behavior of a
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/sampleA.PNG" alt="Sample A with shear" style="width: 100%;">
-    <figcaption style="text-align: center !important; font-style: italic; margin-top: 5px;">(a) Microstructure of Sample A: With Shear</figcaption>
+    <figcaption class="center-caption">(a) Microstructure of Sample A: With Shear</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/sampleB.PNG" alt="Sample B without shear" style="width: 100%;">
-    <figcaption style="text-align: center !important; font-style: italic; margin-top: 5px;">(b) Microstructure of Sample B: Without Shear</figcaption>
+    <figcaption class="center-caption">(b) Microstructure of Sample B: Without Shear</figcaption>
   </figure>
 
 </div>
