@@ -20,4 +20,4 @@ Beyond research, I am actively engaged in teaching undergraduate courses on **Ma
 
 My long-term vision is to develop sustainable solutions in **materials design** for extreme environment, while building strong academic-industry collaborations in the field of materials science.
 
-[Download CV!](/files/Sifat_Final.pdf)
+[Download CV!](./files/Sifat_Final.pdf)
