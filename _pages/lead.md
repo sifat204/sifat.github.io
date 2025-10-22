@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: ""
-permalink: /leadership/
+permalink: /lead/
 author_profile: true
 ---
 ### Write ECA here
