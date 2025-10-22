@@ -24,7 +24,7 @@ This project investigates the structural evolution and deformation behavior of a
 - Room temperature tensile strength ~4.8 GPa; high temperature simulations showed ductility retention.  
 - CSRO analysis indicated moderate solute ordering, correlating with improved yield strength.  
 
-<img src='/images/Slide2.png'> 
+[Alt text](./images/Slide2.png)
 
 This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.
 ---
