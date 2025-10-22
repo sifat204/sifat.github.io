@@ -26,15 +26,18 @@ This project investigates the structural evolution and deformation behavior of a
 - CSRO analysis indicated moderate solute ordering, correlating with improved yield strength.  
 <!-- <img src="{{ site.baseurl }}/assets/images/Slide2.PNG" alt="Description" width="500"/> 
 <img src="{{ site.baseurl }}/assets/images/Slide3.PNG" alt="Description" width="500"/> -->
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <figure style="width: 48%;">
-    <img src="{{ site.baseurl }}/assets/images/Slide2.PNG" alt="Description" style="width: 100%;">
-    <figcaption style="text-align: center;">(a) Sample A: With Shear </figcaption>
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/sample-a.png" alt="Sample A with shear" style="width: 100%;">
+    <figcaption style="text-align: center; font-style: italic; margin-top: 5px;">(a) Microstructure of Sample A: With Shear</figcaption>
   </figure>
-  <figure style="width: 48%;">
-    <img src="{{ site.baseurl }}/assets/images/Slide3.PNG" alt="Description" style="width: 100%;">
-    <figcaption style="text-align: center;">(b) Sample B: Without Shear </figcaption>
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/sample-b.png" alt="Sample B without shear" style="width: 100%;">
+    <figcaption style="text-align: center; font-style: italic; margin-top: 5px;">(b) Microstructure Sample B: Without Shear</figcaption>
   </figure>
+
 </div>
 This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.
 
