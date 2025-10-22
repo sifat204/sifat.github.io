@@ -23,9 +23,8 @@ This project investigates the structural evolution and deformation behavior of a
 - Fivefold twins and localized amorphous zones were identified using CNA, suggesting enhanced defect tolerance.  
 - Room temperature tensile strength ~4.8 GPa; high temperature simulations showed ductility retention.  
 - CSRO analysis indicated moderate solute ordering, correlating with improved yield strength.  
-
-<img src="{{ site.baseurl }}/assets/images/Slide2.PNG" alt="Description" width="500"/> 
-<img src="{{ site.baseurl }}/assets/images/Slide3.PNG" alt="Description" width="500"/>
+<!-- <img src="{{ site.baseurl }}/assets/images/Slide2.PNG" alt="Description" width="500"/> 
+<img src="{{ site.baseurl }}/assets/images/Slide3.PNG" alt="Description" width="500"/> -->
 This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.
----
+
 ### Projects
