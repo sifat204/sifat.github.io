@@ -1,18 +1,15 @@
 ---
 layout: archive
-title: "Research"
+title: ""
 permalink: /research/
 author_profile: true
 ---
 ## Master's Thesis
-### **Enhancing Microstructure and Mechanical Stability of Al₀.₃CoCrFeNi High-Entropy Alloy via Shear-Assisted Solidification**
-
+**Enhancing Microstructure and Mechanical Stability of Al₀.₃CoCrFeNi High-Entropy Alloy via Shear-Assisted Solidification**
 **Tools:** LAMMPS, OVITO, Python, VESTA  
 **Keywords:** Molecular Dynamics, High-Entropy Alloys, Grain Refinement, Dislocation Mechanics, Radiation Damage
 
-### Overview
 This project investigates the structural evolution and deformation behavior of an equiatomic Al₀.₃CoCrFeNi high-entropy alloy (HEA) under shear-assisted solidification using atomistic simulations. The goal was to explore how shear flow influences grain structure, defect formation, and radiation tolerance in HEAs.
-
 ### Methodology 
 - Constructed a BCC atomic lattice for Al₀.₃CoCrFeNi using VESTA and LAMMPS input scripts.  
 - Applied shear flow during quenching from 3000 K to 300 K using the NVT ensemble.  
@@ -21,16 +18,14 @@ This project investigates the structural evolution and deformation behavior of a
 - Computed Warren–Cowley Chemical Short-Range Order (CSRO) parameters to assess atomic-level solute distribution.  
 - Simulated radiation impact through Primary Knock-on Atom (PKA) events at different energy levels.  
 - Performed nanoindentation to evaluate hardness and characterize sub-surface plasticity.
-
 ### Key Observations  
 - Shear-assisted solidification resulted in significant grain refinement and high twin boundary density.  
 - Fivefold twins and localized amorphous zones were identified using CNA, suggesting enhanced defect tolerance.  
 - Room temperature tensile strength ~4.8 GPa; high temperature simulations showed ductility retention.  
 - CSRO analysis indicated moderate solute ordering, correlating with improved yield strength.  
-- Nanoindentation simulations estimated hardness ~9.8 GPa with evidence of dislocation pile-up beneath the indenter.  
-- PKA simulations showed localized radiation damage, with minimal defect migration beyond impact zones.
+><img src='./images/Slide2.PNG'> 
+><img src='./images/Slide3.PNG'> 
 
-> This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.
+This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.
 ---
-### Radiaton Damage 
-Primary Knock on Atoms to study the radiation damage. 
+### Projects
