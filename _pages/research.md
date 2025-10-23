@@ -9,7 +9,7 @@ author_profile: true
 **Tools:** LAMMPS, OVITO, Python, VESTA  
 **Keywords:** Molecular Dynamics, High-Entropy Alloys, Grain Refinement, Dislocation Mechanics, Radiation Damage
 
- This project investigated how shear flow during solidification affected the atomic structure and mechanical response of Al₀.₃CoCrFeNi high-entropy alloys. Molecular dynamics simulations revealed that shear-assisted processing promoted uniform grain nucleation, nanocrystalline structures, and more stable dislocation behavior. Enhanced chemical ordering and reduced dislocation entanglement contributed to an improved strength-ductility balance. Twin-induced and transformation-induced plasticity mechanisms were more active in the refined microstructure. These combined effects led to superior mechanical performance and thermal stability. The results demonstrated the potential of shear-assisted processing for tailoring HEAs for high-performance, high-temperature applications.
+ <p style="text-align: justify;">This project investigated how shear flow during solidification affected the atomic structure and mechanical response of Al₀.₃CoCrFeNi high-entropy alloys. Molecular dynamics simulations revealed that shear-assisted processing promoted uniform grain nucleation, nanocrystalline structures, and more stable dislocation behavior. Enhanced chemical ordering and reduced dislocation entanglement contributed to an improved strength-ductility balance. Twin-induced and transformation-induced plasticity mechanisms were more active in the refined microstructure. These combined effects led to superior mechanical performance and thermal stability. The results demonstrated the potential of shear-assisted processing for tailoring HEAs for high-performance, high-temperature applications.</p>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
@@ -29,7 +29,7 @@ For more details and resources <a href="{{ site.baseurl }}/hea/" style="display:
 
 ## LAMMPS-based Molecular Dynamics Projects 
 **AlHfNbTaTiZr Refractory High Entropy Alloy (RHEA)**
-This project explored the solidification behavior and mechanical response of a refractory high-entropy alloy using molecular dynamics simulations. Rapid quenching from the melt revealed a transition into a fully amorphous phase, resembling metallic glass. The study evaluated tensile strength and dislocation activity under uniaxial loading, alongside nanoindentation-induced plasticity. Radiation damage was simulated via primary knock-on atom (PKA) events to assess defect evolution. The findings highlight the alloy’s potential for extreme environment applications.
+<p style="text-align: justify;">This project explored the solidification behavior and mechanical response of a refractory high-entropy alloy using molecular dynamics simulations. Rapid quenching from the melt revealed a transition into a fully amorphous phase, resembling metallic glass. The study evaluated tensile strength and dislocation activity under uniaxial loading, alongside nanoindentation-induced plasticity. Radiation damage was simulated via primary knock-on atom (PKA) events to assess defect evolution. The findings highlight the alloy’s potential for extreme environment applications.</p>
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
