@@ -164,7 +164,7 @@ with open(output_filename, 'w') as f:
     for atom_id, (elem, pos) in enumerate(zip(elements, positions), start=1):
         f.write(f"{atom_id} {type_map[elem]} {pos[0]:.6f} {pos[1]:.6f} {pos[2]:.6f}\n")
 
-print(f"✅ HEA structure written to {output_filename}")
+print(f"HEA structure written to {output_filename}")
         </code></pre>
       </div>
 

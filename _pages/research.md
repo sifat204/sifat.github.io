@@ -24,7 +24,7 @@ author_profile: true
   </figure>
 
 </div>
-This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.
+<p><em>This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.</em></p>
 For more details and resources <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here</a>
 
 ## Projects
