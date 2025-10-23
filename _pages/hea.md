@@ -359,13 +359,13 @@ write_data final_st.data
 }
 
 .left-column h2, .right-column h2 {
-  color: #2c3e50;
+  color: #000000fb;
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
 }
 
 .left-column h3, .right-column h3 {
-  color: #34495e;
+  color: #000000ff;
   margin-top: 25px;
 }
 
