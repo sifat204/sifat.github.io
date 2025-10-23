@@ -137,7 +137,7 @@ print(f"✅ HEA structure written to {output_filename}")
       <h3>LAMMPS Input Script</h3>
       <div class="code-block">
         <pre><code class="language-lammps">
-        log log_file.txt
+log log_file.txt
 
 # ------------------------ INITIALIZATION ----------------------------
 units       metal
@@ -238,42 +238,102 @@ print "All done"
       <h3>Results Visualization</h3>
       
       <figure>
-        <img src="{{ site.baseurl }}/assets/images/hea_microstructure.png" alt="HEA Microstructure">
-        <figcaption class="center-caption">Figure 1: Typical microstructure of developed HEA</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/stress.png.png" alt="Stress-Strain Curve">
+        <figcaption class="center-caption">Figure 1: Stress-Strain Curve for Sample A and B</figcaption>
       </figure>
 
       <figure>
-        <img src="{{ site.baseurl }}/assets/images/phase_diagram.png" alt="Phase Diagram">
-        <figcaption class="center-caption">Figure 2: Calculated phase diagram for the HEA system</figcaption>
+        <img src="{{ site.baseurl }}/assets/images/Sample A_A7.png" alt="Grain Segmentation A">
+        <figcaption class="center-caption">Figure 2: Grain Segmentation in Sample A</figcaption>
       </figure>
 
-      <h3>Data Analysis Script</h3>
-      <div class="code-block">
-        <pre><code class="language-python">
-import pandas as pd
-import matplotlib.pyplot as plt
+      <figure>
+        <img src="{{ site.baseurl }}/assets/images/Sample B_B7.png" alt="Grain Segmentation B">
+        <figcaption class="center-caption">Figure 3: Grain Segmentation in Sample B</figcaption>
+      </figure>
 
-def plot_mechanical_properties(data_file):
-    """
-    Plot mechanical properties of different HEA compositions
-    """
-    data = pd.read_csv(data_file)
-    
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
-    
-    # Yield strength vs composition
-    ax1.scatter(data['composition'], data['yield_strength'])
-    ax1.set_xlabel('Composition')
-    ax1.set_ylabel('Yield Strength (MPa)')
-    
-    # Hardness vs composition
-    ax2.scatter(data['composition'], data['hardness'])
-    ax2.set_xlabel('Composition')
-    ax2.set_ylabel('Hardness (HV)')
-    
-    plt.tight_layout()
-    plt.savefig('mechanical_properties.png', dpi=300)
-    plt.show()
+      <h3>Hybrid MD/MC Simulation</h3>
+      <div class="code-block">
+        <pre><code class="language-LAMMPS">
+# High-Entropy Alloy (Al-Fe-Ni-Cr-Co) Hybrid MC/MD Simulation 
+
+log MC_log_file.txt
+units metal
+atom_style atomic
+dimension 3
+boundary p p p
+
+package gpu 1
+neighbor 2.0 bin
+neigh_modify every 1 delay 0 check yes
+
+# structure
+read_data test_st.data
+
+# Potential setup (matches data types)
+pair_style eam/alloy/gpu
+pair_coeff * * FeCrCoNiAl.setfl Al Fe Ni Cr Co
+
+# ---- ENERGY MINIMIZATION ----
+minimize 1.0e-5 1.0e-7 5000 10000
+reset_timestep 0
+
+# ---- DYNAMICS SETUP ----
+timestep 0.002
+velocity all create 1000.0 12345 rot yes dist gaussian
+fix nvt all nvt temp 1000.0 1000.0 0.1
+thermo 1000
+run 50000  # 100 ps equilibration
+unfix nvt
+
+
+fix nvt_prod all nvt temp 1000.0 1000.0 0.1  # Must come before MC fix!
+
+# ---- MONTE CARLO SETUP (Canonical Ensemble) ----
+
+fix swap1 all atom/swap 100 10 12345 1000.0 types 1 2
+fix swap2 all atom/swap 100 10 12346 1000.0 types 2 3
+fix swap3 all atom/swap 100 10 12347 1000.0 types 3 4
+fix swap4 all atom/swap 100 10 12348 1000.0 types 4 5 
+
+# Count atoms of each type
+compute c_Al all count/type atom
+
+# Composition monitoring
+fix composition all ave/time 100 50 5000 c_c_Al[1] c_c_Al[2] c_c_Al[3] c_c_Al[4] c_c_Al[5] file composition.txt
+
+# Output settings
+thermo 1000
+thermo_style custom step temp pe etotal press vol f_swap1[1] f_swap1[2] f_swap2[1] f_swap2[2]
+thermo_modify flush yes
+
+# Run MC/MD simulation
+restart 50000 restart.mc.*
+#run 10000000  
+run 600000
+
+
+unfix swap1
+unfix swap2
+unfix swap3
+unfix swap4
+
+# Ramp temperature down
+
+thermo_style custom step temp pe etotal press vol
+
+unfix nvt_prod
+
+fix nvt all nvt temp 1000.0 300.0 0.1
+run 400000     # e.g., ~0.8 ns cool
+
+unfix nvt
+fix npt all npt temp 300.0 300.0 0.1 iso 0.0 0.0 1.0
+run 50000     # 0.4 ns hold
+
+# Output final structure
+write_data final_st.data
+
         </code></pre>
       </div>
 
@@ -332,7 +392,7 @@ def plot_mechanical_properties(data_file):
 
 .code-block {
   background: #f6f8fa;
-  padding: 15px;
+  padding: 7px;
   border-radius: 5px;
   margin-bottom: 20px;
   overflow-x: auto;
@@ -340,7 +400,7 @@ def plot_mechanical_properties(data_file):
 
 .code-block pre code {
   font-size: 0.7em;
-  line-height: 1.4;
+  line-height: 1;
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
 }
 
