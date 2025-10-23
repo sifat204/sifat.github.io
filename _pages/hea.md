@@ -46,6 +46,23 @@ description: "Detailed information about High Entropy Alloys research including 
       <h3>Future Work</h3>
       <p>Future research directions include optimization of processing parameters and exploration of new alloy systems.</p>
 
+      <h3>Hybrid MC/MD Simulation</h3>
+      <p>Hybrid MC/MD simulation generates thermally equilibrated alloy structures by combining two techniques. Short Molecular Dynamics (MD) bursts relax atomic positions, then Monte Carlo (MC) proposes atom swaps to sample chemical configurations. The energy change after MD relaxation determines if a swap is accepted. This process efficiently explores the system's structural and chemical landscape to study properties like chemical short-range order (CSRO) and phase stability.</p>
+      <p> This interesting process has been explored in this project. The atomic structure and radial distribution function; g(r) shows checmical ordering after MC/MD hybrid simulation </p>
+
+      <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/sampleA.PNG" alt="Sample A with shear" style="width: 100%;">
+    <figcaption class="center-caption">(a) Microstructure of Sample A: With Shear</figcaption>
+  </figure>
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/sampleB.PNG" alt="Sample B without shear" style="width: 100%;">
+    <figcaption class="center-caption">(b) Microstructure of Sample B: Without Shear</figcaption>
+  </figure>
+
+</div>
     </div>
 
     <!-- Right Column - Code and Images -->
@@ -238,7 +255,7 @@ print "All done"
       <h3>Results Visualization</h3>
       
       <figure>
-        <img src="{{ site.baseurl }}/assets/images/stress.png.png" alt="Stress-Strain Curve">
+        <img src="{{ site.baseurl }}/assets/images/stress.png" alt="Stress-Strain Curve">
         <figcaption class="center-caption">Figure 1: Stress-Strain Curve for Sample A and B</figcaption>
       </figure>
 
