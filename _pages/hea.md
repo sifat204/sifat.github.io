@@ -10,7 +10,6 @@ description: "Detailed information about High Entropy Alloys research including 
 
     <!-- Left Column - Details and Descriptions -->
     <div class="left-column">
-      <p><strong>Enhancing Microstructure and Mechanical Stability of Al₀.₃CoCrFeNi High-Entropy Alloy via Shear-Assisted Solidification</p>
       <h3>Methodology</h3>
       <ul>
         <li><strong>Initial Structure:</strong> BCC structure prepared with Python and LAMMPS</li>
