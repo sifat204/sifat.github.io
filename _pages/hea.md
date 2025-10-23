@@ -63,19 +63,16 @@ description: "Detailed information about High Entropy Alloys research including 
   </figure>
 
 </div>
-<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
-  <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/mcmdgf.png" alt="gr function A" style="width: 100%;">
-    <figcaption class="center-caption">(c) Radial Distribution Fuction of Sample A: After MC/MD </figcaption>
-  </figure>
+      <figure>
+        <img src="{{ site.baseurl }}/assets/images/mcmdgf.png" alt="gr function A" style="width: 100%;">
+        <figcaption class="center-caption">(c) Radial Distribution Fuction of Sample A: After MC/MD </figcaption>
+      </figure>
 
-  <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/rangf.png" alt="gf fucntion B" style="width: 100%;">
-    <figcaption class="center-caption">(d) Radial Distribution Fuction of Initial Structure</figcaption>
-  </figure>
-
-</div>
+      <figure>
+        <img src="{{ site.baseurl }}/assets/images/rangf.png" alt="gf fucntion B" style="width: 100%;">
+        <figcaption class="center-caption">(d) Radial Distribution Fuction of Initial Structure</figcaption>
+      </figure>
 
       <h3>Results Visualization</h3>
       
@@ -282,23 +279,6 @@ print "All done"
         </code></pre>
       </div>
 
-      <h3>Results Visualization</h3>
-      
-      <figure>
-        <img src="{{ site.baseurl }}/assets/images/stress.png" alt="Stress-Strain Curve">
-        <figcaption class="center-caption">Figure 1: Stress-Strain Curve for Sample A and B</figcaption>
-      </figure>
-
-      <figure>
-        <img src="{{ site.baseurl }}/assets/images/Sample A_A7.png" alt="Grain Segmentation A">
-        <figcaption class="center-caption">Figure 2: Grain Segmentation in Sample A</figcaption>
-      </figure>
-
-      <figure>
-        <img src="{{ site.baseurl }}/assets/images/Sample B_B7.png" alt="Grain Segmentation B">
-        <figcaption class="center-caption">Figure 3: Grain Segmentation in Sample B</figcaption>
-      </figure>
-
       <h3>Hybrid MD/MC Simulation</h3>
       <div class="code-block">
         <pre><code class="language-LAMMPS">
@@ -439,15 +419,15 @@ write_data final_st.data
 
 .code-block {
   background: #f6f8fa;
-  padding: 7px;
+  padding: 5px;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   overflow-x: auto;
 }
 
 .code-block pre code {
   font-size: 0.7em;
-  line-height: 1;
+  line-height: 0.8;
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
 }
 
