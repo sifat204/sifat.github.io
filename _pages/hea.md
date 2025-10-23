@@ -152,9 +152,9 @@ def plot_mechanical_properties(data_file):
 
 <style>
 .content-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 20px;
 }
 
 .two-column-layout {
@@ -197,7 +197,7 @@ def plot_mechanical_properties(data_file):
 }
 
 .code-block pre code {
-  font-size: 0.9em;
+  font-size: 0.6em;
   line-height: 1.4;
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
 }
