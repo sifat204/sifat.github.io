@@ -9,23 +9,8 @@ author_profile: true
 **Tools:** LAMMPS, OVITO, Python, VESTA  
 **Keywords:** Molecular Dynamics, High-Entropy Alloys, Grain Refinement, Dislocation Mechanics, Radiation Damage
 
-This project investigates the structural evolution and deformation behavior of an equiatomic Al₀.₃CoCrFeNi high-entropy alloy (HEA) under shear-assisted solidification using atomistic simulations. The goal was to explore how shear flow influences grain structure, defect formation, and radiation tolerance in HEAs. 
-## Methodology
-- Constructed a BCC atomic lattice for Al₀.₃CoCrFeNi using VESTA and LAMMPS input scripts.  
-- Applied shear flow during quenching from 3000 K to 300 K using the NVT ensemble.  
-- Used Common Neighbor Analysis (CNA) and Radial Distribution Function (RDF) to monitor crystallinity and detect amorphous regions.  
-- Conducted uniaxial tensile simulations to extract mechanical properties (stress–strain behavior, Young’s modulus).  
-- Computed Warren–Cowley Chemical Short-Range Order (CSRO) parameters to assess atomic-level solute distribution.  
-- Simulated radiation impact through Primary Knock-on Atom (PKA) events at different energy levels.  
-- Performed nanoindentation to evaluate hardness and characterize sub-surface plasticity. 
+ This project investigated how shear flow during solidification affected the atomic structure and mechanical response of Al₀.₃CoCrFeNi high-entropy alloys. Molecular dynamics simulations revealed that shear-assisted processing promoted uniform grain nucleation, nanocrystalline structures, and more stable dislocation behavior. Enhanced chemical ordering and reduced dislocation entanglement contributed to an improved strength-ductility balance. Twin-induced and transformation-induced plasticity mechanisms were more active in the refined microstructure. These combined effects led to superior mechanical performance and thermal stability. The results demonstrated the potential of shear-assisted processing for tailoring HEAs for high-performance, high-temperature applications.
 
-## Key Observations 
-- Shear-assisted solidification resulted in significant grain refinement and high twin boundary density.  
-- Fivefold twins and localized amorphous zones were identified using CNA, suggesting enhanced defect tolerance.  
-- Room temperature tensile strength ~4.8 GPa; high temperature simulations showed ductility retention.  
-- CSRO analysis indicated moderate solute ordering, correlating with improved yield strength.  
-<!-- <img src="{{ site.baseurl }}/assets/images/Slide2.PNG" alt="Description" width="500"/> 
-<img src="{{ site.baseurl }}/assets/images/Slide3.PNG" alt="Description" width="500"/> -->
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
@@ -40,7 +25,6 @@ This project investigates the structural evolution and deformation behavior of a
 
 </div>
 This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.
+For more details and resources <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here</a>
 
-For more details and resources, <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here</a>
-
-### Projects
+## Projects
