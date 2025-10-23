@@ -38,7 +38,7 @@ This project explored the solidification behavior and mechanical response of a r
   </figure>
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/mg.PNG" alt="metalic glass" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/mg.png" alt="metalic glass" style="width: 100%;">
     <figcaption class="center-caption">(b) Metalic Glass Microstructure after rapid solidification</figcaption>
   </figure>
 
