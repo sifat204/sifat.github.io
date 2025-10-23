@@ -31,7 +31,7 @@ For more details and resources <a href="{{ site.baseurl }}/hea/" style="display:
 **AlHfNbTaTiZr Refractory High Entropy Alloy (RHEA)**
 This project explored the solidification behavior and mechanical response of a refractory high-entropy alloy using molecular dynamics simulations. Rapid quenching from the melt revealed a transition into a fully amorphous phase, resembling metallic glass. The study evaluated tensile strength and dislocation activity under uniaxial loading, alongside nanoindentation-induced plasticity. Radiation damage was simulated via primary knock-on atom (PKA) events to assess defect evolution. The findings highlight the alloy’s potential for extreme environment applications.
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/PKA.gif" alt="HEA Microstructure Evolution" style="width: 50%;">
+  <img src="{{ site.baseurl }}/assets/images/PKA.gif" alt="Primary Knock on Atom" style="width: 70%;">
   <figcaption class="center-caption">Figure 3: Radiation Damage with PKA</figcaption>
 </figure>
 
