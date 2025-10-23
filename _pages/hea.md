@@ -1,8 +1,7 @@
 ---
-layout: archive
-title: ""
-permalink: /research/
-author_profile: true
+layout: page
+title: "High-Entropy Alloys"
+permalink: /hea/
 ---
 ## Master's Thesis
 **Enhancing Microstructure and Mechanical Stability of Al₀.₃CoCrFeNi High-Entropy Alloy via Shear-Assisted Solidification**
@@ -24,23 +23,3 @@ This project investigates the structural evolution and deformation behavior of a
 - Fivefold twins and localized amorphous zones were identified using CNA, suggesting enhanced defect tolerance.  
 - Room temperature tensile strength ~4.8 GPa; high temperature simulations showed ductility retention.  
 - CSRO analysis indicated moderate solute ordering, correlating with improved yield strength.  
-<!-- <img src="{{ site.baseurl }}/assets/images/Slide2.PNG" alt="Description" width="500"/> 
-<img src="{{ site.baseurl }}/assets/images/Slide3.PNG" alt="Description" width="500"/> -->
-<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
-
-  <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/sampleA.PNG" alt="Sample A with shear" style="width: 100%;">
-    <figcaption class="center-caption">(a) Microstructure of Sample A: With Shear</figcaption>
-  </figure>
-
-  <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/sampleB.PNG" alt="Sample B without shear" style="width: 100%;">
-    <figcaption class="center-caption">(b) Microstructure of Sample B: Without Shear</figcaption>
-  </figure>
-
-</div>
-This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.
-
-For more details and resources, <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here</a>
-
-### Projects
