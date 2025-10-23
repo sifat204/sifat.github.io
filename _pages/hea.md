@@ -1,57 +1,58 @@
 ---
-layout: archive
+layout: default
 title: "High Entropy Alloys (HEA) Research"
 permalink: /hea/
 description: "Detailed information about High Entropy Alloys research including methodologies, code implementations, and results."
 ---
 
-<div class="two-column-layout" style="display: flex; gap: 30px; flex-wrap: wrap;">
+<div class="content-container">
+  <div class="two-column-layout">
 
-  <!-- Left Column - Details and Descriptions -->
-  <div class="left-column" style="flex: 1; min-width: 300px;">
-    
-    <h2>Research Overview</h2>
-    <p>This research focuses on the development and characterization of High Entropy Alloys (HEAs) with exceptional mechanical properties and thermal stability.</p>
+    <!-- Left Column - Details and Descriptions -->
+    <div class="left-column">
+      
+      <h2>Research Overview</h2>
+      <p>This research focuses on the development and characterization of High Entropy Alloys (HEAs) with exceptional mechanical properties and thermal stability.</p>
 
-    <h3>Methodology</h3>
-    <ul>
-      <li><strong>Alloy Design:</strong> Multi-principal element approach</li>
-      <li><strong>Fabrication:</strong> Arc melting under argon atmosphere</li>
-      <li><strong>Characterization:</strong> XRD, SEM, TEM analysis</li>
-      <li><strong>Testing:</strong> Mechanical and thermal properties evaluation</li>
-    </ul>
+      <h3>Methodology</h3>
+      <ul>
+        <li><strong>Alloy Design:</strong> Multi-principal element approach</li>
+        <li><strong>Fabrication:</strong> Arc melting under argon atmosphere</li>
+        <li><strong>Characterization:</strong> XRD, SEM, TEM analysis</li>
+        <li><strong>Testing:</strong> Mechanical and thermal properties evaluation</li>
+      </ul>
 
-    <h3>Key Findings</h3>
-    <p>Our research has demonstrated that HEAs exhibit:</p>
-    <ul>
-      <li>Superior strength-to-weight ratios</li>
-      <li>Excellent corrosion resistance</li>
-      <li>Enhanced thermal stability</li>
-      <li>Unique deformation mechanisms</li>
-    </ul>
+      <h3>Key Findings</h3>
+      <p>Our research has demonstrated that HEAs exhibit:</p>
+      <ul>
+        <li>Superior strength-to-weight ratios</li>
+        <li>Excellent corrosion resistance</li>
+        <li>Enhanced thermal stability</li>
+        <li>Unique deformation mechanisms</li>
+      </ul>
 
-    <h3>Applications</h3>
-    <p>Potential applications of these HEAs include:</p>
-    <ul>
-      <li>Aerospace components</li>
-      <li>High-temperature tools</li>
-      <li>Nuclear reactors</li>
-      <li>Marine engineering</li>
-    </ul>
+      <h3>Applications</h3>
+      <p>Potential applications of these HEAs include:</p>
+      <ul>
+        <li>Aerospace components</li>
+        <li>High-temperature tools</li>
+        <li>Nuclear reactors</li>
+        <li>Marine engineering</li>
+      </ul>
 
-    <h3>Future Work</h3>
-    <p>Future research directions include optimization of processing parameters and exploration of new alloy systems.</p>
+      <h3>Future Work</h3>
+      <p>Future research directions include optimization of processing parameters and exploration of new alloy systems.</p>
 
-  </div>
+    </div>
 
-  <!-- Right Column - Code and Images -->
-  <div class="right-column" style="flex: 1; min-width: 300px;">
-    
-    <h2>Code Implementation</h2>
-    
-    <h3>Phase Prediction Algorithm</h3>
-    <div style="background: #f6f8fa; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
-      <pre><code class="language-python">
+    <!-- Right Column - Code and Images -->
+    <div class="right-column">
+      
+      <h2>Code Implementation</h2>
+      
+      <h3>Phase Prediction Algorithm</h3>
+      <div class="code-block">
+        <pre><code class="language-python">
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
@@ -67,12 +68,12 @@ def predict_phase_stability(composition, features):
 # Example usage
 composition_data = load_composition_data()
 stability_predictions = predict_phase_stability(composition_data)
-      </code></pre>
-    </div>
+        </code></pre>
+      </div>
 
-    <h3>Microstructure Analysis</h3>
-    <div style="background: #f6f8fa; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
-      <pre><code class="language-matlab">
+      <h3>Microstructure Analysis</h3>
+      <div class="code-block">
+        <pre><code class="language-matlab">
 % MATLAB code for microstructure analysis
 function [grain_size, phase_fraction] = analyze_microstructure(image_path)
     % Load and preprocess image
@@ -89,24 +90,24 @@ function [grain_size, phase_fraction] = analyze_microstructure(image_path)
     % Phase fraction calculation
     phase_fraction = calculate_phase_fraction(img);
 end
-      </code></pre>
-    </div>
+        </code></pre>
+      </div>
 
-    <h3>Results Visualization</h3>
-    
-    <figure style="margin: 20px 0;">
-      <img src="{{ site.baseurl }}/assets/images/hea_microstructure.png" alt="HEA Microstructure" style="width: 100%; border-radius: 5px;">
-      <figcaption class="center-caption">Figure 1: Typical microstructure of developed HEA</figcaption>
-    </figure>
+      <h3>Results Visualization</h3>
+      
+      <figure>
+        <img src="{{ site.baseurl }}/assets/images/hea_microstructure.png" alt="HEA Microstructure">
+        <figcaption class="center-caption">Figure 1: Typical microstructure of developed HEA</figcaption>
+      </figure>
 
-    <figure style="margin: 20px 0;">
-      <img src="{{ site.baseurl }}/assets/images/phase_diagram.png" alt="Phase Diagram" style="width: 100%; border-radius: 5px;">
-      <figcaption class="center-caption">Figure 2: Calculated phase diagram for the HEA system</figcaption>
-    </figure>
+      <figure>
+        <img src="{{ site.baseurl }}/assets/images/phase_diagram.png" alt="Phase Diagram">
+        <figcaption class="center-caption">Figure 2: Calculated phase diagram for the HEA system</figcaption>
+      </figure>
 
-    <h3>Data Analysis Script</h3>
-    <div style="background: #f6f8fa; padding: 15px; border-radius: 5px;">
-      <pre><code class="language-python">
+      <h3>Data Analysis Script</h3>
+      <div class="code-block">
+        <pre><code class="language-python">
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -131,26 +132,41 @@ def plot_mechanical_properties(data_file):
     plt.tight_layout()
     plt.savefig('mechanical_properties.png', dpi=300)
     plt.show()
-      </code></pre>
+        </code></pre>
+      </div>
+
     </div>
 
   </div>
 
-</div>
-
-<!-- Additional Resources Section -->
-<div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee;">
-  <h2>Additional Resources</h2>
-  <ul>
-    <li><a href="{{ site.baseurl }}/assets/documents/hea_publication.pdf">Download Full Paper (PDF)</a></li>
-    <li><a href="https://github.com/yourusername/hea-research">GitHub Repository</a></li>
-    <li><a href="{{ site.baseurl }}/research/">Back to Research Overview</a></li>
-  </ul>
+  <!-- Additional Resources Section -->
+  <div class="additional-resources">
+    <h2>Additional Resources</h2>
+    <ul>
+      <li><a href="{{ site.baseurl }}/assets/documents/hea_publication.pdf">Download Full Paper (PDF)</a></li>
+      <li><a href="https://github.com/yourusername/hea-research">GitHub Repository</a></li>
+      <li><a href="{{ site.baseurl }}/research/">Back to Research Overview</a></li>
+    </ul>
+  </div>
 </div>
 
 <style>
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
 .two-column-layout {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
   line-height: 1.6;
+}
+
+.left-column, .right-column {
+  flex: 1;
+  min-width: 300px;
 }
 
 .left-column h2, .right-column h2 {
@@ -172,9 +188,29 @@ def plot_mechanical_properties(data_file):
   margin-bottom: 8px;
 }
 
-pre code {
+.code-block {
+  background: #f6f8fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.code-block pre code {
   font-size: 0.9em;
   line-height: 1.4;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 5px;
+  max-width: 100%;
 }
 
 .center-caption {
@@ -182,5 +218,31 @@ pre code {
   font-style: italic;
   margin-top: 8px;
   color: #666;
+  display: block;
+}
+
+.additional-resources {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.additional-resources ul {
+  padding-left: 20px;
+}
+
+.additional-resources li {
+  margin-bottom: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .content-container {
+    padding: 0 20px;
+  }
+  
+  .two-column-layout {
+    gap: 20px;
+  }
 }
 </style>
