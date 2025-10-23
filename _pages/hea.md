@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: archive
 title: "High Entropy Alloys (HEA) Research"
 permalink: /hea/
 description: "Detailed information about High Entropy Alloys research including methodologies, code implementations, and results."
