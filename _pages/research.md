@@ -31,13 +31,13 @@ For more details and resources <a href="{{ site.baseurl }}/hea/" style="display:
 **AlHfNbTaTiZr Refractory High Entropy Alloy (RHEA)**
 This project explored the solidification behavior and mechanical response of a refractory high-entropy alloy using molecular dynamics simulations. Rapid quenching from the melt revealed a transition into a fully amorphous phase, resembling metallic glass. The study evaluated tensile strength and dislocation activity under uniaxial loading, alongside nanoindentation-induced plasticity. Radiation damage was simulated via primary knock-on atom (PKA) events to assess defect evolution. The findings highlight the alloy’s potential for extreme environment applications.
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/PKA.gif" alt="HEA Microstructure Evolution" style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/images/PKA.gif" alt="HEA Microstructure Evolution" style="width: 50%;">
   <figcaption class="center-caption">Figure 3: Radiation Damage with PKA</figcaption>
 </figure>
 
 **Zr–Nb Alloy**
-This study focused on understanding the role of Nb content in tuning the high-temperature mechanical performance of Zr-based alloys. Through simulated annealing and tensile loading, the creep resistance and dislocation dynamics were investigated. Nanoindentation simulations revealed trends in hardness and subsurface shear localization. The results provide atomistic insights into optimizing Zr–Nb alloys for use in nuclear and structural applications.
+<p style="text-align: justify;">This study focused on understanding the role of Nb content in tuning the high-temperature mechanical performance of Zr-based alloys. Through simulated annealing and tensile loading, the creep resistance and dislocation dynamics were investigated. Nanoindentation simulations revealed trends in hardness and subsurface shear localization. The results provide atomistic insights into optimizing Zr–Nb alloys for use in nuclear and structural applications.</p>
 
 **Transition Metal Dichalcogenides (TMDs)**
-This project examined the mechanical behavior of monolayer TMDs including h‑BN, MoS₂, and WSe₂. Using atomistic models built in VESTA and Atomsk, tensile simulations at room temperature were conducted to determine stress–strain responses. Crack propagation and failure mechanisms were analyzed to understand fracture characteristics at the atomic scale. Nanoindentation simulations were performed to assess surface hardness, providing insight into their potential for flexible electronics and nanomechanical devices.
+<p style="text-align: justify;">This project examined the mechanical behavior of monolayer TMDs including h‑BN, MoS₂, and WSe₂. Using atomistic models built in VESTA and Atomsk, tensile simulations at room temperature were conducted to determine stress–strain responses. Crack propagation and failure mechanisms were analyzed to understand fracture characteristics at the atomic scale. Nanoindentation simulations were performed to assess surface hardness, providing insight into their potential for flexible electronics and nanomechanical devices.</p>
 
