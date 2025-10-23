@@ -53,16 +53,46 @@ description: "Detailed information about High Entropy Alloys research including 
       <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/sampleA.PNG" alt="Sample A with shear" style="width: 100%;">
-    <figcaption class="center-caption">(a) Microstructure of Sample A: With Shear</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/mcmd.png" alt="Final Structure" style="width: 100%;">
+    <figcaption class="center-caption">(a) Final Structure after MC/MD simulation</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/sampleB.PNG" alt="Sample B without shear" style="width: 100%;">
-    <figcaption class="center-caption">(b) Microstructure of Sample B: Without Shear</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/random.png" alt="Initial Structure" style="width: 100%;">
+    <figcaption class="center-caption">(b) Initial Structure</figcaption>
   </figure>
 
 </div>
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/mcmdgf.png" alt="gr function A" style="width: 100%;">
+    <figcaption class="center-caption">(c) Radial Distribution Fuction of Sample A: After MC/MD </figcaption>
+  </figure>
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/rangf.png" alt="gf fucntion B" style="width: 100%;">
+    <figcaption class="center-caption">(d) Radial Distribution Fuction of Initial Structure</figcaption>
+  </figure>
+
+</div>
+
+      <h3>Results Visualization</h3>
+      
+      <figure>
+        <img src="{{ site.baseurl }}/assets/images/stress.png" alt="Stress-Strain Curve">
+        <figcaption class="center-caption">Figure 1: Stress-Strain Curve for Sample A and B</figcaption>
+      </figure>
+
+      <figure>
+        <img src="{{ site.baseurl }}/assets/images/Sample A_A7.png" alt="Grain Segmentation A">
+        <figcaption class="center-caption">Figure 2: Grain Segmentation in Sample A</figcaption>
+      </figure>
+
+      <figure>
+        <img src="{{ site.baseurl }}/assets/images/Sample B_B7.png" alt="Grain Segmentation B">
+        <figcaption class="center-caption">Figure 3: Grain Segmentation in Sample B</figcaption>
+      </figure>
     </div>
 
     <!-- Right Column - Code and Images -->
