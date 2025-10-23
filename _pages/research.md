@@ -30,10 +30,19 @@ For more details and resources <a href="{{ site.baseurl }}/hea/" style="display:
 ## LAMMPS-based Molecular Dynamics Projects 
 **AlHfNbTaTiZr Refractory High Entropy Alloy (RHEA)**
 This project explored the solidification behavior and mechanical response of a refractory high-entropy alloy using molecular dynamics simulations. Rapid quenching from the melt revealed a transition into a fully amorphous phase, resembling metallic glass. The study evaluated tensile strength and dislocation activity under uniaxial loading, alongside nanoindentation-induced plasticity. Radiation damage was simulated via primary knock-on atom (PKA) events to assess defect evolution. The findings highlight the alloy’s potential for extreme environment applications.
-<figure>
-  <img src="{{ site.baseurl }}/assets/images/PKA.gif" alt="Primary Knock on Atom" style="width: 70%;">
-  <figcaption class="center-caption">Figure 3: Radiation Damage with PKA</figcaption>
-</figure>
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/PKA.gif" alt="Primary Knock on Atom" style="width: 100%;">
+    <figcaption class="center-caption">(a) Radiation Damage with PKA</figcaption>
+  </figure>
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/mg.PNG" alt="metalic glass" style="width: 100%;">
+    <figcaption class="center-caption">(b) Metalic Glass Microstructure after rapid solidification</figcaption>
+  </figure>
+
+</div>
 
 **Zr–Nb Alloy**
 <p style="text-align: justify;">This study focused on understanding the role of Nb content in tuning the high-temperature mechanical performance of Zr-based alloys. Through simulated annealing and tensile loading, the creep resistance and dislocation dynamics were investigated. Nanoindentation simulations revealed trends in hardness and subsurface shear localization. The results provide atomistic insights into optimizing Zr–Nb alloys for use in nuclear and structural applications.</p>
