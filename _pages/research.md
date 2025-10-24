@@ -79,7 +79,7 @@ author_profile: true
 </div>
 
 ## Undergrade Projects 
-**Design and Evolution of a Novel Solar Biomass Hybrid Dryer**
+**Thesis: Design and Evolution of a Novel Solar Biomass Hybrid Dryer**
 <p style="text-align: justify;">The Exergy and Energy efficiency of a solar biomass hybrid dryer has been stuided in this project. The dryer was fabricated after critical desiging phase. Thermodynamic analysis of three different dyring modes: Solar, Biomass and Hybrid showed that Hybrid Mode is much more efficient. Three different loading of cabbage (8, 10 and 12 Kg) was dried and the quality of the final sample was studied. </p>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
@@ -92,6 +92,23 @@ author_profile: true
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Dryer_2.PNG" alt="Solidified Structure" style="width: 100%;">
     <figcaption class="center-caption">(b) CAD Model of the set up</figcaption>
+  </figure>
+
+</div>
+
+**Applied Thermodynamics Project: Enhancement of thermal power plant performance through solar-assisted feed water heaters: An innovative repowering approach**
+<p style="text-align: justify;">In This project energy and exergy optimization of a thermal power plant using a regenerative Rankine cycle enhanced by solar-powered feedwater heating has been studied. A 200 MW unit of the Shahid Montazeri Power Plant was modeled with various configurations of feed water heaters (FWHs), analyzing 14 design scenarios in EES software. Parametric studies investigated the effects of steam temperatures and pressures on system performance. The most efficient configuration increased net power output and significantly improved energy and exergy efficiencies. The findings highlight opportunities for hybrid thermal-renewable integration in large-scale power plants. </p>
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/ECM_1.PNG" alt="Schematic Diagram" style="width: 100%;">
+    <figcaption class="center-caption">(a) Schematic Diagram of the Plant</figcaption>
+  </figure>
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/ECM_2.PNG" alt="Exergy and Energy Efficiency" style="width: 100%;">
+    <figcaption class="center-caption">(b) Exergy and Energy Efficiency of case 12</figcaption>
   </figure>
 
 </div>
