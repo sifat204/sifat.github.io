@@ -136,7 +136,7 @@ Highlights</h4>
       <li>Exergy destruction was lowest in hybrid heating, indicating optimal thermodynamic performance</li>
       <li>Hybrid mode removed more moisture and used less biomass than standalone biomass heating</li>
       </ul>
-1st International Conference on Agricultural Machinery and Bioresource Engineering (ICAMBE 2025)<strong>(Presented)</strong>
+<em>1st International Conference on Agricultural Machinery and Bioresource Engineering (ICAMBE 2025)<strong>(Presented)</strong></em>
 
   <!-- <div style="margin-top: 20px;">
         <div style="margin-bottom: 15px;">
@@ -164,8 +164,7 @@ Highlights</h4>
 
 ### Under Review
 <div class="under-review-section" style="margin-bottom: 40px;">
-  <p style="font-size: 1.1em; color: #666; margin-bottom: 20px;">The following papers are currently under review:</p>
-  
+  <!-- <p style="font-size: 1.1em; color: #666; margin-bottom: 20px;">The following papers are currently under review:</p> -->
   <ol style="padding-left: 20px; font-size: 1.1em; line-height: 1.6;">
     <li style="margin-bottom: 15px;">
       <strong>Enhancing Microstructure and Mechanical Stability of High-Entropy Alloys via Shear-Assisted Solidification: An Atomistic Study</strong><br>
