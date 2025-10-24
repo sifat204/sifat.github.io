@@ -102,8 +102,8 @@ author_profile: true
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/ECM_1.png" alt="Schematic Diagram" style="width: 100%;">
-    <figcaption class="center-caption">(a) Schematic Diagram of the Plant</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/ECM_3.png" alt="Schematic Diagram" style="width: 100%;">
+    <figcaption class="center-caption">(a) Power Output Improvement of the Plant</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">

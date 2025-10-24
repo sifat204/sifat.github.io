@@ -24,7 +24,12 @@ author_profile: true
         <li>Largest heat input to the feed water from PTC 83.44 MW</li>
         <li>Highest Fuel save of 1709.44 kg/h</li>
       </ul>
-      
+     <div style="margin-bottom: 15px;">
+  <strong>DOI:</strong> 
+  <a href="https://doi.org/10.1016/j.ecmx.2024.100550" target="_blank" style="color: #007cba; text-decoration: none;">
+    https://doi.org/10.1016/j.ecmx.2024.100550
+  </a>
+</div>
       <div style="margin-top: 20px;">
           <a href="{{ site.baseurl }}/files/ECM.pdf" style="display: inline-block; padding: 10px 20px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
           Download Paper
@@ -35,9 +40,9 @@ author_profile: true
     <!-- Right side: Image -->
     <div style="flex: 1; min-width: 300px;">
       <figure style="margin: 0;">
-        <img src="{{ site.baseurl }}/assets/images/ECM.png" alt="Power Plant Repowering" style="width: 100%; border-radius: 5px;">
+        <img src="{{ site.baseurl }}/assets/images/ECM_1.png" alt="Power Plant Repowering" style="width: 100%; border-radius: 5px;">
         <figcaption class="center-caption" style="text-align: center; font-style: italic; margin-top: 8px; color: #666;">
-          Abstract: Power Plant Repowering
+          Schematic Diagram
         </figcaption>
       </figure>
     </div>
