@@ -58,7 +58,7 @@ author_profile: true
   <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
     
     <div style="flex: 1; min-width: 300px;">
-  <h4 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;"> A Molecular Dynamics Study of Shear Driven Solidification and High Temperature Mechanical Properties of Al0.3CoCrFeNi High Entropy Alloy</h4>
+  <h5 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;"> A Molecular Dynamics Study of Shear Driven Solidification and High Temperature Mechanical Properties of Al0.3CoCrFeNi High Entropy Alloy</h5>
       
       <h5 style="color: #34495e; margin-bottom: 10px;">Highlights</h5>
       <p>Shear Assited Solidifed sample showed:</p>
@@ -79,9 +79,7 @@ and Exposition, Memphis, Tennessee, USA, November 16-20, 2025. <strong>(Accepted
         </a>
       </div> -->
     </div>
-    
-  <div style="flex: 1; min-width: 300px;">
-      <h4 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">Thermodynamic Analysis of Hybrid Solar-Biomass Drying Systems: Energy and Exergy Perspectives</h4>
+  <h5 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">Thermodynamic Analysis of Hybrid Solar-Biomass Drying Systems: Energy and Exergy Perspectives</h5>
       <h5 style="color: #34495e; margin-bottom: 10px;">Highlights</h5>
       <ul style="margin-top: 0; padding-left: 20px;">
         <li>Evaluated energy and exergy performance of a hybrid solar–biomass food drying system</li>
@@ -99,16 +97,22 @@ and Exposition, Memphis, Tennessee, USA, November 16-20, 2025. <strong>(Accepted
           Download Paper
         </a>
       </div> -->
-    </div>
+    
 
 
-    <div style="flex: 1; min-width: 300px;">
+  <div style="flex: 1; min-width: 300px;">
+      <figure style="margin: 0;">
+        <img src="{{ site.baseurl }}/assets/images/ASME.png" alt="Grain Size" style="width: 100%; border-radius: 5px;">
+        <figcaption class="center-caption" style="text-align: center; font-style: italic; margin-top: 8px; color: #666;">
+          Conference Paper Abstract
+        </figcaption>
+      </figure>
       <figure style="margin: 0;">
         <img src="{{ site.baseurl }}/assets/images/thesiscon.png" alt="Grain Size" style="width: 100%; border-radius: 5px;">
         <figcaption class="center-caption" style="text-align: center; font-style: italic; margin-top: 8px; color: #666;">
           Conference Paper Abstract
         </figcaption>
-      </figure>
+      </figure>      
     </div>
   </div>
 </div>
@@ -119,10 +123,10 @@ and Exposition, Memphis, Tennessee, USA, November 16-20, 2025. <strong>(Accepted
   <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
     
     <div style="flex: 1; min-width: 300px;">
-  <h4 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">1. Enhancing Microstructure and Mechanical Stability
-        of High-Entropy Alloys via Shear-Assisted Solidification: An Atomistic Study</h4>
+  <h5 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">1. Enhancing Microstructure and Mechanical Stability
+        of High-Entropy Alloys via Shear-Assisted Solidification: An Atomistic Study</h5>
 
-  <h4 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">2. Drying Kinetics and Energy-Exergy Performance of a Hybrid Solar-Biomass Dryer</h4>
+  <h5 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">2. Drying Kinetics and Energy-Exergy Performance of a Hybrid Solar-Biomass Dryer</h5>
       
   <!-- <h5 style="color: #34495e; margin-bottom: 10px;">Highlights</h5>
       <ul style="margin-top: 0; padding-left: 20px;">
