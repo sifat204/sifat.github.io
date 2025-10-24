@@ -26,7 +26,7 @@ author_profile: true
       </ul>
       
       <div style="margin-top: 20px;">
-        <a href="./files/ECM.pdf" style="display: inline-block; padding: 10px 20px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
+          <a href="{{ site.baseurl }}/files/ECM.pdf" style="display: inline-block; padding: 10px 20px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
           Download Paper
         </a>
       </div>

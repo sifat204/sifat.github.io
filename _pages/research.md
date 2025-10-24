@@ -102,12 +102,12 @@ author_profile: true
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/ECM_1.PNG" alt="Schematic Diagram" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/ECM_1.png" alt="Schematic Diagram" style="width: 100%;">
     <figcaption class="center-caption">(a) Schematic Diagram of the Plant</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/ECM_2.PNG" alt="Exergy and Energy Efficiency" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/ECM_2.png" alt="Exergy and Energy Efficiency" style="width: 100%;">
     <figcaption class="center-caption">(b) Exergy and Energy Efficiency of case 12</figcaption>
   </figure>
 
