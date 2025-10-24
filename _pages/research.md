@@ -47,6 +47,33 @@ For more details and resources <a href="{{ site.baseurl }}/hea/" style="display:
 **Zr–Nb Alloy**
 <p style="text-align: justify;">This study focused on understanding the role of Nb content in tuning the high-temperature mechanical performance of Zr-based alloys. Through simulated annealing and tensile loading, the creep resistance and dislocation dynamics were investigated. Nanoindentation simulations revealed trends in hardness and subsurface shear localization. The results provide atomistic insights into optimizing Zr–Nb alloys for use in nuclear and structural applications.</p>
 
-**Transition Metal Dichalcogenides (TMDs)**
-<p style="text-align: justify;">This project examined the mechanical behavior of monolayer TMDs including h‑BN, MoS₂, and WSe₂. Using atomistic models built in VESTA and Atomsk, tensile simulations at room temperature were conducted to determine stress–strain responses. Crack propagation and failure mechanisms were analyzed to understand fracture characteristics at the atomic scale. Nanoindentation simulations were performed to assess surface hardness, providing insight into their potential for flexible electronics and nanomechanical devices.</p>
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/zrnb.png" alt="BCC Initial Structure" style="width: 100%;">
+    <figcaption class="center-caption">(a) Initial BCC Structure</figcaption>
+  </figure>
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/zrnb_final.png" alt="Solidified Structure" style="width: 100%;">
+    <figcaption class="center-caption">(b) Microstructure after rapid solidification</figcaption>
+  </figure>
+
+</div>
+
+**Transition Metal Dichalcogenides (TMDs)**
+<p style="text-align: justify;">This project examined the mechanical behavior of pristine and defected monolayer WSe₂ prepared using VESTA, ATOMSK and LAMMPS. Tensile simulations at room and elevated temperature were conducted to determine stress–strain responses. Crack propagation and failure mechanisms were analyzed to understand fracture characteristics at the atomic scale. Nanoindentation simulations were performed to assess surface hardness, providing insight into their potential for flexible electronics and nanomechanical devices.</p>
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/TMD_pit.PNG" alt="Defected Monolayer" style="width: 100%;">
+    <figcaption class="center-caption">(a) Defected Monolayer</figcaption>
+  </figure>
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/TMD_SS.PNG" alt="Solidified Structure" style="width: 100%;">
+    <figcaption class="center-caption">(b) Stress-Strain Profile at Room Temperature</figcaption>
+  </figure>
+
+</div>
