@@ -97,7 +97,8 @@ author_profile: true
         <li>Showed better strength and ductility at room and elevated temperature</li>
         <li>Twin boundaries and five-fold twin structures formed only in the shear-processed sample</li>
       </ul>
-      <p>Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition, Memphis, Tennessee, USA, <strong>November 16-20, 2025<strong>.<strong>(Accepted)<strong></p>
+  Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition, Memphis, Tennessee, USA, <strong>November 16-20, 2025(Accepted)
+
       <!-- <div style="margin-top: 20px;">
         <div style="margin-bottom: 15px;">
           <strong>DOI:</strong> 
@@ -137,7 +138,8 @@ Highlights</h4>
       <li>Exergy destruction was lowest in hybrid heating, indicating optimal thermodynamic performance</li>
       <li>Hybrid mode removed more moisture and used less biomass than standalone biomass heating</li>
       </ul>
-<p>1st International Conference on Agricultural Machinery and Bioresource Engineering (ICAMBE 2025)<strong>(Presented)</strong></p>
+1st International Conference on Agricultural Machinery and Bioresource Engineering (ICAMBE 2025)(Presented)
+
   <!-- <div style="margin-top: 20px;">
         <div style="margin-bottom: 15px;">
           <strong>DOI:</strong> 
@@ -149,6 +151,7 @@ Highlights</h4>
           Download Paper
         </a>
       </div>-->
+      
     </div> 
     <div style="flex: 1; min-width: 300px;">
       <figure style="margin: 0;">
