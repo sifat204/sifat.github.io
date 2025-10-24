@@ -75,6 +75,40 @@ author_profile: true
         <li style="margin-bottom: 8px;">Designed the <strong>lead screw mechanism</strong> to support variable loading conditions.</li>
       </ul>
     </div>
+
+<!-- Images-->
+    <div class="image-item" style="margin-bottom: 40px;">
+      <figure style="margin: 0; text-align: center;">
+        <img src="{{ site.baseurl }}/assets/images/clubs/Imech1.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
+          <!-- Our Mars Rover prototype during field testing -->
+        </figcaption>
+      </figure>
+    </div>
+    <div class="image-item" style="margin-bottom: 40px;">
+      <figure style="margin: 0; text-align: center;">
+        <img src="{{ site.baseurl }}/assets/images/clubs/Imech2.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
+          <!-- Our Mars Rover prototype during field testing -->
+        </figcaption>
+      </figure>
+    </div>
+    <div class="image-item" style="margin-bottom: 40px;">
+      <figure style="margin: 0; text-align: center;">
+        <img src="{{ site.baseurl }}/assets/images/clubs/ants.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
+          <!-- Our Mars Rover prototype during field testing -->
+        </figcaption>
+      </figure>
+    </div>
+    <div class="image-item" style="margin-bottom: 40px;">
+      <figure style="margin: 0; text-align: center;">
+        <img src="{{ site.baseurl }}/assets/images/clubs/spec.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
+          <!-- Our Mars Rover prototype during field testing -->
+        </figcaption>
+      </figure>
+    </div>   
   </div>
   <!-- Right Column - Images -->
   <div class="right-column" style="flex: 1; min-width: 300px;">
@@ -105,7 +139,7 @@ author_profile: true
     </div>
     <div class="image-item" style="margin-bottom: 40px;">
       <figure style="margin: 0; text-align: center;">
-        <img src="{{ site.baseurl }}/assets/images/clubs/cads1.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="{{ site.baseurl }}/assets/images/clubs/lec1.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
           <!-- Our Mars Rover prototype during field testing -->
         </figcaption>
@@ -121,7 +155,7 @@ author_profile: true
     </div>
     <div class="image-item" style="margin-bottom: 40px;">
       <figure style="margin: 0; text-align: center;">
-        <img src="{{ site.baseurl }}/assets/images/clubs/lec1.png" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="{{ site.baseurl }}/assets/images/clubs/cads1.png" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
           <!-- Our Mars Rover prototype during field testing -->
         </figcaption>
@@ -159,7 +193,7 @@ author_profile: true
         </figcaption>
       </figure>
     </div>    
-    <!-- CAD Society Image -->
+    <!-- CAD Society Image 
     <div class="image-item" style="margin-bottom: 40px;">
       <figure style="margin: 0; text-align: center;">
         <img src="{{ site.baseurl }}/assets/images/cad_society.jpg" alt="CAD Society Workshop" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -167,8 +201,8 @@ author_profile: true
           CAD Society workshop with industry professionals
         </figcaption>
       </figure>
-    </div>
-    <!-- Additional Image if needed -->
+    </div> -->
+    <!-- Additional Image if needed 
     <div class="image-item">
       <figure style="margin: 0; text-align: center;">
         <img src="{{ site.baseurl }}/assets/images/leadership3.jpg" alt="Student Council Event" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
@@ -176,7 +210,7 @@ author_profile: true
           Engineering Student Council networking event
         </figcaption>
       </figure>
-    </div>
+    </div> -->
   </div>
 </div>
 
