@@ -77,33 +77,10 @@ author_profile: true
     </div>
 
 <!-- Images-->
+</div>
     <div class="image-item" style="margin-bottom: 40px;">
       <figure style="margin: 0; text-align: center;">
-        <img src="{{ site.baseurl }}/assets/images/clubs/Imech1.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
-          <!-- Our Mars Rover prototype during field testing -->
-        </figcaption>
-      </figure>
-    </div>
-    <div class="image-item" style="margin-bottom: 40px;">
-      <figure style="margin: 0; text-align: center;">
-        <img src="{{ site.baseurl }}/assets/images/clubs/Imech2.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
-          <!-- Our Mars Rover prototype during field testing -->
-        </figcaption>
-      </figure>
-    </div>
-    <div class="image-item" style="margin-bottom: 40px;">
-      <figure style="margin: 0; text-align: center;">
-        <img src="{{ site.baseurl }}/assets/images/clubs/ants.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
-          <!-- Our Mars Rover prototype during field testing -->
-        </figcaption>
-      </figure>
-    </div>
-    <div class="image-item" style="margin-bottom: 40px;">
-      <figure style="margin: 0; text-align: center;">
-        <img src="{{ site.baseurl }}/assets/images/clubs/spec.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="{{ site.baseurl }}/assets/images/clubs/spec2.jpg" alt="Mars Rover Project" style="width: 100%; max-width: 400px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
           <!-- Our Mars Rover prototype during field testing -->
         </figcaption>
