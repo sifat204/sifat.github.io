@@ -25,7 +25,7 @@ author_profile: true
 
 </div>
 <p style="text-align: justify;"><em>This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.</em></p>
-For more details and resources <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here</a>
+*For more details and resources* <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here</a>
 
 ## LAMMPS-based Molecular Dynamics Projects 
 **AlHfNbTaTiZr Refractory High Entropy Alloy (RHEA)**
@@ -74,6 +74,24 @@ For more details and resources <a href="{{ site.baseurl }}/hea/" style="display:
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/TMD_SS.PNG" alt="Solidified Structure" style="width: 100%;">
     <figcaption class="center-caption">(b) Stress-Strain Profile at Room Temperature</figcaption>
+  </figure>
+
+</div>
+
+## Undergrade Projects 
+**Design and Evolution of a Novel Solar Biomass Hybrid Dryer**
+<p style="text-align: justify;">The Exergy and Energy efficiency of a solar biomass hybrid dryer has been stuided in this project. The dryer was fabricated after critical desiging phase. Thermodynamic analysis of three different dyring modes: Solar, Biomass and Hybrid showed that Hybrid Mode is much more efficient. Three different loading of cabbage (8, 10 and 12 Kg) was dried and the quality of the final sample was studied. </p>
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/Dryer_1.PNG" alt="Defected Monolayer" style="width: 100%;">
+    <figcaption class="center-caption">(a) Moisture Removal Rate at different drying mode</figcaption>
+  </figure>
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/Dryer_2.PNG" alt="Solidified Structure" style="width: 100%;">
+    <figcaption class="center-caption">(b) CAD Model of the set up</figcaption>
   </figure>
 
 </div>
