@@ -97,7 +97,7 @@ author_profile: true
         <li>Showed better strength and ductility at room and elevated temperature</li>
         <li>Twin boundaries and five-fold twin structures formed only in the shear-processed sample</li>
       </ul>
-  Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition, Memphis, Tennessee, USA, <strong>November 16-20, 2025(Accepted)
+  Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition, Memphis, Tennessee, USA,November 16-20, 2025(Accepted)
 
 <!-- <div style="margin-top: 20px;">
         <div style="margin-bottom: 15px;">
@@ -152,7 +152,6 @@ Highlights</h4>
       </div>-->
 
 </div> 
-  
 <div style="flex: 1; min-width: 300px;">
       <figure style="margin: 0;">
         <img src="{{ site.baseurl }}/assets/images/thesiscon.png" alt="Second Conference Paper Image" style="width: 100%; border-radius: 5px;">
