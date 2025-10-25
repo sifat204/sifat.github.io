@@ -9,7 +9,13 @@ redirect_from:
 <p style="text-align: justify;"> Hi! I am <strong>Sifat Abdul Bari</strong>,
 I am a <strong>Mechanical Engineer</strong> and currently serve as a <strong>Lecturer</strong> in the <strong><em>Department of Mechanical and Production Engineering</em></strong> at IUT. My research interest in materials science developed during my undergraduate days while working on the <strong>Mars Rover team</strong>, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field. <br>Currently, my research focuses on designing two distinct classes of high-entropy alloys: a conventional <strong>High-Entropy Alloy (HEA)</strong> and a <strong>Refractory High-Entropy Alloy (RHEA)</strong>, and evaluating their mechanical properties for extreme environment applications using Molecular Dynamics Simulations.<br>I am looking forward to pursuing a <strong>PhD</strong> to enrich my knowledge and expertise in atomistic modeling and materials science. My vision is to contribute to the discovery and characterization of next-generation materials required for advanced aerospace, nuclear, and energy sectors. </p>
 
-[Download CV!](./files/Sifat_Final.pdf)
+</div>
+  <a href="/files/Sifat_Final.pdf" style="display: inline-block; padding: 10px 20px; background-color: #7a8185ff; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
+          Download CV!
+      </a>
+    </div>
+
+<!-- [Download CV!](./files/Sifat_Final.pdf) -->
 
 <div class="about-container" style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
   <!-- Left Column - About Me & Education -->
