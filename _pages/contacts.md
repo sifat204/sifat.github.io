@@ -16,14 +16,14 @@ author_profile: true
       <div style="display: flex; flex-direction: column; gap: 15px;">
         <div style="display: flex; align-items: flex-start;">
           <strong style="min-width: 80px; color: #34495e;">Email:</strong>
-          <a href="mailto:Sifat4@iut-dhaka.edu" style="color: #007cba; text-decoration: none;">
-            Sifat4@iut-dhaka.edu
+          <a href="mailto:sifat4@iut-dhaka.edu" style="color: #007cba; text-decoration: none;">
+            sifat4@iut-dhaka.edu
           </a>
         </div>
         <div style="display: flex; align-items: flex-start;">
           <strong style="min-width: 80px; color: #34495e;">Phone:</strong>
           <a href="tel:+8801786021171" style="color: #007cba; text-decoration: none;">
-            +880 1786 021171
+            +8801786021191
           </a>
         </div>
       </div>
