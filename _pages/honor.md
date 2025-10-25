@@ -15,22 +15,22 @@ author_profile: true
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
         <h4 style="color: #2c3e50; margin-bottom: 8px;">1st Runner up, Team CADmium</h4>
-        <p style="color: #555; margin: 0 0 5px 0;">Thunder CAD (Inter-University CAD Competition) Mecha Fest, BUET</p>
+        <p style="color: #555; margin: 0 0 5px 0;"><em>Thunder CAD (Inter-University CAD Competition) Mecha Fest, BUET</em></p>
         <p style="color: #666; margin: 0; font-style: italic;">2023</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
         <h4 style="color: #2c3e50; margin-bottom: 8px;">Award of Achievement, Team Anirban</h4>
-        <p style="color: #555; margin: 0 0 5px 0;">IUT Award Ceremony</p>
+        <p style="color: #555; margin: 0 0 5px 0;"><em>IUT Award Ceremony</em></p>
         <p style="color: #666; margin: 0; font-style: italic;">2023</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
         <h4 style="color: #2c3e50; margin-bottom: 8px;">Award of Achievement, Team CADmium</h4>
-        <p style="color: #555; margin: 0 0 5px 0;">IUT Award Ceremony</p>
+        <p style="color: #555; margin: 0 0 5px 0;"><em>IUT Award Ceremony</em></p>
         <p style="color: #666; margin: 0; font-style: italic;">2023</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
         <h4 style="color: #2c3e50; margin-bottom: 8px;">Champion, Team CADmium</h4>
-        <p style="color: #555; margin: 0 0 5px 0;">Techno CAD (Inter-University CAD Competition) Mind Spark, AUST</p>
+        <p style="color: #555; margin: 0 0 5px 0;"><em>Techno CAD (Inter-University CAD Competition) Mind Spark, AUST</em></p>
         <p style="color: #666; margin: 0; font-style: italic;">2022</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
@@ -39,17 +39,17 @@ author_profile: true
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
         <h4 style="color: #2c3e50; margin-bottom: 8px;">Recipient of Government Scholarship</h4>
-        <p style="color: #555; margin: 0 0 5px 0;">National Board Examination (Higher Secondary School Certificate)</p>
+        <p style="color: #555; margin: 0 0 5px 0;"><em>National Board Examination (Higher Secondary School Certificate)</em></p>
         <p style="color: #666; margin: 0; font-style: italic;">2018</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
         <h4 style="color: #2c3e50; margin-bottom: 8px;">Recipient of Government Scholarship</h4>
-        <p style="color: #555; margin: 0 0 5px 0;">National Board Examination (Secondary School Certificate)</p>
+        <p style="color: #555; margin: 0 0 5px 0;"><em>National Board Examination (Secondary School Certificate)</em></p>
         <p style="color: #666; margin: 0; font-style: italic;">2016</p>
       </div>
     <div class="image-item" style="margin-bottom: 30px;">
       <figure style="margin: 0; text-align: center;">
-        <img src="{{ site.baseurl }}/assets/images/achi/erc/png" alt="First Class Honors" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="{{ site.baseurl }}/assets/images/achi/erc.png" alt="First Class Honors" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
           Euporean Rover Challange 2021
         </figcaption>
