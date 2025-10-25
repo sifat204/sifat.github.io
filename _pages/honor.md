@@ -14,7 +14,7 @@ author_profile: true
         <p style="color: #000000ff; margin: 0; font-style: italic;">2023</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
-        <h4 style="color: #0d569eff; margin-bottom: 8px;">1st Runner up, Team CADmium</h4>
+        <h4 style="margin-bottom: 8px;">1st Runner up, Team CADmium</h4>
         <p style="color: #555; margin: 0 0 5px 0;"><em>Thunder CAD (Inter-University CAD Competition) Mecha Fest, BUET</em></p>
         <p style="color: #666; margin: 0; font-style: italic;">2023</p>
       </div>
