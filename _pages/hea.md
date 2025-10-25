@@ -166,37 +166,38 @@ package gpu 1
 neighbor    2.0 bin
 neigh_modify every 1 delay 0 check yes
 
-# ------------------------STRUCTURE ---------------------
+# -----------------------STRUCTURE ---------------------
 read_data annealed_structure_sample_A.data
 
-# interatomic potential
+# Define interatomic potential
 pair_style eam/alloy/gpu
 pair_coeff * * FeCrCoNiAl.setfl Al Fe Ni Cr Co
 
 # ------------------------ MINIMIZATION -----------------------------
 reset_timestep 0
-timestep 0.001  # 1 fs
+timestep 0.001  
 min_style fire
 minimize 1e-6 1e-8 1000 10000
 
 # ------------------------ EQUILIBRATION @300K -----------------------------
 velocity all create 300 12345 mom yes rot no
-fix eq1 all npt temp 300 300 1 iso 0 0 1 drag 1
+fix eq1 all npt/gpu temp 300 300 1 iso 0 0 1 drag 1
 thermo 1000
-run 30000  # 100 ps
+run 30000  
 unfix eq1
 write_data Pre_melt_structure.data
 
+# ------------------------ Heating to 6000K -----------------------------
 dump pre all custom 1000 dump.pre_tensile.txt id type x y z vx vy vz
 dump_modify pre element Al Fe Ni Cr Co
 
-fix melt all npt temp 300 300 1 iso 0 0 1 drag 1
-run 30500  # 50 ps at 3000K
+fix melt all npt/gpu temp 300 600 1 iso 0 0 1 drag 1
+run 30500  
 unfix melt
 
-velocity all scale 300
-fix hold all npt temp 300 300 1 iso 0 0 1 drag 1
-run 30000  # 50 ps at 3000K
+velocity all scale 600
+fix hold all npt/gpu temp 600 600 1 iso 0 0 1 drag 1
+run 30000  
 unfix hold
 
 
@@ -225,10 +226,9 @@ dump_modify 1 element Al Fe Ni Cr Co append yes
 
 thermo 1000
 thermo_style custom step v_strain temp v_p2 v_p3 v_p4 ke pe press
-run 80000  # ~70 ps of tensile strain
+run 80000  
 
 print "All done"
-
         </code></pre>
       </div>
     </div>
