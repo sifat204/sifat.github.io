@@ -152,7 +152,7 @@ with open(output_filename, 'w') as f:
 print(f"HEA structure written to {output_filename}")
         </code></pre>
       </div>
-      <h3>LAMMPS Input Script for Tensile Test Simulation</h3>
+      <h3>LAMMPS Input Script for Tensile Test Simulation at 600 K</h3>
       <div class="code-block">
         <pre><code class="language-lammps">
 log log_file.txt
