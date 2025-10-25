@@ -13,17 +13,6 @@ I am a <strong>Mechanical Engineer</strong> and currently serve as a <strong>Lec
 <a href="files/Sifat_Final.pdf" style="display: inline-block; padding: 10px 20px; background-color: #267eb1ff; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
   Download CV!
 </a>
-
-<!-- Option B: With site.baseurl -->
-<a href="{{ site.baseurl }}/files/Sifat_Final.pdf" style="display: inline-block; padding: 10px 20px; background-color: #267eb1ff; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
-  Download CV!
-</a>
-
-<!-- Option C: Absolute path from root -->
-<a href="/files/Sifat_Final.pdf" style="display: inline-block; padding: 10px 20px; background-color: #267eb1ff; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
-  Download CV!
-</a>
-
 <!-- [Download CV!](./files/Sifat_Final.pdf) -->
 
 <div class="about-container" style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
