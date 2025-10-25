@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-*Sifat Abdul Bari hiii !!*
+<p style="text-align: justify;"> Hi! I am Sifat Abdul Bari. I am a Mechanical Engineer and currently serve as a Lecturer in the Department of Mechanical and Production Engineering at IUT. My research interest in materials science developed during my undergraduate days while working on the Mars Rover team, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field. </p>
 
 <div class="about-container" style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
   <!-- Left Column - About Me & Education -->
@@ -16,7 +16,7 @@ redirect_from:
       <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-bottom: 20px;">
         About Me
       </h2>
-      <p style="text-align: justify; line-height: 1; font-size: 1em;">
+      <p style="text-align: justify; line-height: 1.5; font-size: 1em;">
         Hi! I am Sifat Abdul Bari. I am a Mechanical Engineer and currently serve as a Lecturer in the Department of Mechanical and Production Engineering at IUT.
         My research interest in materials science developed during my undergraduate days while working on the Mars Rover team, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field.<br>
         <br>
