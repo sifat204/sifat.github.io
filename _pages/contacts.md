@@ -8,7 +8,7 @@ author_profile: true
 
   <!-- Personal Contact Information -->
   <div class="contact-section" style="margin-bottom: 50px;">
-    <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-bottom: 25px;">
+    <h2 style="border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-bottom: 25px;">
       Contact Information
     </h2>
     <div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #3498db;">
@@ -31,7 +31,7 @@ author_profile: true
   </div>
   <!-- References Section -->
   <div class="references-section">
-    <h2 style="color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 8px; margin-bottom: 25px;">
+    <h2 style="border-bottom: 2px solid #2ecc71; padding-bottom: 8px; margin-bottom: 25px;">
       References
     </h2>
     <!-- Reference 1 -->
