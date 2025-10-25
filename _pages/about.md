@@ -6,28 +6,25 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p style="text-align: justify;"> Hi! I am Sifat Abdul Bari. I am a Mechanical Engineer and currently serve as a Lecturer in the Department of Mechanical and Production Engineering at IUT. My research interest in materials science developed during my undergraduate days while working on the Mars Rover team, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field.
-Currently, my research focuses on designing High Entropy Alloys (HEAs and RHEAs) and evaluating their mechanical properties for extreme environment applications using Molecular Dynamics Simulations.
-I am looking forward to pursuing a PhD to enrich my knowledge and expertise in atomistic modeling and materials science. My vision is to contribute to the discovery and characterization of next-generation materials required for advanced aerospace, nuclear, and energy sectors.</p>
+<p style="text-align: justify;"> Hi! I am Sifat Abdul Bari. I am a Mechanical Engineer and currently serve as a Lecturer in the Department of Mechanical and Production Engineering at IUT. My research interest in materials science developed during my undergraduate days while working on the Mars Rover team, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field. <br>Currently, my research focuses on designing High Entropy Alloys (HEAs and RHEAs) and evaluating their mechanical properties for extreme environment applications using Molecular Dynamics Simulations.<br>I am looking forward to pursuing a PhD to enrich my knowledge and expertise in atomistic modeling and materials science. My vision is to contribute to the discovery and characterization of next-generation materials required for advanced aerospace, nuclear, and energy sectors. </p>
 
 <div class="about-container" style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
   <!-- Left Column - About Me & Education -->
   <div class="left-column" style="flex: 1; min-width: 300px;">
     <!-- About Me Section -->
-  <div class="right-column" style="flex: 1; min-width: 300px;">
-    <!-- Research Interests -->
-    <div class="interests-section" style="margin-bottom: 40px;">
-      <h2 style="color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 8px; margin-bottom: 10px;">
-        Research Interests
+     <div class="about-section" style="margin-bottom: 40px;">
+      <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-bottom: 20px;">
+        About Me
       </h2>
-      <div style="padding: 10px; border-radius: 8px; border-left: 4px solid #e74c3c;">
-        <p style="margin: 0; line-height: 1.8; font-size: 1.05em;">
-          Advanced Material Design │ High Entropy Alloys (HEAs) │ Computational Materials Science │ 
-          Mechanics of Materials │ Atomistic Modelling │ Molecular Dynamics (MD) Simulation │ 
-          Density Functional Theory (DFT) Calculations
-        </p>
-      </div>
-    </div>
+      <p style="text-align: justify; line-height: 1.5; font-size: 1em;">
+        Hi! I am Sifat Abdul Bari. I am a Mechanical Engineer and currently serve as a Lecturer in the Department of Mechanical and Production Engineering at IUT.
+        My research interest in materials science developed during my undergraduate days while working on the Mars Rover team, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field.<br>
+        <br>
+        Currently, my research focuses on designing High Entropy Alloys (HEAs and RHEAs) and evaluating their mechanical properties for extreme environment applications using Molecular Dynamics Simulations.<br>
+        <br>
+        I am looking forward to pursuing a PhD to enrich my knowledge and expertise in atomistic modeling and materials science. My vision is to contribute to the discovery and characterization of next-generation materials required for advanced aerospace, nuclear, and energy sectors.
+      </p>
+    </div> 
     <!-- Education Section -->
     <div class="education-section">
       <h2 style="color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 8px; margin-bottom: 20px;">
@@ -64,7 +61,7 @@ I am looking forward to pursuing a PhD to enrich my knowledge and expertise in a
   <!-- Right Column - Research Interests & Technical Skills -->
   <div class="right-column" style="flex: 1; min-width: 300px;">
     <!-- Research Interests -->
-    <!-- <div class="interests-section" style="margin-bottom: 40px;">
+    <div class="interests-section" style="margin-bottom: 40px;">
       <h2 style="color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 8px; margin-bottom: 10px;">
         Research Interests
       </h2>
@@ -75,7 +72,7 @@ I am looking forward to pursuing a PhD to enrich my knowledge and expertise in a
           Density Functional Theory (DFT) Calculations
         </p>
       </div>
-    </div> -->
+    </div>
     <!-- Technical Competence -->
     <div class="skills-section">
       <h2 style="color: #2c3e50; border-bottom: 2px solid #f39c12; padding-bottom: 8px; margin-bottom: 10px;">
