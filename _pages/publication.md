@@ -40,7 +40,7 @@ author_profile: true
     <div style="flex: 1; min-width: 300px;">
       <figure style="margin: 0;">
         <img src="{{ site.baseurl }}/assets/images/ECM.png" alt="Power Plant Repowering" style="width: 100%; border-radius: 5px;">
-        <figcaption class="center-caption" style="text-align: center; font-style: italic; margin-top: 8px; color: #3b3a3aff;">
+        <figcaption class="center-caption" style="text-align: center; font-style: italic; margin-top: 8px;">
           Abstract: Power Plant Repowering
         </figcaption>
       </figure>
@@ -112,7 +112,7 @@ author_profile: true
   <div style="flex: 1; min-width: 300px;">
       <figure style="margin: 0;">
         <img src="{{ site.baseurl }}/assets/images/ASME.png" alt="Conference Paper Image" style="width: 100%; border-radius: 5px;">
-        <figcaption class="center-caption" style="text-align: center; font-style: italic; margin-top: 8px; color: #3b3a3aff;">
+        <figcaption class="center-caption" style="text-align: center; font-style: italic; margin-top: 8px; color: #000000ff;">
           Conference Paper Abstract
         </figcaption>
       </figure>
