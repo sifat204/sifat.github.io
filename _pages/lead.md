@@ -9,7 +9,7 @@ author_profile: true
   <div class="left-column" style="flex: 1; min-width: 300px;">
     <!-- Mars Rover -->
     <div class="leadership-item" style="margin-bottom: 40px;">
-      <h3 style="color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 5px; margin-bottom: 15px;">
+      <h3 style="border-bottom: 2px solid #e74c3c; padding-bottom: 5px; margin-bottom: 15px;">
         Team Lead, IUT Mars Rover (2022–2023)
       </h3>
       Led the multidisciplinary IUT Mars Rover Team in designing and fabricating an autonomous rover for prestigious global competitions, including the <em>University Rover Challenge (USA), European Rover Challenge (Europe), International Rover Challenge (India), and International Rover Design Challenge.</em>
@@ -32,7 +32,7 @@ author_profile: true
     </div>
     <!-- CAD Society -->
     <div class="leadership-item" style="margin-bottom: 40px;">
-      <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px; margin-bottom: 15px;">
+      <h3 style="border-bottom: 2px solid #3498db; padding-bottom: 5px; margin-bottom: 15px;">
         Vice President, IUT CAD Society (2022–2023)
       </h3>
       <ul style="padding-left: 20px; line-height: 1.6;">
@@ -44,7 +44,7 @@ author_profile: true
     </div>
     <!-- Add more leadership roles as needed -->
     <div class="leadership-item">
-      <h3 style="color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 5px; margin-bottom: 15px;">
+      <h3 style="border-bottom: 2px solid #2ecc71; padding-bottom: 5px; margin-bottom: 15px;">
         Chair, IMechE IUT Student Chapter (2022–2023)
       </h3>
       <ul style="padding-left: 20px; line-height: 1.6;">
@@ -56,7 +56,7 @@ author_profile: true
     </div>
     <!-- ANTS -->
     <div class="leadership-item">
-      <h3 style="color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 5px; margin-bottom: 15px;">
+      <h3 style="border-bottom: 2px solid #2ecc71; padding-bottom: 5px; margin-bottom: 15px;">
         Secretary at CAD and Simulation, ANTS Ariel System (2022–2023)
       </h3>
       <ul style="padding-left: 20px; line-height: 1.6;">
@@ -67,7 +67,7 @@ author_profile: true
     </div>
     <!-- Sepctrum -->
     <div class="leadership-item">
-      <h3 style="color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 5px; margin-bottom: 15px;">
+      <h3 style="border-bottom: 2px solid #2ecc71; padding-bottom: 5px; margin-bottom: 15px;">
         Mechanical Team Lead, RC Forklift — Industrial Project of Spectrum Engineering (2022–2023)
       </h3>
       <ul style="padding-left: 20px; line-height: 1.6;">
