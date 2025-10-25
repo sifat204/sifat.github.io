@@ -8,6 +8,8 @@ redirect_from:
 ---
 <p style="text-align: justify;"> Hi! I am Sifat Abdul Bari. I am a Mechanical Engineer and currently serve as a Lecturer in the Department of Mechanical and Production Engineering at IUT. My research interest in materials science developed during my undergraduate days while working on the Mars Rover team, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field. <br>Currently, my research focuses on designing High Entropy Alloys (HEAs and RHEAs) and evaluating their mechanical properties for extreme environment applications using Molecular Dynamics Simulations.<br>I am looking forward to pursuing a PhD to enrich my knowledge and expertise in atomistic modeling and materials science. My vision is to contribute to the discovery and characterization of next-generation materials required for advanced aerospace, nuclear, and energy sectors. </p>
 
+[Download CV!](./files/Sifat_Final.pdf)
+
 <div class="about-container" style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
   <!-- Left Column - About Me & Education -->
   <div class="left-column" style="flex: 1; min-width: 300px;">
@@ -16,10 +18,8 @@ redirect_from:
       <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-bottom: 20px;">
         Research Interest
       </h2>
-      <p style="text-align: justify; line-height: 1.5; font-size: 1.5em;">
-          Advanced Material Design │ High Entropy Alloys (HEAs) │ Computational Materials Science │ 
-          Mechanics of Materials │ Atomistic Modelling │ Molecular Dynamics (MD) Simulation │ 
-          Density Functional Theory (DFT) Calculations
+      <p style="text-align: justify; line-height: 1.2; font-size: 1.2em;">
+          Advanced Material Design│High Entropy Alloys (HEAs)│Computational Materials Science│Mechanics of Materials│Atomistic Modelling│Molecular Dynamics (MD) Simulation│Density Functional Theory (DFT) Calculations
       </p>
     </div> 
     <!-- Education Section -->
@@ -133,4 +133,3 @@ redirect_from:
 }
 </style>
 
-[Download CV!](./files/Sifat_Final.pdf)
