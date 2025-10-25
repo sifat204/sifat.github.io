@@ -18,9 +18,15 @@ redirect_from:
       <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-bottom: 20px;">
         Research Interest
       </h2>
-      <p style="text-align: justify; line-height: 1.2; font-size: 1.2em;">
-          Advanced Material Design│High Entropy Alloys (HEAs)│Computational Materials Science│Mechanics of Materials│Atomistic Modelling│Molecular Dynamics (MD) Simulation│Density Functional Theory (DFT) Calculations
-      </p>
+        <ul style="margin: 0; padding-left: 20px; line-height: 1.8;">
+          <li>Advanced Material Design</li>
+          <li>High Entropy Alloys (HEAs)</li>
+          <li>Computational Materials Science</li>
+          <li>Mechanics of Materials</li>
+          <li>Atomistic Modelling</li>
+          <li>Molecular Dynamics (MD) Simulation</li>
+          <li>Density Functional Theory (DFT) Calculations</li>
+        </ul>
     </div> 
     <!-- Education Section -->
     <div class="education-section">
