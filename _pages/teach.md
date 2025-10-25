@@ -24,14 +24,14 @@ author_profile: true
       <h4 style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px; margin-bottom: 15px;">
         Course Responsibilities
       </h4>
-      <p style="margin-bottom: 10px;"><strong>Conducted Theoretical Course and Labs on:</strong></p>
+      <p style="margin-bottom: 10px;"><strong>Conducted Theoretical Course and Labs on</strong></p>
       <ul style="padding-left: 20px; margin-bottom: 20px;">
         <li>Machine Design I</li>
         <li>Machine Design II</li>
         <li>Mechanics of Materials</li>
         <li>Statics and Dynamics</li>
       </ul>
-      <p style="margin-bottom: 10px;"><strong>Additional Labs on:</strong></p>
+      <p style="margin-bottom: 10px;"><strong>Additional Labs on</strong></p>
       <ul style="padding-left: 20px;">
         <li>3D Modeling and Assembling</li>
         <li>Basic Thermodynamics Lab</li>
@@ -60,7 +60,7 @@ author_profile: true
         Student Supervision
       </h4>
       <div style="margin-bottom: 20px;">
-        <p style="margin-bottom: 8px;"><strong>▪ Co-Supervising Undergraduate thesis on:</strong><br>
+        <p style="margin-bottom: 8px;"><strong>▪ Co-Supervised Undergraduate thesis on:</strong><br>
         <em>"Mechanical Properties and Cracking mechanism in pristine and defected WSe2 2D TMD: A MD Study"</em></p>
         <p style="color: #555; font-size: 0.95em; margin-left: 20px;">
           Conceptualization, Validation, Software, Investigation, Formal analysis, Data curation.

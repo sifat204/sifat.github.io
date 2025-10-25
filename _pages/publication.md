@@ -8,11 +8,11 @@ author_profile: true
 
 <!-- Paper 1 -->
 <div class="publication-item" style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #eee;">
-  <h4 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">1. Enhancement of thermal power plant performance through solar-assisted feed water heaters: An innovative repowering approach</h4>
+  <h4 style="margin-top: 0; color: #090c0fff; font-size: 1.3em;">1. Enhancement of thermal power plant performance through solar-assisted feed water heaters: An innovative repowering approach</h4>
 <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
     <!-- Left side: Content -->
     <div style="flex: 1; min-width: 300px;">
-      <h5 style="color: #34495e; margin-bottom: 10px;">Highlights</h5>
+      <h5 style="color: #000000ff; margin-bottom: 10px;">Highlights</h5>
       <ul style="margin-top: 0; padding-left: 20px;">
         <li>Repowering thermal power plant with renewable energy source.</li>
         <li>Analysis of thermal power plants in different configurations</li>
@@ -87,10 +87,10 @@ author_profile: true
 
 <!-- Conference Paper 1 -->
 <div class="publication-item" style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #eee;">
-  <h4 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">A Molecular Dynamics Study of Shear Driven Solidification and High Temperature Mechanical Properties of Al0.3CoCrFeNi High Entropy Alloy</h4>
+  <h4 style="margin-top: 0; color: #000000ff; font-size: 1.3em;">A Molecular Dynamics Study of Shear Driven Solidification and High Temperature Mechanical Properties of Al0.3CoCrFeNi High Entropy Alloy</h4>
 <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
     <div style="flex: 1; min-width: 300px;">
-      <h5 style="color: #34495e; margin-bottom: 10px;">Highlights</h5>
+      <h5 style="color: #000000ff; margin-bottom: 10px;">Highlights</h5>
       <ul style="margin-top: 0; padding-left: 20px;">
         <li>Investigated shear-assisted solidification of Al₀.₃CoCrFeNi high-entropy alloy using molecular dynamics</li>
         <li>Sample A (with shear flow) showed finer, more uniformly distributed grains than Sample B</li>
@@ -124,11 +124,11 @@ author_profile: true
 <!-- Conference Paper 2 -->
 
 <div class="publication-item" style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #eee;">
-  <h4 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">Thermodynamic Analysis of Hybrid Solar-Biomass Drying Systems: Energy and Exergy Perspectives
+  <h4 style="margin-top: 0; color: #000000ff; font-size: 1.3em;">Thermodynamic Analysis of Hybrid Solar-Biomass Drying Systems: Energy and Exergy Perspectives
 Highlights</h4>
 <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
     <div style="flex: 1; min-width: 300px;">
-      <h5 style="color: #34495e; margin-bottom: 10px;">Highlights</h5>
+      <h5 style="color: #000000ff; margin-bottom: 10px;">Highlights</h5>
       <ul style="margin-top: 0; padding-left: 20px;">
         <li>Evaluated energy and exergy performance of a hybrid solar–biomass food drying system</li>
         <li>Compared sunlight, biomass, and hybrid heating modes under controlled experimental conditions</li>
@@ -164,15 +164,15 @@ Highlights</h4>
 
 ### Under Review
 <div class="under-review-section" style="margin-bottom: 40px;">
-  <!-- <p style="font-size: 1.1em; color: #666; margin-bottom: 20px;">The following papers are currently under review:</p> -->
+  <!-- <p style="font-size: 1.1em; color: #000000ff; margin-bottom: 20px;">The following papers are currently under review:</p> -->
   <ol style="padding-left: 20px; font-size: 1.1em; line-height: 1.6;">
     <li style="margin-bottom: 15px;">
       <strong>Enhancing Microstructure and Mechanical Stability of High-Entropy Alloys via Shear-Assisted Solidification: An Atomistic Study</strong><br>
-      <!-- <span style="color: #555; font-size: 0.95em;">Submitted to Materials Science Journal</span> -->
+      <!-- <span style="color: #000000ff; font-size: 0.95em;">Submitted to Materials Science Journal</span> -->
     </li>
     <li style="margin-bottom: 15px;">
       <strong>Drying Kinetics and Energy-Exergy Performance of a Hybrid Solar-Biomass Dryer</strong><br>
-      <span style="color: #555; font-size: 0.95em;">Submitted to Energy Conversion and Management:X</span>
+      <span style="color: #000000ff; font-size: 0.95em;">Submitted to Energy Conversion and Management:X</span>
     </li>
     <!-- <li style="margin-bottom: 15px;">
       <strong>Optimization of Solar Thermal Integration in Industrial Processes</strong><br>

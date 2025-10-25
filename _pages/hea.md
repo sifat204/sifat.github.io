@@ -406,7 +406,7 @@ figure img {
   text-align: center;
   font-style: italic;
   margin-top: 8px;
-  color: #666;
+  color: #030000ec;
   display: block;
 }
 
