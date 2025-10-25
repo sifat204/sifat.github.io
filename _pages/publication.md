@@ -172,7 +172,7 @@ Highlights</h4>
     </li>
     <li style="margin-bottom: 15px;">
       <strong>Drying Kinetics and Energy-Exergy Performance of a Hybrid Solar-Biomass Dryer</strong><br>
-      <span style="color: #555; font-size: 0.95em;">Submitted Energy Conversion and Management:X</span>
+      <span style="color: #555; font-size: 0.95em;">Submitted to Energy Conversion and Management:X</span>
     </li>
     <!-- <li style="margin-bottom: 15px;">
       <strong>Optimization of Solar Thermal Integration in Industrial Processes</strong><br>
