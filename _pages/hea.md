@@ -7,7 +7,6 @@ description: "Detailed information about High Entropy Alloys research including 
 
 <div class="content-container">
   <div class="two-column-layout">
-
     <!-- Left Column - Details and Descriptions -->
     <div class="left-column">
         <p><strong>Enhancing Microstructure and Mechanical Stability of Al₀.₃CoCrFeNi High-Entropy Alloy via Shear-Assisted Solidification</strong></p>
@@ -22,7 +21,6 @@ description: "Detailed information about High Entropy Alloys research including 
         <li><strong>Radiation Damage:</strong> Simulated PKA to observe radiation damage tolerance</li> 
          <li><strong>Nanoindentation:</strong> Performed indentation and retraction to evaluate hardness and subsurface plasticity</li>                
       </ul>
-
       <h3>Key Findings</h3>
       <p>Study demonstrated that shear-processed HEAs exhibit:</p>
       <ul>
@@ -33,7 +31,6 @@ description: "Detailed information about High Entropy Alloys research including 
         <li>Strengthening via TWIP and TRIP mechanisms</li>
         <li>Intensified Al–Fe and Al–Co chemical short-range ordering</li>
       </ul>
-
       <h3>Applications</h3>
       <p>Potential applications of these HEAs include:</p>
       <ul>
@@ -42,50 +39,38 @@ description: "Detailed information about High Entropy Alloys research including 
         <li>Nuclear reactor materials</li>
         <li>Advanced Manufacturing</li>
       </ul>
-
       <h3>Future Work</h3>
       <p>Future research directions include optimization of processing parameters and exploration of new alloy systems.</p>
-
       <h3>Hybrid MC/MD Simulation</h3>
       <p>Hybrid MC/MD simulation generates thermally equilibrated alloy structures by combining two techniques. Short Molecular Dynamics (MD) bursts relax atomic positions, then Monte Carlo (MC) proposes atom swaps to sample chemical configurations. The energy change after MD relaxation determines if a swap is accepted. This process efficiently explores the system's structural and chemical landscape to study properties like chemical short-range order (CSRO) and phase stability.</p>
       <p> This interesting process has been explored in this project. The atomic structure and radial distribution function; g(r) shows checmical ordering after MC/MD hybrid simulation </p>
-
       <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
-
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/mcmd.png" alt="Final Structure" style="width: 100%;">
     <figcaption class="center-caption">(a) Final Structure after MC/MD simulation</figcaption>
   </figure>
-
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/random.png" alt="Initial Structure" style="width: 100%;">
     <figcaption class="center-caption">(b) Initial Structure</figcaption>
   </figure>
-
 </div>
-
       <figure>
         <img src="{{ site.baseurl }}/assets/images/mcmdgf.png" alt="gr function A" style="width: 100%;">
         <figcaption class="center-caption">(c) Radial Distribution Fuction of Sample A: After MC/MD </figcaption>
       </figure>
-
       <figure>
         <img src="{{ site.baseurl }}/assets/images/rangf.png" alt="gf fucntion B" style="width: 100%;">
         <figcaption class="center-caption">(d) Radial Distribution Fuction of Initial Structure</figcaption>
       </figure>
-
-      <h3>Results Visualization</h3>
-      
+      <h3>Results Visualization</h3>     
       <figure>
         <img src="{{ site.baseurl }}/assets/images/stress.png" alt="Stress-Strain Curve">
         <figcaption class="center-caption">Figure 1: Stress-Strain Curve for Sample A and B</figcaption>
       </figure>
-
       <figure>
         <img src="{{ site.baseurl }}/assets/images/Sample A_A7.png" alt="Grain Segmentation A">
         <figcaption class="center-caption">Figure 2: Grain Segmentation in Sample A</figcaption>
       </figure>
-
       <figure>
         <img src="{{ site.baseurl }}/assets/images/Sample B_B7.png" alt="Grain Segmentation B">
         <figcaption class="center-caption">Figure 3: Grain Segmentation in Sample B</figcaption>
@@ -359,13 +344,13 @@ write_data final_st.data
 }
 
 .left-column h2, .right-column h2 {
-  color: #000000fb;
+  /* color: #000000fb; */
   border-bottom: 2px solid #3498db;
   padding-bottom: 5px;
 }
 
 .left-column h3, .right-column h3 {
-  color: #000000ff;
+  /* color: #000000ff; */
   margin-top: 25px;
 }
 
@@ -406,7 +391,7 @@ figure img {
   text-align: center;
   font-style: italic;
   margin-top: 8px;
-  color: #030000ec;
+  /* color: #030000ec; */
   display: block;
 }
 

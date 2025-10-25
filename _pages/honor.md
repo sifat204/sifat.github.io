@@ -10,42 +10,42 @@ author_profile: true
   <div class="left-column" style="flex: 1; min-width: 300px;">
     <div class="achievement-list" style="line-height: 1.6;">
       <div class="achievement-item" style="margin-bottom: 25px;">
-        <h4 style="color: #000000ff; margin-bottom: 8px;">First Class with Honors Distinction in undergraduate studies</h4>
-        <p style="color: #000000ff; margin: 0; font-style: italic;">2023</p>
+        <h4 style="margin-bottom: 8px;">First Class with Honors Distinction in undergraduate studies</h4>
+        <p style="margin: 0; font-style: italic;">2023</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
         <h4 style="margin-bottom: 8px;">1st Runner up, Team CADmium</h4>
-        <p style="color: #555; margin: 0 0 5px 0;"><em>Thunder CAD (Inter-University CAD Competition) Mecha Fest, BUET</em></p>
-        <p style="color: #666; margin: 0; font-style: italic;">2023</p>
+        <p style="margin: 0 0 5px 0;"><em>Thunder CAD (Inter-University CAD Competition) Mecha Fest, BUET</em></p>
+        <p style="margin: 0; font-style: italic;">2023</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
-        <h4 style="color: #2c3e50; margin-bottom: 8px;">Award of Achievement, Team Anirban</h4>
-        <p style="color: #555; margin: 0 0 5px 0;"><em>IUT Award Ceremony</em></p>
-        <p style="color: #666; margin: 0; font-style: italic;">2023</p>
+        <h4 style="margin-bottom: 8px;">Award of Achievement, Team Anirban</h4>
+        <p style="margin: 0 0 5px 0;"><em>IUT Award Ceremony</em></p>
+        <p style="margin: 0; font-style: italic;">2023</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
-        <h4 style="color: #2c3e50; margin-bottom: 8px;">Award of Achievement, Team CADmium</h4>
-        <p style="color: #555; margin: 0 0 5px 0;"><em>IUT Award Ceremony</em></p>
-        <p style="color: #666; margin: 0; font-style: italic;">2023</p>
+        <h4 style="margin-bottom: 8px;">Award of Achievement, Team CADmium</h4>
+        <p style="margin: 0 0 5px 0;"><em>IUT Award Ceremony</em></p>
+        <p style="margin: 0; font-style: italic;">2023</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
-        <h4 style="color: #2c3e50; margin-bottom: 8px;">Champion, Team CADmium</h4>
-        <p style="color: #555; margin: 0 0 5px 0;"><em>Techno CAD (Inter-University CAD Competition) Mind Spark, AUST</em></p>
-        <p style="color: #666; margin: 0; font-style: italic;">2022</p>
+        <h4 style="margin-bottom: 8px;">Champion, Team CADmium</h4>
+        <p style="margin: 0 0 5px 0;"><em>Techno CAD (Inter-University CAD Competition) Mind Spark, AUST</em></p>
+        <p style="margin: 0; font-style: italic;">2022</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
-        <h4 style="color: #2c3e50; margin-bottom: 8px;">Ranked 13th globally, International Rover Design Challenge (IRDC)</h4>
-        <p style="color: #666; margin: 0; font-style: italic;">2022</p>
+        <h4 style="margin-bottom: 8px;">Ranked 13th globally, International Rover Design Challenge (IRDC)</h4>
+        <p style="margin: 0; font-style: italic;">2022</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
-        <h4 style="color: #2c3e50; margin-bottom: 8px;">Recipient of Government Scholarship</h4>
-        <p style="color: #555; margin: 0 0 5px 0;"><em>National Board Examination (Higher Secondary School Certificate)</em></p>
-        <p style="color: #666; margin: 0; font-style: italic;">2018</p>
+        <h4 style="margin-bottom: 8px;">Recipient of Government Scholarship</h4>
+        <p style="margin: 0 0 5px 0;"><em>National Board Examination (Higher Secondary School Certificate)</em></p>
+        <p style="margin: 0; font-style: italic;">2018</p>
       </div>
       <div class="achievement-item" style="margin-bottom: 25px;">
-        <h4 style="color: #2c3e50; margin-bottom: 8px;">Recipient of Government Scholarship</h4>
-        <p style="color: #555; margin: 0 0 5px 0;"><em>National Board Examination (Secondary School Certificate)</em></p>
-        <p style="color: #666; margin: 0; font-style: italic;">2016</p>
+        <h4 style="margin-bottom: 8px;">Recipient of Government Scholarship</h4>
+        <p style="margin: 0 0 5px 0;"><em>National Board Examination (Secondary School Certificate)</em></p>
+        <p style="margin: 0; font-style: italic;">2016</p>
       </div>
     <div class="image-item" style="margin-bottom: 30px;">
       <figure style="margin: 0; text-align: center;">
