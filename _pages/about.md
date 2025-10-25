@@ -6,18 +6,161 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a Lecturer in the Department of Mechanical and Production Engineering (MPE) at the Islamic University of Technology (IUT), Bangladesh.  
-My academic and research interests lie at the intersection of **materials science and engineering**, **thermal systems**, and **computational modeling**.
+<div class="about-container" style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
+  
+  <!-- Left Column - About Me & Education -->
+  <div class="left-column" style="flex: 1; min-width: 300px;">
+    
+    <!-- About Me Section -->
+    <div class="about-section" style="margin-bottom: 40px;">
+      <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-bottom: 20px;">
+        About Me
+      </h2>
+      <p style="line-height: 1.7; font-size: 1.1em;">
+        Hi! I am Sifat Abdul Bari, a passionate researcher and educator in Mechanical Engineering with a focus on advanced materials design and computational mechanics. My work bridges the gap between theoretical modeling and practical applications in materials science.
+      </p>
+    </div>
 
-My current research focuses on:
-- **High-Entropy Alloys (HEAs):** Exploring microstructure, deformation mechanisms, creep, and radiation damage using atomistic simulations (LAMMPS).  
-- **Molecular Dynamics (MD) Simulations:** Studying crack propagation, dislocation dynamics, and phase stability of advanced materials.  
-- **Multiscale Modeling:** Bridging atomistic simulations with macroscale thermomechanical properties through hybrid MC/MD and integrated computational materials engineering approaches.  
+    <!-- Education Section -->
+    <div class="education-section">
+      <h2 style="color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 8px; margin-bottom: 20px;">
+        Education
+      </h2>
+      
+      <div class="education-item" style="margin-bottom: 30px;">
+        <h3 style="color: #34495e; margin-bottom: 8px;">
+          Master of Science in Mechanical Engineering <span style="color: #666; font-weight: normal;">CGPA: 3.92/4.00</span>
+        </h3>
+        <p style="margin: 5px 0; font-weight: bold;">
+          Islamic University of Technology (IUT), Board Bazar, Gazipur, Bangladesh
+        </p>
+        <p style="color: #666; margin: 5px 0; font-style: italic;">2023 - Present</p>
+        <p style="margin: 5px 0;">
+          <strong>Status:</strong> Courses Completed │ Thesis Ongoing
+        </p>
+      </div>
 
-I have published in leading Q1 journals such as *Energy Conversion and Management* and and I am expanding my work toward high-impact materials science publications (e.g., *Acta Materialia*, *MSE-R*).
+      <div class="education-item">
+        <h3 style="color: #34495e; margin-bottom: 8px;">
+          Bachelor of Science in Mechanical Engineering <span style="color: #666; font-weight: normal;">CGPA: 3.87/4.00</span>
+        </h3>
+        <p style="margin: 5px 0; font-weight: bold;">
+          Islamic University of Technology (IUT), Board Bazar, Gazipur, Bangladesh
+        </p>
+        <p style="color: #666; margin: 5px 0; font-style: italic;">2019 - 2023</p>
+        <p style="margin: 5px 0;">
+          <strong>Achievement:</strong> 2nd out of 82 Students
+        </p>
+      </div>
+    </div>
 
-Beyond research, I am actively engaged in teaching undergraduate courses on **Machine Design**, **Mechanics of Materials**, and **Statics & Dynamics**, while mentoring students in computational materials projects and scientific writing.
+  </div>
 
-My long-term vision is to develop sustainable solutions in **materials design** for extreme environment, while building strong academic-industry collaborations in the field of materials science.
+  <!-- Right Column - Research Interests & Technical Skills -->
+  <div class="right-column" style="flex: 1; min-width: 300px;">
+    
+    <!-- Research Interests -->
+    <div class="interests-section" style="margin-bottom: 40px;">
+      <h2 style="color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 8px; margin-bottom: 20px;">
+        Research Interests
+      </h2>
+      <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #e74c3c;">
+        <p style="margin: 0; line-height: 1.8; font-size: 1.05em;">
+          Advanced Material Design │ High Entropy Alloys (HEAs) │ Computational Materials Science │ 
+          Mechanics of Materials │ Atomistic Modelling │ Molecular Dynamics (MD) Simulation │ 
+          Density Functional Theory (DFT) Calculations
+        </p>
+      </div>
+    </div>
+
+    <!-- Technical Competence -->
+    <div class="skills-section">
+      <h2 style="color: #2c3e50; border-bottom: 2px solid #f39c12; padding-bottom: 8px; margin-bottom: 20px;">
+        Technical Competence
+      </h2>
+      
+      <div class="skill-category" style="margin-bottom: 25px;">
+        <h4 style="color: #34495e; margin-bottom: 10px;">MD Simulations:</h4>
+        <p style="margin: 0; padding: 10px 15px; background: #f8f9fa; border-radius: 5px;">
+          LAMMPS, OVITO, ATOMSK, VESTA, Quantum ESPRESSO
+        </p>
+      </div>
+
+      <div class="skill-category" style="margin-bottom: 25px;">
+        <h4 style="color: #34495e; margin-bottom: 10px;">Programming:</h4>
+        <p style="margin: 0; padding: 10px 15px; background: #f8f9fa; border-radius: 5px;">
+          C++, Python, MATLAB, Arduino IDE
+        </p>
+      </div>
+
+      <div class="skill-category" style="margin-bottom: 25px;">
+        <h4 style="color: #34495e; margin-bottom: 10px;">Machine Learning Models:</h4>
+        <p style="margin: 0; padding: 10px 15px; background: #f8f9fa; border-radius: 5px;">
+          Random Forest (RF), XGBoost, ANN
+        </p>
+      </div>
+
+      <div class="skill-category" style="margin-bottom: 25px;">
+        <h4 style="color: #34495e; margin-bottom: 10px;">3D Modeling & Simulation:</h4>
+        <p style="margin: 0; padding: 10px 15px; background: #f8f9fa; border-radius: 5px;">
+          SOLIDWORKS, ANSYS Workbench, ANSYS Fluent
+        </p>
+      </div>
+
+      <div class="skill-category" style="margin-bottom: 25px;">
+        <h4 style="color: #34495e; margin-bottom: 10px;">Post Processing and Data Visualization:</h4>
+        <p style="margin: 0; padding: 10px 15px; background: #f8f9fa; border-radius: 5px;">
+          Origin, Python, MATLAB
+        </p>
+      </div>
+
+      <div class="skill-category" style="margin-bottom: 25px;">
+        <h4 style="color: #34495e; margin-bottom: 10px;">Scientific Writing and Presentation:</h4>
+        <p style="margin: 0; padding: 10px 15px; background: #f8f9fa; border-radius: 5px;">
+          MS Office Suite, LATEX
+        </p>
+      </div>
+
+      <div class="skill-category" style="margin-bottom: 25px;">
+        <h4 style="color: #34495e; margin-bottom: 10px;">Image Processing and Illustration:</h4>
+        <p style="margin: 0; padding: 10px 15px; background: #f8f9fa; border-radius: 5px;">
+          Adobe Illustrator, Adobe Photoshop
+        </p>
+      </div>
+
+      <div class="skill-category">
+        <h4 style="color: #34495e; margin-bottom: 10px;">Hardware Equipment:</h4>
+        <p style="margin: 0; padding: 10px 15px; background: #f8f9fa; border-radius: 5px;">
+          UTM, FDM 3D printer, Oscilloscope, Beam Apparatus, Torsion Testing,
+          Drop Testing, Impact Testing, Fatigue Testing
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<style>
+.about-container {
+  line-height: 1.6;
+}
+
+.about-section p, .education-item p, .skill-category p {
+  font-size: 1em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-container {
+    gap: 20px;
+  }
+  
+  .left-column, .right-column {
+    min-width: 100%;
+  }
+}
+</style>
 
 [Download CV!](./files/Sifat_Final.pdf)
