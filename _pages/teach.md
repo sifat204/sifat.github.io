@@ -9,8 +9,8 @@ author_profile: true
   <!-- Left Column - Teaching Details -->
   <div class="left-column" style="flex: 1; min-width: 300px;">
     <div class="teaching-position" style="margin-bottom: 30px;">
-      <h3 style="color: #2c3e50; margin-bottom: 5px;">Lecturer</h3>
-      <p style="color: #666; margin: 0 0 15px 0; font-style: italic;">August, 2023 - Present</p>
+      <h3 style="margin-bottom: 5px;">Lecturer</h3>
+      <p style="margin: 0 0 15px 0; font-style: italic;">August, 2023 - Present</p>
       <p style="margin: 0 0 20px 0;">
         <!-- <strong>Department of Mechanical and Production Engineering</strong><br> -->
         <a href="https://mpe.iutoic-dhaka.edu/" target="_blank" style="color: #007cba; text-decoration: none;">
@@ -21,7 +21,7 @@ author_profile: true
     </div>
     <!-- Course Responsibilities -->
     <div class="responsibility-section" style="margin-bottom: 30px;">
-      <h4 style="color: #34495e; border-bottom: 2px solid #3498db; padding-bottom: 5px; margin-bottom: 15px;">
+      <h4 style="border-bottom: 2px solid #3498db; padding-bottom: 5px; margin-bottom: 15px;">
         Course Responsibilities
       </h4>
       <p style="margin-bottom: 10px;"><strong>Conducted Theoretical Course and Labs on</strong></p>
@@ -42,7 +42,7 @@ author_profile: true
     </div>
     <!-- Departmental Responsibilities -->
     <div class="responsibility-section" style="margin-bottom: 30px;">
-      <h4 style="color: #34495e; border-bottom: 2px solid #2ecc71; padding-bottom: 5px; margin-bottom: 15px;">
+      <h4 style="border-bottom: 2px solid #2ecc71; padding-bottom: 5px; margin-bottom: 15px;">
         Departmental Responsibilities
       </h4>
       <ul style="padding-left: 20px;">
@@ -56,26 +56,26 @@ author_profile: true
     </div>
     <!-- Student Supervision -->
     <div class="responsibility-section">
-      <h4 style="color: #34495e; border-bottom: 2px solid #e74c3c; padding-bottom: 5px; margin-bottom: 15px;">
+      <h4 style="border-bottom: 2px solid #e74c3c; padding-bottom: 5px; margin-bottom: 15px;">
         Student Supervision
       </h4>
       <div style="margin-bottom: 20px;">
         <p style="margin-bottom: 8px;"><strong>▪ Co-Supervised Undergraduate thesis on:</strong><br>
         <em>"Mechanical Properties and Cracking mechanism in pristine and defected WSe2 2D TMD: A MD Study"</em></p>
-        <p style="color: #555; font-size: 0.95em; margin-left: 20px;">
+        <p style="font-size: 0.95em; margin-left: 20px;">
           Conceptualization, Validation, Software, Investigation, Formal analysis, Data curation.
         </p>
       </div>
       <div style="margin-bottom: 20px;">
         <p style="margin-bottom: 8px;"><strong>▪ Co-Supervising Undergraduate thesis on:</strong><br>
         <em>"MD study of Deformation Mechanism and Mechanical Properties of AlHfNbTaTiZr Refractory High Entropy Alloy (RHEA)"</em></p>
-        <p style="color: #555; font-size: 0.95em; margin-left: 20px;">
+        <p style="font-size: 0.95em; margin-left: 20px;">
           Conceptualization, Validation, Software, Investigation, Formal analysis, Data curation.
         </p>
       </div>
       <div>
         <p style="margin-bottom: 8px;"><strong>▪ Co-Supervised Measurement, Instrumentation and Control Projects:</strong></p>
-        <p style="color: #555; font-size: 0.95em; margin-left: 20px;">
+        <p style="font-size: 0.95em; margin-left: 20px;">
           Teams designed, calibrated, and tested sensor-based systems with DAQ and feedback control to produce controlled motion/actuation.
         </p>
       </div>
