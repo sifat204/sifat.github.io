@@ -42,8 +42,8 @@ description: "Detailed information about High Entropy Alloys research including 
       <h3>Future Work</h3>
       <p>Future research directions include optimization of processing parameters and exploration of new alloy systems.</p>
       <h3>Hybrid MC/MD Simulation</h3>
-      <p>Hybrid MC/MD simulation generates thermally equilibrated alloy structures by combining two techniques. Short Molecular Dynamics (MD) bursts relax atomic positions, then Monte Carlo (MC) proposes atom swaps to sample chemical configurations. The energy change after MD relaxation determines if a swap is accepted. This process efficiently explores the system's structural and chemical landscape to study properties like chemical short-range order (CSRO) and phase stability.</p>
-      <p> This interesting process has been explored in this project. The atomic structure and radial distribution function; g(r) shows checmical ordering after MC/MD hybrid simulation </p>
+      <p style="text-align: justify;">Hybrid MC/MD simulation generates thermally equilibrated alloy structures by combining two techniques. Short Molecular Dynamics (MD) bursts relax atomic positions, then Monte Carlo (MC) proposes atom swaps to sample chemical configurations. The energy change after MD relaxation determines if a swap is accepted. This process efficiently explores the system's structural and chemical landscape to study properties like chemical short-range order (CSRO) and phase stability.</p>
+      <p style="text-align: justify;"> This interesting process has been explored in this project. The atomic structure and radial distribution function; g(r) shows checmical ordering after MC/MD hybrid simulation </p>
       <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/mcmd.png" alt="Final Structure" style="width: 100%;">

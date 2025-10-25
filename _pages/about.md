@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 <p style="text-align: justify;"> Hi! I am <strong>Sifat Abdul Bari</strong>,
-I am a <strong>Mechanical Engineer</strong> and currently serve as a <strong>Lecturer</strong> in the <strong><em>Department of Mechanical and Production Engineering</em></strong> at IUT. My research interest in materials science developed during my undergraduate days while working on the <strong>Mars Rover team</strong>, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field. <br>Currently, my research focuses on designing two distinct classes of high-entropy alloys: a conventional <strong>High-Entropy Alloy (HEA)</strong> and a <strong>Refractory High-Entropy Alloy (RHEA)</strong>, and evaluating their mechanical properties for extreme environment applications using Molecular Dynamics Simulations.<br>I am looking forward to pursuing a <strong>PhD</strong> to enrich my knowledge and expertise in atomistic modeling and materials science. My vision is to contribute to the discovery and characterization of next-generation materials required for advanced aerospace, nuclear, and energy sectors. </p>
+I am a <strong>Mechanical Engineer</strong> and currently serve as a <strong>Lecturer</strong> in the <strong><em><a href="https://mpe.iutoic-dhaka.edu/" target="_blank" style="color: #007cba; text-decoration: none;">Department of Mechanical and Production Engineering</a></em></strong> at IUT. My research interest in materials science developed during my undergraduate days while working on the <strong>Mars Rover team</strong>, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field. <br>Currently, my research focuses on designing two distinct classes of high-entropy alloys: a conventional <strong>High-Entropy Alloy (HEA)</strong> and a <strong>Refractory High-Entropy Alloy (RHEA)</strong>, and evaluating their mechanical properties for extreme environment applications using Molecular Dynamics Simulations.<br>I am looking forward to pursuing a <strong>PhD</strong> to enrich my knowledge and expertise in atomistic modeling and materials science. My vision is to contribute to the discovery and characterization of next-generation materials required for advanced aerospace, nuclear, and energy sectors. </p>
 
 <!-- Option A: Relative path (most common) -->
 <a href="files/Sifat_Final.pdf" style="display: inline-block; padding: 10px 20px; background-color: #267eb1ff; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
@@ -59,7 +59,7 @@ I am a <strong>Mechanical Engineer</strong> and currently serve as a <strong>Lec
         </p>
         <p style="margin: 5px 0; font-style: italic;">2019 - 2023</p>
         <p style="margin: 5px 0;">
-          <strong>Achievement:</strong> 2nd out of 82 Students
+          <strong>Class Position:</strong> 2nd out of 82 Students
         </p>
       </div>
     </div>
