@@ -85,33 +85,39 @@ author_profile: true
 
   <!-- Right Column - Images -->
   <div class="right-column" style="flex: 1; min-width: 300px;">
-    
     <!-- Image 1 -->
     <div class="image-item" style="margin-bottom: 30px;">
       <figure style="margin: 0; text-align: center;">
-        <img src="{{ site.baseurl }}/assets/images/teaching1.jpg" alt="Teaching in Classroom" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="{{ site.baseurl }}/assets/images/teach/thesis.jpg" alt="Teaching in Classroom" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
-          Classroom Teaching - Mechanics of Materials
+          Co-Supervised Thesis Group on MD Study of TMDs
         </figcaption>
       </figure>
     </div>
-
     <!-- Image 2 -->
     <div class="image-item" style="margin-bottom: 30px;">
       <figure style="margin: 0; text-align: center;">
-        <img src="{{ site.baseurl }}/assets/images/teaching2.jpg" alt="Lab Supervision" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="{{ site.baseurl }}/assets/images/teach/mic.jpg" alt="Lab Supervision" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
-          Laboratory Supervision - 3D Modeling Workshop
+          Measurement and Instrumentation Project Co Supervison
         </figcaption>
       </figure>
     </div>
-
     <!-- Image 3 -->
     <div class="image-item">
       <figure style="margin: 0; text-align: center;">
-        <img src="{{ site.baseurl }}/assets/images/teaching3.jpg" alt="Student Project Guidance" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="{{ site.baseurl }}/assets/images/teach/ul.jpg" alt="Student Project Guidance" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
-          Undergraduate Thesis Guidance - MD Simulations
+          Industrial Visit in Unilever Bangladesh Ltd,Kalurghat Factory
+        </figcaption>
+      </figure>
+    </div>
+    <!-- Image 4 -->
+    <div class="image-item">
+      <figure style="margin: 0; text-align: center;">
+        <img src="{{ site.baseurl }}/assets/images/teach/meghna.jpg" alt="Student Project Guidance" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <figcaption style="text-align: center; font-style: italic; margin-top: 10px; color: #666;">
+          Industrial Visit in Meghnaghat Combined Cycle Gas-Fired Power Plant
         </figcaption>
       </figure>
     </div>
