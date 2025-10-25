@@ -6,12 +6,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-bottom: 20px;">
+        About Me
+</h2>
+      <p style="text-align: justify; line-height: 1.7; font-size: 1.1em;">
+        Hi! I am Sifat Abdul Bari. I am a Mechanical Engineer and currently serve as a Lecturer in the Department of Mechanical and Production Engineering at IUT.
+        My research interest in materials science developed during my undergraduate days while working on the Mars Rover team, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field.
+        Currently, my research focuses on designing High Entropy Alloys (HEAs and RHEAs) and evaluating their mechanical properties for extreme environment applications using Molecular Dynamics Simulations.
+        I am looking forward to pursuing a PhD to enrich my knowledge and expertise in atomistic modeling and materials science. My vision is to contribute to the discovery and characterization of next-generation materials required for advanced aerospace, nuclear, and energy sectors.
+      </p>
+
+
 <div class="about-container" style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
   
   <!-- Left Column - About Me & Education -->
   <div class="left-column" style="flex: 1; min-width: 300px;">
     <!-- About Me Section -->
-    <div class="about-section" style="margin-bottom: 40px;">
+    <!-- <div class="about-section" style="margin-bottom: 40px;">
       <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 8px; margin-bottom: 20px;">
         About Me
       </h2>
@@ -21,7 +32,7 @@ redirect_from:
         Currently, my research focuses on designing High Entropy Alloys (HEAs and RHEAs) and evaluating their mechanical properties for extreme environment applications using Molecular Dynamics Simulations.
         I am looking forward to pursuing a PhD to enrich my knowledge and expertise in atomistic modeling and materials science. My vision is to contribute to the discovery and characterization of next-generation materials required for advanced aerospace, nuclear, and energy sectors.
       </p>
-    </div>
+    </div> -->
     <!-- Education Section -->
     <div class="education-section">
       <h2 style="color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 8px; margin-bottom: 20px;">

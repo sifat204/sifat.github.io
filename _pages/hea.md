@@ -152,8 +152,7 @@ with open(output_filename, 'w') as f:
 print(f"HEA structure written to {output_filename}")
         </code></pre>
       </div>
-
-      <h3>LAMMPS Input Script</h3>
+      <h3>LAMMPS Input Script for Tensile Test Simulation</h3>
       <div class="code-block">
         <pre><code class="language-lammps">
 log log_file.txt
@@ -166,55 +165,46 @@ atom_style  atomic
 package gpu 1
 neighbor    2.0 bin
 neigh_modify every 1 delay 0 check yes
-# ------------------------ READ ATOMIC STRUCTURE ---------------------
-read_data hea_Al_0.3.data
-# Define interatomic potential
+
+# ------------------------STRUCTURE ---------------------
+read_data annealed_structure_sample_A.data
+
+# interatomic potential
 pair_style eam/alloy/gpu
 pair_coeff * * FeCrCoNiAl.setfl Al Fe Ni Cr Co
+
 # ------------------------ MINIMIZATION -----------------------------
 reset_timestep 0
 timestep 0.001  # 1 fs
 min_style fire
 minimize 1e-6 1e-8 1000 10000
+
 # ------------------------ EQUILIBRATION @300K -----------------------------
 velocity all create 300 12345 mom yes rot no
 fix eq1 all npt temp 300 300 1 iso 0 0 1 drag 1
 thermo 1000
-run 100000  # 100 ps
+run 30000  # 100 ps
 unfix eq1
 write_data Pre_melt_structure.data
-# ------------------------ MELTING @3000K -----------------------------
+
 dump pre all custom 1000 dump.pre_tensile.txt id type x y z vx vy vz
 dump_modify pre element Al Fe Ni Cr Co
 
-fix melt all npt temp 300 3000 1 iso 0 0 1 drag 1
-run 305000  # 50 ps at 3000K
+fix melt all npt temp 300 300 1 iso 0 0 1 drag 1
+run 30500  # 50 ps at 3000K
 unfix melt
 
-velocity all scale 3000
-fix hold all npt temp 3000 3000 1 iso 0 0 1 drag 1
+velocity all scale 300
+fix hold all npt temp 300 300 1 iso 0 0 1 drag 1
 run 30000  # 50 ps at 3000K
 unfix hold
-# ------------------------ SHEAR FLOW SETUP FOR SAMPLE A -----------------------------
-velocity all ramp vx 0.0 2.0 y 0 90 sum yes
-velocity all ramp vy 0.0 2.0 x 0 90 sum yes
-# ------------------------ COOLING  -----------------------------
-variable tdamp equal 1.0
-fix cool all npt temp 3000 300 ${tdamp} iso 0 0 ${tdamp} drag 2
-restart 500000 restart.cooling.*
-run 10800000
-unfix cool
-write_data annealed_structure_sample_A.data
-# ------------------------ FINAL EQUILIBRATION @300K -----------------------------
-velocity all scale 300
-fix final_eq all npt temp 300 300 1 iso 0 0 1 drag 1
-run 50000  # 30 ps
-unfix final_eq
-undump pre
 
+
+undump pre
 variable tmp equal "lx"
 variable L0 equal ${tmp}
 print "Initial Length, L0: ${L0}"
+
 # ------------------------ TENSILE TEST -----------------------------
 reset_timestep 0
 fix 1 all nve
@@ -235,81 +225,12 @@ dump_modify 1 element Al Fe Ni Cr Co append yes
 
 thermo 1000
 thermo_style custom step v_strain temp v_p2 v_p3 v_p4 ke pe press
-run 70000  # ~70 ps of tensile strain
+run 80000  # ~70 ps of tensile strain
+
 print "All done"
-        </code></pre>
-      </div>
-
-      <h3>Hybrid MD/MC Simulation</h3>
-      <div class="code-block">
-        <pre><code class="language-LAMMPS">
-# High-Entropy Alloy (Al-Fe-Ni-Cr-Co) Hybrid MC/MD Simulation 
-
-log MC_log_file.txt
-units metal
-atom_style atomic
-dimension 3
-boundary p p p
-
-package gpu 1
-neighbor 2.0 bin
-neigh_modify every 1 delay 0 check yes
-
-# structure
-read_data test_st.data
-# Potential setup (matches data types)
-pair_style eam/alloy/gpu
-pair_coeff * * FeCrCoNiAl.setfl Al Fe Ni Cr Co
-# ---- ENERGY MINIMIZATION ----
-minimize 1.0e-5 1.0e-7 5000 10000
-reset_timestep 0
-# ---- DYNAMICS SETUP ----
-timestep 0.002
-velocity all create 1000.0 12345 rot yes dist gaussian
-fix nvt all nvt temp 1000.0 1000.0 0.1
-thermo 1000
-run 50000  # 100 ps equilibration
-unfix nvt
-
-fix nvt_prod all nvt temp 1000.0 1000.0 0.1  # MD Step 
-# ---- MONTE CARLO SETUP (Canonical Ensemble) ----
-fix swap1 all atom/swap 100 10 12345 1000.0 types 1 2
-fix swap2 all atom/swap 100 10 12346 1000.0 types 2 3
-fix swap3 all atom/swap 100 10 12347 1000.0 types 3 4
-fix swap4 all atom/swap 100 10 12348 1000.0 types 4 5 
-# Count atoms of each type
-compute c_Al all count/type atom
-# Composition monitoring
-fix composition all ave/time 100 50 5000 c_c_Al[1] c_c_Al[2] c_c_Al[3] c_c_Al[4] c_c_Al[5] file composition.txt
-# Output settings
-thermo 1000
-thermo_style custom step temp pe etotal press vol f_swap1[1] f_swap1[2] f_swap2[1] f_swap2[2]
-thermo_modify flush yes
-# Run MC/MD simulation
-restart 50000 restart.mc.*
-#run 10000000  
-run 600000
-
-unfix swap1
-unfix swap2
-unfix swap3
-unfix swap4
-# Ramp temperature down
-thermo_style custom step temp pe etotal press vol
-unfix nvt_prod
-
-fix nvt all nvt temp 1000.0 300.0 0.1
-run 400000     # e.g., ~0.8 ns cool
-
-unfix nvt
-fix npt all npt temp 300.0 300.0 0.1 iso 0.0 0.0 1.0
-run 50000     # 0.4 ns hold
-# Output final structure
-write_data final_st.data
 
         </code></pre>
       </div>
-
     </div>
 
   </div>
