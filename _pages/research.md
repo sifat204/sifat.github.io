@@ -5,22 +5,60 @@ permalink: /research/
 author_profile: true
 ---
 ## Master's Thesis
-**Enhancing Microstructure and Mechanical Stability of Al₀.₃CoCrFeNi High-Entropy Alloy via Shear-Assisted Solidification**
+**Molecular Dynamics Study of Shear-Assisted Microstructural Evolution and Property Response in Al$_{0.3}$CoCrFeNi High-Entropy Alloy**
 **Tools:** LAMMPS, OVITO, Python, VESTA  
 **Keywords:** Molecular Dynamics, High-Entropy Alloys, Grain Refinement, Dislocation Mechanics, Radiation Damage
 
- <p style="text-align: justify;">This project investigated how shear flow during solidification affected the atomic structure and mechanical response of Al₀.₃CoCrFeNi high-entropy alloys. Molecular dynamics simulations revealed that shear-assisted processing promoted uniform grain nucleation, nanocrystalline structures, and more stable dislocation behavior. Enhanced chemical ordering and reduced dislocation entanglement contributed to an improved strength-ductility balance. Twin-induced and transformation-induced plasticity mechanisms were more active in the refined microstructure. These combined effects led to superior mechanical performance and thermal stability. The results demonstrated the potential of shear-assisted processing for tailoring HEAs for high-performance, high-temperature applications.</p>
+<ul style="text-align: justify;">
+  <li>Investigated how shear-assisted solidification modifies the microstructure and performance of Al₀.₃CoCrFeNi high-entropy alloys using molecular dynamics simulations.</li>
+
+  <li>Examined the evolution of grain structure, planar faults, dislocations, and chemical short-range ordering under different solidification conditions.</li>
+
+  <li>Evaluated tensile strength, ductility, deformation mechanisms, and thermal stability to establish processing–microstructure–property relationships.</li>
+
+  <li>Assessed the response of the processed microstructures under cyclic loading to compare their fatigue stability and defect-evolution behavior.</li>
+
+  <li>Investigated 5 keV displacement cascades to quantify radiation-induced defect generation, spatial defect distributions, defect recovery, and the post-irradiation mechanical response.</li>
+
+  <li>Demonstrated that different interface architectures provide distinct advantages under tensile, cyclic, and irradiation conditions, highlighting the potential of processing-controlled microstructure design for demanding structural applications.</li>
+</ul>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/sampleA.PNG" alt="Sample A with shear" style="width: 100%;">
-    <figcaption class="center-caption">(a) Microstructure of Sample A: With Shear</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/Masters/Sample_A_CNA.png"
+         alt="CNA microstructure of Sample A"
+         style="width: 100%;">
+    <figcaption class="center-caption">
+      (a) CNA analysis of Sample A
+    </figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/sampleB.PNG" alt="Sample B without shear" style="width: 100%;">
-    <figcaption class="center-caption">(b) Microstructure of Sample B: Without Shear</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/Masters/sample_A_planar_faults_defect_only_refined.png"
+         alt="Planar faults in Sample A"
+         style="width: 100%;">
+    <figcaption class="center-caption">
+      (b) Planar-fault structure of Sample A
+    </figcaption>
+  </figure>
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/Masters/Sample_B_CNA.png"
+         alt="CNA microstructure of Sample B"
+         style="width: 100%;">
+    <figcaption class="center-caption">
+      (c) CNA analysis of Sample B
+    </figcaption>
+  </figure>
+
+  <figure style="width: 45%; margin: 0;">
+    <img src="{{ site.baseurl }}/assets/images/Masters/sample_B_planar_faults_defect_only_refined.png"
+         alt="Planar faults in Sample B"
+         style="width: 100%;">
+    <figcaption class="center-caption">
+      (d) Planar-fault structure of Sample B
+    </figcaption>
   </figure>
 
 </div>
