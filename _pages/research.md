@@ -78,19 +78,29 @@ author_profile: true
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/PKA.gif" alt="Primary Knock on Atom" style="width: 100%;">
-    <figcaption class="center-caption">(a) Radiation Damage with PKA</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/Structuer_MC-MD.png" alt="MC/MD Hybid Study" style="width: 100%;">
+    <figcaption class="center-caption">(a) Final structure after 6M MC/MD hybrid study</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/mg.png" alt="metalic glass" style="width: 100%;">
-    <figcaption class="center-caption">(b) Metalic Glass Microstructure after rapid solidification</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/potential_energy_full_5M_6M_maroon_darkblue.png" alt="Potential Energy vs timestep" style="width: 100%;">
+    <figcaption class="center-caption">(b) Potential energy convergence during MC/MD hybrid simulation</figcaption>
   </figure>
 
 </div>
 
 **Zr–Nb Alloy**
-<p style="text-align: justify;">This study focused on understanding the role of Nb content in tuning the high-temperature mechanical performance of Zr-based alloys. Through simulated annealing and tensile loading, the creep resistance and dislocation dynamics were investigated. Nanoindentation simulations revealed trends in hardness and subsurface shear localization. The results provide atomistic insights into optimizing Zr–Nb alloys for use in nuclear and structural applications.</p>
+<ul style="text-align: justify;">
+  <li>Investigated the influence of Nb content on the high-temperature mechanical performance of Zr–Nb alloys using atomistic simulations.</li>
+
+  <li>Performed simulated annealing and tensile loading simulations to evaluate creep resistance, strength, and dislocation evolution.</li>
+
+  <li>Analyzed dislocation dynamics to understand the deformation mechanisms associated with different Nb concentrations.</li>
+
+  <li>Performed nanoindentation simulations to investigate hardness response and subsurface shear localization.</li>
+
+  <li>Provided atomistic insights into the optimization of Zr–Nb alloys for potential nuclear and structural applications.</li>
+</ul>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
@@ -107,7 +117,17 @@ author_profile: true
 </div>
 
 **Transition Metal Dichalcogenides (TMDs)**
-<p style="text-align: justify;">This project examined the mechanical behavior of pristine and defected monolayer WSe₂ prepared using VESTA, ATOMSK and LAMMPS. Tensile simulations at room and elevated temperature were conducted to determine stress–strain responses. Crack propagation and failure mechanisms were analyzed to understand fracture characteristics at the atomic scale. Nanoindentation simulations were performed to assess surface hardness, providing insight into their potential for flexible electronics and nanomechanical devices.</p>
+<ul style="text-align: justify;">
+  <li>Investigated the mechanical behavior of pristine and defected monolayer WSe₂ using structures prepared with VESTA and ATOMSK and simulated in LAMMPS.</li>
+
+  <li>Performed tensile simulations at room and elevated temperatures to evaluate stress–strain response and temperature-dependent mechanical behavior.</li>
+
+  <li>Analyzed crack propagation and atomic-scale failure mechanisms to understand the fracture characteristics of defected WSe₂ monolayers.</li>
+
+  <li>Performed nanoindentation simulations to assess surface hardness and local deformation behavior.</li>
+
+  <li>Provided atomistic insights into the suitability of monolayer WSe₂ for flexible electronics and nanomechanical applications.</li>
+</ul>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
