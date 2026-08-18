@@ -6,14 +6,76 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p style="text-align: justify;"> Hi! I am <strong>Sifat Abdul Bari</strong><br>
-I am a <strong>Mechanical Engineer,</strong> currently serving as a <strong>Lecturer</strong> in the <strong><em><a href="https://mpe.iutoic-dhaka.edu/" target="_blank" style="color: #007cba; text-decoration: none;">Department of Mechanical and Production Engineering</a></em></strong> at IUT. My research interest in materials science developed during my undergraduate days while working on the <strong>Mars Rover team</strong>, which I eventually led in my final year. During that time, I had the opportunity to work on Molecular Dynamics simulations in a voluntary research project. The idea of discovering new alloys and predicting their performance in real-world applications was more than just a fascination to me, and it ultimately inspired me to choose this challenging yet exciting field. <br>Currently, my research focuses on designing two distinct classes of high-entropy alloys: a conventional <strong>High-Entropy Alloy (HEA)</strong> and a <strong>Refractory High-Entropy Alloy (RHEA)</strong>, and evaluating their mechanical properties for extreme environment applications using Molecular Dynamics Simulations.<br>I am looking forward to pursuing a <strong>PhD</strong> to enrich my knowledge and expertise in atomistic modeling and materials science. My vision is to contribute to the discovery and characterization of next-generation materials required for advanced aerospace, nuclear, and energy sectors. </p>
+<p style="text-align: justify;">
+Hi! I am <strong>Sifat Abdul Bari</strong><br>
+I am a <strong>Mechanical Engineer</strong>, currently serving as a <strong>Lecturer</strong> in the <strong><em><a href="https://mpe.iutoic-dhaka.edu/" target="_blank" style="color: #007cba; text-decoration: none;">Department of Mechanical and Production Engineering</a></em></strong> at IUT. My interest in materials science took root during my undergraduate years on the <strong>Mars Rover team</strong>, which I eventually led in my final year. It was there, through a voluntary research project on Molecular Dynamics simulations, that I first got hooked — the idea of discovering new alloys and predicting how they'd behave in real-world extremes was more than a passing fascination; it set the direction for the rest of my research career.
+<br><br>
+My current research uses large-scale, GPU-accelerated Molecular Dynamics simulations (LAMMPS, Kokkos) to study <strong>radiation damage in High-Entropy Alloys (HEAs)</strong> and <strong>Refractory High-Entropy Alloys (RHEAs)</strong> intended for extreme-environment applications. This involves simulating primary knock-on atom (PKA) cascades to understand defect formation and clustering, alongside <strong>CALPHAD-based thermodynamic modeling</strong> to guide alloy composition design and phase stability. I'm also increasingly interested in machine-learned interatomic potentials as a way to extend the accuracy and reach of these simulations beyond what classical potentials allow.
+<br><br>
+I am looking forward to pursuing a <strong>PhD</strong> to deepen my expertise in atomistic modeling and computational materials science. My vision is to contribute to the discovery and characterization of next-generation materials for advanced aerospace, nuclear, and energy applications.
+</p>
 
-<!-- Option A: Relative path (most common) -->
-<a href="files/SifatBari_CV.pdf" style="display: inline-block; padding: 10px 20px; background-color: #267eb1ff; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
-  Download CV!
-</a>
-<!-- [Download CV!](./files/Sifat_Final.pdf) -->
+<div style="
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+">
+
+  <!-- Download CV Button -->
+  <a href="files/SifatBari_CV.pdf"
+     style="
+       display: inline-block;
+       padding: 10px 20px;
+       background-color: #267eb1ff;
+       color: white;
+       text-decoration: none;
+       border-radius: 4px;
+       font-weight: bold;
+       white-space: nowrap;
+     ">
+    Download CV!
+  </a>
+
+  <!-- Video + Personal Quote -->
+  <div style="
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  ">
+
+    <video
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      style="
+        width: 150px;
+        height: 85px;
+        object-fit: cover;
+        border-radius: 8px;
+      ">
+      <source src="{{ site.baseurl }}/assets/videos/blackhole_cinematic.mp4"
+              type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div style="
+      max-width: 380px;
+      border-left: 3px solid #267eb1ff;
+      padding-left: 15px;
+      font-style: italic;
+      line-height: 1.5;
+      font-size: 0.95em;
+    ">
+      “From atomic interactions to materials for extreme environments.”
+    </div>
+
+  </div>
+
+</div>
 
 <div class="about-container" style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
   <!-- Left Column - About Me & Education -->
