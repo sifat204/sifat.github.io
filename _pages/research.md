@@ -66,8 +66,15 @@ author_profile: true
 *For more details and resources* <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here</a>
 
 ## LAMMPS-based Molecular Dynamics Projects 
-**AlHfNbTaTiZr Refractory High Entropy Alloy (RHEA)**
-<p style="text-align: justify;">This project explored the solidification behavior and mechanical response of a refractory high-entropy alloy using molecular dynamics simulations. Rapid quenching from the melt revealed a transition into a fully amorphous phase, resembling metallic glass. The study evaluated tensile strength and dislocation activity under uniaxial loading, alongside nanoindentation-induced plasticity. Radiation damage was simulated via primary knock-on atom (PKA) events to assess defect evolution. The findings highlight the alloy’s potential for extreme environment applications.</p>
+**1. WMoZrTiTa Refractory High Entropy Alloy (RHEA)**
+<ul style="text-align: justify;">
+  <li>Performed hybrid Monte Carlo/Molecular Dynamics (MC/MD) simulations to investigate microstructural evolution and mechanical properties of the WMoZrTiTa RHEA.</li>
+
+  <li>Investigated the influence of chemical short-range order (CSRO) on the mechanical response and underlying deformation mechanisms.</li>
+
+  <li>Performed radiation-damage simulations using Primary Knock-on Atom (PKA) collision cascades to evaluate irradiation-induced defect evolution.</li>
+</ul>
+
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">

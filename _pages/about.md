@@ -52,8 +52,8 @@ I am looking forward to pursuing a <strong>PhD</strong> to deepen my expertise i
       playsinline
       preload="metadata"
       style="
-        width: 150px;
-        height: 85px;
+        width: 220px;
+        height: 125px;
         object-fit: cover;
         border-radius: 8px;
       ">
@@ -62,16 +62,17 @@ I am looking forward to pursuing a <strong>PhD</strong> to deepen my expertise i
       Your browser does not support the video tag.
     </video>
 
-    <div style="
-      max-width: 380px;
-      border-left: 3px solid #267eb1ff;
-      padding-left: 15px;
-      font-style: italic;
-      line-height: 1.5;
-      font-size: 0.95em;
-    ">
-      “From atomic interactions to materials for extreme environments.”
-    </div>
+<div style="
+  max-width: 380px;
+  border-left: 3px solid #267eb1ff;
+  padding-left: 15px;
+  font-style: italic;
+  line-height: 1.5;
+  font-size: 0.95em;
+">
+  “I, a universe of atoms, an atom in the universe.”<br>
+  <strong style="font-style: normal;">— Richard Feynman</strong>
+</div>
 
   </div>
 
