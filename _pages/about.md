@@ -6,14 +6,26 @@ redirect_from:
   - /about/
   - /about.html
 ---
+```html
+```html
 <p style="text-align: justify;">
-Hi! I am <strong>Sifat Abdul Bari</strong><br>
-I am a <strong>Mechanical Engineer</strong>, currently serving as a <strong>Lecturer</strong> in the <strong><em><a href="https://mpe.iutoic-dhaka.edu/" target="_blank" style="color: #007cba; text-decoration: none;">Department of Mechanical and Production Engineering</a></em></strong> at IUT. My interest in materials science took root during my undergraduate years on the <strong>Mars Rover team</strong>, which I eventually led in my final year. It was there, through a voluntary research project on Molecular Dynamics simulations, that I first got hooked - the idea of discovering new alloys and predicting how they'd behave in real-world extremes was more than a passing fascination; it set the direction for the rest of my research career.
+
+Hi! I am <strong>Sifat Abdul Bari</strong>, a <strong>Mechanical Engineer</strong> and <strong>Lecturer</strong> in the <strong><em><a href="https://mpe.iutoic-dhaka.edu/" target="_blank" style="color: #9e0404; text-decoration: none;">Department of Mechanical and Production Engineering</a></em></strong> at IUT.
 <br><br>
-My current research uses large-scale, GPU-accelerated Molecular Dynamics simulations (LAMMPS, Kokkos) to study <strong>radiation damage in High-Entropy Alloys (HEAs)</strong> and <strong>Refractory High-Entropy Alloys (RHEAs)</strong> intended for extreme-environment applications. This involves simulating primary knock-on atom (PKA) cascades to understand defect formation and clustering, alongside <strong>CALPHAD-based thermodynamic modeling</strong> to guide alloy composition design and phase stability. I'm also increasingly interested in machine-learned interatomic potentials as a way to extend the accuracy and reach of these simulations beyond what classical potentials allow.
+
+There's a moment in HBO's <em>Chernobyl</em> where Valery Legasov tells General Tarakanov that studying the atom requires humility. Tarakanov replies, <em>"It's not humbling, it's humiliating."</em> That exchange stayed with me because it captures something important about materials research. At the atomic scale, materials do not always behave the way we expect them to. A displaced atom does not care whether our model predicted it correctly. Understanding that difference between what we expect a material to do and what actually happens under loading, irradiation, or other extreme conditions is what draws me to this field.
 <br><br>
-I am looking forward to pursuing a <strong>PhD</strong> to deepen my expertise in atomistic modeling and computational materials science. My vision is to contribute to the discovery and characterization of next-generation materials for advanced aerospace, nuclear, and energy applications.
+My current research uses large-scale, GPU-accelerated <strong>Molecular Dynamics simulations</strong> to study the behavior of <strong>High-Entropy Alloys (HEAs)</strong> under radiation damage and mechanical loading. I use hybrid <strong>Monte Carlo/Molecular Dynamics (MC/MD)</strong> simulations to examine chemical ordering and microstructural evolution before performing successive <strong>Primary Knock-on Atom (PKA) collision cascades</strong>. This allows me to study how irradiation-induced defects accumulate and interact with an already damaged microstructure rather than treating each cascade as an isolated event. I then examine how the resulting defect structures influence the subsequent mechanical response of the material.
+<br><br>
+I am also interested in exploring <strong>machine-learned interatomic potentials</strong> to improve the predictive accuracy of large-scale atomistic simulations without sacrificing the system sizes needed for practical materials studies.
+<br><br>
+I plan to pursue a <strong>PhD</strong> to deepen my work in atomistic modeling and computational materials science. My long-term goal is to contribute to the design and characterization of materials that can perform reliably in the demanding environments encountered in aerospace, nuclear, and energy applications.
+
 </p>
+```
+
+```
+
 
 <div style="
   display: flex;

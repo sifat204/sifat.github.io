@@ -143,7 +143,7 @@ author_profile: true
         <li>Showed better strength and ductility at room and elevated temperature</li>
         <li>Twin boundaries and five-fold twin structures formed only in the shear-processed sample</li>
       </ul>
-  <em>Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition, Memphis, Tennessee, USA,November 16-20, 2025 <strong>(Accepted)</strong></em>
+  <em>Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition, Memphis, Tennessee, USA,November 16-20, 2025</em>
  <div style="margin-top: 20px;">
         <div style="margin-bottom: 15px;">
           <strong>DOI:</strong> 
@@ -173,14 +173,6 @@ author_profile: true
       <strong>Enhancing Microstructure and Mechanical Stability of High-Entropy Alloys via Shear-Assisted Solidification: An Atomistic Study</strong><br>
       <!-- <span style="color: #000000ff; font-size: 0.95em;">Submitted to Materials Science Journal</span> -->
     </li>
-    <li style="margin-bottom: 15px;">
-      <strong>Drying Kinetics and Energy-Exergy Performance of a Hybrid Solar-Biomass Dryer</strong><br>
-      <span style="color: #000000ff; font-size: 0.95em;">Submitted to Energy Conversion and Management:X</span>
-    </li>
-    <!-- <li style="margin-bottom: 15px;">
-      <strong>Optimization of Solar Thermal Integration in Industrial Processes</strong><br>
-      <span style="color: #555; font-size: 0.95em;">Submitted to Renewable Energy Journal</span>
-    </li> -->
   </ol>
 </div>
 <style>
