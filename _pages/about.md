@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 ```html
-```html
 <p style="text-align: justify;">
 
 Hi! I am <strong>Sifat Abdul Bari</strong>, a <strong>Mechanical Engineer</strong> and <strong>Lecturer</strong> in the <strong><em><a href="https://mpe.iutoic-dhaka.edu/" target="_blank" style="color: #9e0404; text-decoration: none;">Department of Mechanical and Production Engineering</a></em></strong> at IUT.
@@ -23,10 +22,6 @@ I plan to pursue a <strong>PhD</strong> to deepen my work in atomistic modeling 
 
 </p>
 ```
-
-```
-
-
 <div style="
   display: flex;
   align-items: center;
