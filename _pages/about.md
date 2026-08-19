@@ -24,9 +24,8 @@ I plan to pursue a <strong>PhD</strong> to deepen my work in atomistic modeling 
   margin-top: 20px;
   flex-wrap: wrap;
 ">
-
   <!-- Download CV Button -->
-  <a href="files/SifatBari_CV.pdf"
+  <a href="{{ site.baseurl }}/assets/pdf/Sifat_Abdul_Bari_CV_LaTeX.pdf"
      style="
        display: inline-block;
        padding: 10px 20px;
