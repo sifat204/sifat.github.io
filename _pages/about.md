@@ -13,7 +13,7 @@ There's a moment in HBO's <em>Chernobyl</em> where Valery Legasov tells General 
 <br><br>
 My current research uses large-scale, GPU-accelerated <strong>Molecular Dynamics simulations</strong> to study the behavior of <strong>High-Entropy Alloys (HEAs)</strong> under radiation damage and mechanical loading. I use hybrid <strong>Monte Carlo/Molecular Dynamics (MC/MD)</strong> simulations to examine chemical ordering and microstructural evolution before performing successive <strong>Primary Knock-on Atom (PKA) collision cascades</strong>. This allows me to study how irradiation-induced defects accumulate and interact with an already damaged microstructure rather than treating each cascade as an isolated event. I then examine how the resulting defect structures influence the subsequent mechanical response of the material.
 <br><br>
-I am also interested in exploring <strong>machine-learned interatomic potentials</strong> to improve the predictive accuracy of large-scale atomistic simulations without sacrificing the system sizes needed for practical materials studies.
+I am also interested in exploring <strong>Machine-learned interatomic potentials (MLIPs) </strong> to improve the predictive accuracy of large-scale atomistic simulations without sacrificing the system sizes needed for practical materials studies.
 <br><br>
 I plan to pursue a <strong>PhD</strong> to deepen my work in atomistic modeling and computational materials science. My long-term goal is to contribute to the design and characterization of materials that can perform reliably in the demanding environments encountered in aerospace, nuclear, and energy applications.
 </p>
@@ -95,6 +95,7 @@ I plan to pursue a <strong>PhD</strong> to deepen my work in atomistic modeling 
           <li>Atomistic Modelling</li>
           <li>Molecular Dynamics (MD) Simulation</li>
           <li>Density Functional Theory (DFT) Calculations</li>
+          <li>Machine-Learned Interatomic Potentials (MLIPs)</li>
         </ul>
     </div> 
     <!-- Education Section -->
