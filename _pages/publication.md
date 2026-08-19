@@ -49,39 +49,85 @@ author_profile: true
 </div>
 </div>
 <!-- Paper 2 (Add more papers like this) -->
-<!--
-  <div class="publication-item" style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #eee;">
-  <h4 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">Your Second Journal Paper Title</h4>
-    <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
-  <div style="flex: 1; min-width: 300px;">
-<h5 style="color: #34495e; margin-bottom: 10px;">Highlights</h5>
+<div class="publication-item" style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #eee;">
+
+  <h4 style="margin-top: 0; color: #2c3e50; font-size: 1.3em;">
+    <a href="https://www.sciencedirect.com/science/article/pii/S2590174526001273"
+       target="_blank"
+       style="color: #2c3e50; text-decoration: none;">
+      Drying kinetics and energy-exergy performance of a hybrid solar-biomass dryer
+    </a>
+  </h4>
+
+  <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
+
+    <!-- Paper Information -->
+    <div style="flex: 1; min-width: 300px;">
+
+      <h5 style="color: #34495e; margin-bottom: 10px;">Highlights</h5>
+
       <ul style="margin-top: 0; padding-left: 20px;">
-        <li>Second paper highlight 1</li>
-        <li>Second paper highlight 2</li>
-        <li>Second paper highlight 3</li>
+        <li>Hybrid mode improved energy and exergy efficiency across all drying loads.</li>
+        <li>Reduced drying time by up to 46% (4 kg) compared to sunlight-only operation.</li>
+        <li>Midilli–Kucuk model best predicted the drying kinetics with R² ≈ 0.9988.</li>
+        <li>Hybrid system delivered the lowest CO₂ intensity, reducing emissions by nearly 40%.</li>
+        <li>Hybrid drying cost was 0.01075 $/kWh, close to the biomass drying cost of 0.00657 $/kWh.</li>
       </ul>
+
       <div style="margin-top: 20px;">
+
         <div style="margin-bottom: 15px;">
-          <strong>DOI:</strong> 
-          <a href="https://doi.org/your-second-paper-doi" target="_blank" style="color: #007cba; text-decoration: none;">
-            https://doi.org/your-second-paper-doi
+          <strong>DOI:</strong>
+          <a href="https://doi.org/10.1016/j.ecmx.2026.101644"
+             target="_blank"
+             style="color: #007cba; text-decoration: none;">
+            https://doi.org/10.1016/j.ecmx.2026.101644
           </a>
         </div>
-        <a href="./files/second_paper.pdf" style="display: inline-block; padding: 10px 20px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
+
+        <a href="./files/Hybrid_dryer.pdf"
+           style="
+             display: inline-block;
+             padding: 10px 20px;
+             background-color: #007cba;
+             color: white;
+             text-decoration: none;
+             border-radius: 4px;
+             font-weight: bold;
+           ">
           Download Paper
         </a>
+
       </div>
     </div>
+
+    <!-- Paper Figure -->
     <div style="flex: 1; min-width: 300px;">
+
       <figure style="margin: 0;">
-        <img src="{{ site.baseurl }}/assets/images/second_paper_image.png" alt="Second Paper Image" style="width: 100%; border-radius: 5px;">
-        <figcaption class="center-caption" style="text-align: center; font-style: italic; margin-top: 8px; color: #666;">
-          Second Paper Abstract
+
+        <img src="{{ site.baseurl }}/assets/images/Publications/solar_dryer.png"
+             alt="Hybrid Solar-Biomass Dryer"
+             style="width: 100%; border-radius: 5px;">
+
+        <figcaption class="center-caption"
+                    style="
+                      text-align: center;
+                      font-style: italic;
+                      margin-top: 8px;
+                      color: #666;
+                    ">
+          Hybrid solar-biomass drying system
         </figcaption>
+
       </figure>
-    </div> 
+
+    </div>
+
+  </div>
+
 </div>
-</div> -->
+
 ### Conference Paper
 
 <!-- Conference Paper 1 -->
@@ -97,69 +143,26 @@ author_profile: true
         <li>Twin boundaries and five-fold twin structures formed only in the shear-processed sample</li>
       </ul>
   <em>Proceedings of the ASME 2025 International Mechanical Engineering Congress and Exposition, Memphis, Tennessee, USA,November 16-20, 2025 <strong>(Accepted)</strong></em>
-<!-- <div style="margin-top: 20px;">
+ <div style="margin-top: 20px;">
         <div style="margin-bottom: 15px;">
           <strong>DOI:</strong> 
-          <a href="https://doi.org/your-conference-doi" target="_blank" style="color: #007cba; text-decoration: none;">
-            https://doi.org/your-conference-doi
+          <a href="https://doi.org/10.1115/IMECE2025-166710" target="_blank" style="color: #007cba; text-decoration: none;">
+            https://doi.org/10.1115/IMECE2025-166710
           </a>
         </div>
-        <a href="./files/conference_paper.pdf" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
-          Download Paper
-        </a>
-      </div> -->
+      </div> 
 </div>
   <div style="flex: 1; min-width: 300px;">
       <figure style="margin: 0;">
-        <img src="{{ site.baseurl }}/assets/images/ASME.png" alt="Conference Paper Image" style="width: 100%; border-radius: 5px;">
+        <img src="{{ site.baseurl }}/assets/images/Publications/asme_conference.png" alt="Conference Paper Image" style="width: 100%; border-radius: 5px;">
         <figcaption class="center-caption" style="text-align: center; font-style: italic; margin-top: 8px;">
           Conference Paper Abstract
         </figcaption>
       </figure>
     </div>
-    
 </div>
 </div>
 <!-- Conference Paper 2 -->
-
-<div class="publication-item" style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #eee;">
-  <h4 style="margin-top: 0; color: #000000ff; font-size: 1.3em;">Thermodynamic Analysis of Hybrid Solar-Biomass Drying Systems: Energy and Exergy Perspectives
-Highlights</h4>
-<div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
-    <div style="flex: 1; min-width: 300px;">
-      <h5 style="color: #000000ff; margin-bottom: 10px;">Highlights</h5>
-      <ul style="margin-top: 0; padding-left: 20px;">
-        <li>Evaluated energy and exergy performance of a hybrid solar–biomass food drying system</li>
-        <li>Compared sunlight, biomass, and hybrid heating modes under controlled experimental conditions</li>
-        <li>Hybrid mode achieved highest energy (61%) and exergy (46%) efficiencies</li>
-      <li>Exergy destruction was lowest in hybrid heating, indicating optimal thermodynamic performance</li>
-      <li>Hybrid mode removed more moisture and used less biomass than standalone biomass heating</li>
-      </ul>
-<em>1st International Conference on Agricultural Machinery and Bioresource Engineering (ICAMBE 2025)<strong>(Presented)</strong></em>
-
-  <!-- <div style="margin-top: 20px;">
-        <div style="margin-bottom: 15px;">
-          <strong>DOI:</strong> 
-          <a href="https://doi.org/your-second-conference-doi" target="_blank" style="color: #007cba; text-decoration: none;">
-            https://doi.org/your-second-conference-doi
-          </a>
-        </div>
-        <a href="./files/second_conference_paper.pdf" style="display: inline-block; padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
-          Download Paper
-        </a>
-      </div>-->
-
-</div> 
-<div style="flex: 1; min-width: 300px;">
-      <figure style="margin: 0;">
-        <img src="{{ site.baseurl }}/assets/images/thesiscon.png" alt="Second Conference Paper Image" style="width: 100%; border-radius: 5px;">
-        <figcaption class="center-caption" style="text-align: center; font-style: italic; margin-top: 8px;">
-          Second Conference Paper Abstract
-        </figcaption>
-      </figure>
-    </div>
-</div>
-</div>
 
 ### Under Review
 <div class="under-review-section" style="margin-bottom: 40px;">

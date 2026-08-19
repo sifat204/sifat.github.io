@@ -145,35 +145,57 @@ author_profile: true
 
 ## Undergrade Projects 
 **Thesis: Design and Evolution of a Novel Solar Biomass Hybrid Dryer**
-<p style="text-align: justify;">The Exergy and Energy efficiency of a solar biomass hybrid dryer has been stuided in this project. The dryer was fabricated after critical desiging phase. Thermodynamic analysis of three different dyring modes: Solar, Biomass and Hybrid showed that Hybrid Mode is much more efficient. Three different loading of cabbage (8, 10 and 12 Kg) was dried and the quality of the final sample was studied. </p>
+<ul style="text-align: justify;">
+  <li>Designed and fabricated a solar–biomass hybrid dryer following a detailed engineering design and development process.</li>
+
+  <li>Evaluated the energy and exergy performance of the dryer under three operating modes: solar, biomass, and hybrid drying.</li>
+
+  <li>Compared the thermodynamic performance of the three drying modes and found the hybrid mode to provide the highest overall efficiency.</li>
+
+  <li>Conducted drying experiments using three different cabbage loadings: 8 kg, 10 kg, and 12 kg.</li>
+
+  <li>Assessed the quality of the dried cabbage samples to evaluate the effectiveness of the developed drying system.</li>
+</ul>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/Dryer_1.PNG" alt="Defected Monolayer" style="width: 100%;">
-    <figcaption class="center-caption">(a) Moisture Removal Rate at different drying mode</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/Undergrade/Dryer.png" alt="Experimental Set up" style="width: 100%;">
+    <figcaption class="center-caption">(a) Experimental Set up</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/Dryer_2.PNG" alt="Solidified Structure" style="width: 100%;">
-    <figcaption class="center-caption">(b) CAD Model of the set up</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/Undergrade/Dryer_1.png" alt="Moisture Removal Rate at different drying configuration" style="width: 100%;">
+    <figcaption class="center-caption">(b) Moisture Removal Rate at different drying configuration</figcaption>
   </figure>
 
 </div>
 
 **Applied Thermodynamics Project: Enhancement of thermal power plant performance through solar-assisted feed water heaters: An innovative repowering approach**
-<p style="text-align: justify;">In This project energy and exergy optimization of a thermal power plant using a regenerative Rankine cycle enhanced by solar-powered feedwater heating has been studied. A 200 MW unit of the Shahid Montazeri Power Plant was modeled with various configurations of feed water heaters (FWHs), analyzing 14 design scenarios in EES software. Parametric studies investigated the effects of steam temperatures and pressures on system performance. The most efficient configuration increased net power output and significantly improved energy and exergy efficiencies. The findings highlight opportunities for hybrid thermal-renewable integration in large-scale power plants. </p>
+<ul style="text-align: justify;">
+  <li>Investigated the energy and exergy optimization of a thermal power plant based on a regenerative Rankine cycle integrated with solar-powered feedwater heating.</li>
+
+  <li>Modeled a 200 MW unit of the Shahid Montazeri Power Plant and evaluated different feedwater-heater configurations using EES.</li>
+
+  <li>Analyzed 14 design scenarios to compare the thermodynamic performance of alternative regenerative configurations.</li>
+
+  <li>Performed parametric studies to investigate the effects of steam temperature and pressure on net power output, energy efficiency, and exergy efficiency.</li>
+
+  <li>Identified an optimized configuration that improved net power generation as well as the overall energy and exergy performance of the plant.</li>
+
+  <li>Highlighted the potential of integrating solar thermal energy with conventional large-scale power plants to enhance overall system performance.</li>
+</ul>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/ECM_3.png" alt="Schematic Diagram" style="width: 100%;">
-    <figcaption class="center-caption">(a) Power Output Improvement of the Plant</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/Undergrade/Review Schematic.png" alt="Schedmatic Diagram of the Power plant" style="width: 100%;">
+    <figcaption class="center-caption">(a) Schematic Diagram of the Pwoer Plant</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/ECM_2.png" alt="Exergy and Energy Efficiency" style="width: 100%;">
-    <figcaption class="center-caption">(b) Exergy and Energy Efficiency of case 12</figcaption>
+    <img src="{{ site.baseurl }}/assets/images/Undergrade/Exergy.png" alt="Exergy Distruction" style="width: 100%;">
+    <figcaption class="center-caption">(b) Exergy Destruction of system</figcaption>
   </figure>
 
 </div>
