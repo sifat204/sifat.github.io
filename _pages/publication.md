@@ -31,7 +31,7 @@ author_profile: true
             https://doi.org/10.1016/j.ecmx.2024.100550
           </a>
         </div>
-        <a href="/files/ECM.pdf" style="display: inline-block; padding: 10px 20px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
+        <a href="{{ site.baseurl }}/assets/pdf/ECM.pdf" style="display: inline-block; padding: 10px 20px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">
           Download Paper
         </a>
       </div>
@@ -85,18 +85,19 @@ author_profile: true
           </a>
         </div>
 
-        <a href="./files/Hybrid_dryer.pdf"
-           style="
-             display: inline-block;
-             padding: 10px 20px;
-             background-color: #007cba;
-             color: white;
-             text-decoration: none;
-             border-radius: 4px;
-             font-weight: bold;
-           ">
-          Download Paper
-        </a>
+<a href="{{ site.baseurl }}/assets/pdf/Hybrid_dryer.pdf"
+   target="_blank"
+   style="
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #007cba;
+     color: white;
+     text-decoration: none;
+     border-radius: 4px;
+     font-weight: bold;
+   ">
+  Download Paper
+</a>
 
       </div>
     </div>
