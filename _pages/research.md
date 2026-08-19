@@ -189,7 +189,7 @@ author_profile: true
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
-    <img src="{{ site.baseurl }}/assets/images/Undergrade/Review Schematic.png" alt="Schedmatic Diagram of the Power plant" style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/images/Undergrade/Review Schematic .png" alt="Schedmatic Diagram of the Power plant" style="width: 100%;">
     <figcaption class="center-caption">(a) Schematic Diagram of the Pwoer Plant</figcaption>
   </figure>
 
