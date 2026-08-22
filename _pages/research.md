@@ -5,7 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 ## Master's Thesis
-**Molecular Dynamics Study of Shear-Assisted Microstructural Evolution and Property Response in Al$_{0.3}$CoCrFeNi High-Entropy Alloy**
+**Molecular Dynamics Study of Shear-Assisted Microstructural Evolution and Property Response in Al<sub>0.3</sub>CoCrFeNi High-Entropy Alloy**
 **Tools:** LAMMPS, OVITO, Python, VESTA  
 **Keywords:** Molecular Dynamics, High-Entropy Alloys, Grain Refinement, Dislocation Mechanics, Radiation Damage
 
