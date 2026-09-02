@@ -94,9 +94,7 @@ author_profile: true
         </a>
       </div>
     </div>
-
   </div>
-
 </div>
 
 <style>

@@ -78,7 +78,6 @@ author_profile: true
 
 </div>
 
-
 <!-- ===================== -->
 <!-- Row 2: Figures (e-f) -->
 <!-- ===================== -->
@@ -93,49 +92,22 @@ author_profile: true
 
   <!-- (e) -->
   <figure style="width: 45%; min-width: 280px; margin: 0;">
-
-    <object
-      data="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.png"
-      type="application/pdf"
-      style="
-        width: 100%;
-        height: 350px;
-        border: none;
-      ">
-      <a href="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.png"
-         target="_blank">
-        View Frenkel-pair evolution figure
-      </a>
-    </object>
-
+    <img src="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.png"
+         alt="Frenkel-pair evolution at 5 keV"
+         style="width: 100%; height: auto;">
     <figcaption class="center-caption" style="text-align: center;">
       (e) Frenkel-pair evolution at 5 keV
     </figcaption>
-
   </figure>
-
 
   <!-- (f) -->
   <figure style="width: 45%; min-width: 280px; margin: 0;">
-
-    <object
-      data="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.png"
-      type="application/pdf"
-      style="
-        width: 100%;
-        height: 350px;
-        border: none;
-      ">
-      <a href="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.png"
-         target="_blank">
-        View Wigner–Seitz defect-site figure
-      </a>
-    </object>
-
+    <img src="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.png"
+         alt="Wigner-Seitz defect sites in Samples A and B"
+         style="width: 100%; height: auto;">
     <figcaption class="center-caption" style="text-align: center;">
-      (f) Wigner–Seitz defect sites in Samples A and B
+      (f) Wigner-Seitz defect sites in Samples A and B
     </figcaption>
-
   </figure>
 
 </div>
