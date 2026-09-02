@@ -137,7 +137,7 @@ author_profile: true
 </div>
 
 <p style="text-align: justify;"><em>This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.</em></p>
-*For more details and resources* <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here</a>
+*For more details and resources* <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here !</a>
 
 ## LAMMPS-based Molecular Dynamics Projects 
 **1. WMoZrTiTa Refractory High Entropy Alloy (RHEA)**
@@ -153,12 +153,20 @@ author_profile: true
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Structuer_MC-MD.png" alt="MC/MD Hybid Study" style="width: 100%;">
-    <figcaption class="center-caption">(a) Final structure after 6M MC/MD hybrid study</figcaption>
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">(a) Final structure after 6M MC/MD hybrid study</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/potential_energy_full_5M_6M_maroon_darkblue.png" alt="Potential Energy vs timestep" style="width: 100%;">
-    <figcaption class="center-caption">(b) Potential energy convergence during MC/MD hybrid simulation</figcaption>
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">(b) Potential energy convergence during MC/MD hybrid simulation</figcaption>
   </figure>
 
 </div>
@@ -180,12 +188,20 @@ author_profile: true
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/zrnb.png" alt="BCC Initial Structure" style="width: 100%;">
-    <figcaption class="center-caption">(a) Initial BCC Structure</figcaption>
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">(a) Initial BCC Structure</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/zrnb_final.png" alt="Solidified Structure" style="width: 100%;">
-    <figcaption class="center-caption">(b) Microstructure after rapid solidification</figcaption>
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">(b) Microstructure after rapid solidification</figcaption>
   </figure>
 
 </div>
@@ -207,12 +223,20 @@ author_profile: true
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/TMD_pit.PNG" alt="Defected Monolayer" style="width: 100%;">
-    <figcaption class="center-caption">(a) Defected Monolayer</figcaption>
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">(a) Defected Monolayer</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/TMD_SS.PNG" alt="Solidified Structure" style="width: 100%;">
-    <figcaption class="center-caption">(b) Stress-Strain Profile at Room Temperature</figcaption>
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">(b) Stress-Strain Profile at Room Temperature</figcaption>
   </figure>
 
 </div>
@@ -235,12 +259,20 @@ author_profile: true
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Undergrade/Dryer.png" alt="Experimental Set up" style="width: 100%;">
-    <figcaption class="center-caption">(a) Experimental Set up</figcaption>
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">(a) Experimental Set up</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Undergrade/Dryer_1.png" alt="Moisture Removal Rate at different drying configuration" style="width: 100%;">
-    <figcaption class="center-caption">(b) Moisture Removal Rate at different drying configuration</figcaption>
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">(b) Moisture Removal Rate at different drying configuration</figcaption>
   </figure>
 
 </div>
@@ -264,12 +296,20 @@ author_profile: true
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Undergrade/Review Schematic .png" alt="Schedmatic Diagram of the Power plant" style="width: 100%;">
-    <figcaption class="center-caption">(a) Schematic Diagram of the Pwoer Plant</figcaption>
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">(a) Schematic Diagram of the Pwoer Plant</figcaption>
   </figure>
 
   <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Undergrade/Exergy.png" alt="Exergy Distruction" style="width: 100%;">
-    <figcaption class="center-caption">(b) Exergy Destruction of system</figcaption>
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">(b) Exergy Destruction of system</figcaption>
   </figure>
 
 </div>
