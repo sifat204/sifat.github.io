@@ -69,7 +69,11 @@ author_profile: true
     <img src="{{ site.baseurl }}/assets/images/Masters/Sample_B_CNA.png"
          alt="CNA analysis of Sample B"
          style="width: 100%; height: auto;">
-    <figcaption class="center-caption" style="text-align: center;">
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">
       (c) CNA analysis of Sample B
     </figcaption>
   </figure>
@@ -79,7 +83,11 @@ author_profile: true
     <img src="{{ site.baseurl }}/assets/images/Masters/sample_B_planar_faults_defect_only_refined.png"
          alt="Planar faults in Sample B"
          style="width: 100%; height: auto;">
-    <figcaption class="center-caption" style="text-align: center;">
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">
       (d) Planar-fault structure of Sample B
     </figcaption>
   </figure>
@@ -103,7 +111,11 @@ author_profile: true
     <img src="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.png"
          alt="Frenkel-pair evolution at 5 keV"
          style="width: 100%; height: auto;">
-    <figcaption class="center-caption" style="text-align: center;">
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">
       (e) Frenkel-pair evolution at 5 keV
     </figcaption>
   </figure>
@@ -113,7 +125,11 @@ author_profile: true
     <img src="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.png"
          alt="Wigner-Seitz defect sites in Samples A and B"
          style="width: 100%; height: auto;">
-    <figcaption class="center-caption" style="text-align: center;">
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">
       (f) Wigner-Seitz defect distributions for a representative cascade in Sample A and B
     </figcaption>
   </figure>
