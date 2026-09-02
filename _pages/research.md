@@ -5,12 +5,12 @@ permalink: /research/
 author_profile: true
 ---
 ## Master's Thesis
-**Molecular Dynamics Study of Shear-Assisted Microstructural Evolution and Property Response in Al<sub>0.3</sub>CoCrFeNi High-Entropy Alloy**
+**Molecular Dynamics Study of Shear-Assisted Microstructural Evolution and Property Response in Al<sub>0.3</sub>CoCrFeNi High-Entropy Alloy**<br>
 **Tools:** LAMMPS, OVITO, Python, VESTA  
 **Keywords:** Molecular Dynamics, High-Entropy Alloys, Grain Refinement, Dislocation Mechanics, Radiation Damage
 
 <ul style="text-align: justify;">
-  <li>Investigated how shear-assisted solidification modifies the microstructure and performance of Al₀.₃CoCrFeNi high-entropy alloys using molecular dynamics simulations.</li>
+  <li>Investigated how shear-assisted solidification modifies the microstructure and performance of Al<sub>0.3</sub>CoCrFeNi high-entropy alloys using molecular dynamics simulations.</li>
 
   <li>Examined the evolution of grain structure, planar faults, dislocations, and chemical short-range ordering under different solidification conditions.</li>
 
@@ -23,45 +23,123 @@ author_profile: true
   <li>Demonstrated that different interface architectures provide distinct advantages under tensile, cyclic, and irradiation conditions, highlighting the potential of processing-controlled microstructure design for demanding structural applications.</li>
 </ul>
 
-<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+<!-- ===================== -->
+<!-- Row 1: Figures (a-d) -->
+<!-- ===================== -->
 
-  <figure style="width: 45%; margin: 0;">
+<div style="
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+">
+
+  <!-- (a) -->
+  <figure style="width: 23%; min-width: 170px; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Masters/Sample_A_CNA.png"
-         alt="CNA microstructure of Sample A"
-         style="width: 100%;">
-    <figcaption class="center-caption">
+         alt="CNA analysis of Sample A"
+         style="width: 100%; height: auto;">
+    <figcaption class="center-caption" style="text-align: center;">
       (a) CNA analysis of Sample A
     </figcaption>
   </figure>
 
-  <figure style="width: 45%; margin: 0;">
+  <!-- (b) -->
+  <figure style="width: 23%; min-width: 170px; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Masters/sample_A_planar_faults_defect_only_refined.png"
          alt="Planar faults in Sample A"
-         style="width: 100%;">
-    <figcaption class="center-caption">
+         style="width: 100%; height: auto;">
+    <figcaption class="center-caption" style="text-align: center;">
       (b) Planar-fault structure of Sample A
     </figcaption>
   </figure>
 
-  <figure style="width: 45%; margin: 0;">
+  <!-- (c) -->
+  <figure style="width: 23%; min-width: 170px; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Masters/Sample_B_CNA.png"
-         alt="CNA microstructure of Sample B"
-         style="width: 100%;">
-    <figcaption class="center-caption">
+         alt="CNA analysis of Sample B"
+         style="width: 100%; height: auto;">
+    <figcaption class="center-caption" style="text-align: center;">
       (c) CNA analysis of Sample B
     </figcaption>
   </figure>
 
-  <figure style="width: 45%; margin: 0;">
+  <!-- (d) -->
+  <figure style="width: 23%; min-width: 170px; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Masters/sample_B_planar_faults_defect_only_refined.png"
          alt="Planar faults in Sample B"
-         style="width: 100%;">
-    <figcaption class="center-caption">
+         style="width: 100%; height: auto;">
+    <figcaption class="center-caption" style="text-align: center;">
       (d) Planar-fault structure of Sample B
     </figcaption>
   </figure>
 
 </div>
+
+
+<!-- ===================== -->
+<!-- Row 2: Figures (e-f) -->
+<!-- ===================== -->
+
+<div style="
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+">
+
+  <!-- (e) -->
+  <figure style="width: 45%; min-width: 280px; margin: 0;">
+
+    <object
+      data="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.pdf"
+      type="application/pdf"
+      style="
+        width: 100%;
+        height: 350px;
+        border: none;
+      ">
+      <a href="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.pdf"
+         target="_blank">
+        View Frenkel-pair evolution figure
+      </a>
+    </object>
+
+    <figcaption class="center-caption" style="text-align: center;">
+      (e) Frenkel-pair evolution at 5 keV
+    </figcaption>
+
+  </figure>
+
+
+  <!-- (f) -->
+  <figure style="width: 45%; min-width: 280px; margin: 0;">
+
+    <object
+      data="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.pdf"
+      type="application/pdf"
+      style="
+        width: 100%;
+        height: 350px;
+        border: none;
+      ">
+      <a href="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.pdf"
+         target="_blank">
+        View Wigner–Seitz defect-site figure
+      </a>
+    </object>
+
+    <figcaption class="center-caption" style="text-align: center;">
+      (f) Wigner–Seitz defect sites in Samples A and B
+    </figcaption>
+
+  </figure>
+
+</div>
+
 <p style="text-align: justify;"><em>This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.</em></p>
 *For more details and resources* <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here</a>
 
