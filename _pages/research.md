@@ -23,7 +23,7 @@ author_profile: true
   <li>Demonstrated that different interface architectures provide distinct advantages under tensile, cyclic, and irradiation conditions, highlighting the potential of processing-controlled microstructure design for demanding structural applications.</li>
 </ul>
 
-<p><em>Figures shown represent Samples A and B. Full results across all microstructural variants are presented in the associated manuscript, currently under review.</em></p>
+<p><strong>Figures shown represent Samples A and B. Full results across all microstructural variants are presented in the associated manuscript, currently under review.</strong></p>
 
 <!-- ===================== -->
 <!-- Row 1: Figures (a-d) -->
