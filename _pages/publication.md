@@ -170,7 +170,7 @@ author_profile: true
   <!-- <p style="font-size: 1.1em; color: #000000ff; margin-bottom: 20px;">The following papers are currently under review:</p> -->
   <ol style="padding-left: 20px; font-size: 1.1em; line-height: 1.6;">
     <li style="margin-bottom: 15px;">
-      <strong>1. Enhancing Microstructure and Mechanical Stability of High-Entropy Alloys via Shear-Assisted Solidification: An Atomistic Study</strong><br>
+      <strong>Enhancing Microstructure and Mechanical Stability of High-Entropy Alloys via Shear-Assisted Solidification: An Atomistic Study</strong><br>
       <!-- <span style="color: #000000ff; font-size: 0.95em;">Submitted to Materials Science Journal</span> -->
     </li>
   </ol>

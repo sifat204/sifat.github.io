@@ -173,7 +173,7 @@ author_profile: true
 
 </div>
 
-**Zr–Nb Alloy**
+**2. Zr–Nb Alloy**
 <ul style="text-align: justify;">
   <li>Investigated the influence of Nb content on the high-temperature mechanical performance of Zr–Nb alloys using atomistic simulations.</li>
 
@@ -208,7 +208,7 @@ author_profile: true
 
 </div>
 
-**Transition Metal Dichalcogenides (TMDs)**
+**3. Transition Metal Dichalcogenides (TMDs)**
 <ul style="text-align: justify;">
   <li>Investigated the mechanical behavior of pristine and defected monolayer WSe₂ using structures prepared with VESTA and ATOMSK and simulated in LAMMPS.</li>
 
