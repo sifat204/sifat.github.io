@@ -95,14 +95,14 @@ author_profile: true
   <figure style="width: 45%; min-width: 280px; margin: 0;">
 
     <object
-      data="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.pdf"
+      data="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.png"
       type="application/pdf"
       style="
         width: 100%;
         height: 350px;
         border: none;
       ">
-      <a href="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.pdf"
+      <a href="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.png"
          target="_blank">
         View Frenkel-pair evolution figure
       </a>
@@ -119,14 +119,14 @@ author_profile: true
   <figure style="width: 45%; min-width: 280px; margin: 0;">
 
     <object
-      data="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.pdf"
+      data="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.png"
       type="application/pdf"
       style="
         width: 100%;
         height: 350px;
         border: none;
       ">
-      <a href="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.pdf"
+      <a href="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.png"
          target="_blank">
         View Wigner–Seitz defect-site figure
       </a>
