@@ -23,6 +23,8 @@ author_profile: true
   <li>Demonstrated that different interface architectures provide distinct advantages under tensile, cyclic, and irradiation conditions, highlighting the potential of processing-controlled microstructure design for demanding structural applications.</li>
 </ul>
 
+<p><em>Figures shown represent Samples A and B. Full results across all microstructural variants are presented in the associated manuscript, currently under review.</em></p>
+
 <!-- ===================== -->
 <!-- Row 1: Figures (a-d) -->
 <!-- ===================== -->
@@ -136,7 +138,7 @@ author_profile: true
 
 </div>
 
-<p style="text-align: justify;"><em>This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.</em></p>
+<p style="text-align: justify;"><em>**This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.**</em></p>
 *For more details and resources* <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here !</a>
 
 ## LAMMPS-based Molecular Dynamics Projects 

@@ -9,38 +9,39 @@ description: "Detailed information about High Entropy Alloys research including 
   <div class="two-column-layout">
     <!-- Left Column - Details and Descriptions -->
     <div class="left-column">
-        <p><strong>Enhancing Microstructure and Mechanical Stability of Al₀.₃CoCrFeNi High-Entropy Alloy via Shear-Assisted Solidification</strong></p>
-      <h3>Methodology</h3>
-      <ul>
-        <li><strong>Initial Structure:</strong> BCC structure prepared with Python and LAMMPS</li>
-        <li><strong>Alloy Processing:</strong> Applied shear flow during quenching from 3000 K to 300 K under NVT ensemble</li>
-        <li><strong>Microstructural Analysis:</strong> Used Common Neighbor Analysis (CNA), Polyhedral Template Maping (PTM), Grain Segmentation to identify differnt phase and observe microstructure</li>
-        <li><strong>Mechanical Properties:</strong> Conducted uniaxial tensile simulations to determine stress–strain behavior at various emperature (300 -1200 K)</li>
-        <li><strong>Dislocation Dynamics:</strong> Applied DXA to study evoluation of various dislocations</li>
-        <li><strong>Chemical Ordering:</strong> Computed Warren–Cowley CSRO parameters</li> 
-        <li><strong>Radiation Damage:</strong> Simulated PKA to observe radiation damage tolerance</li> 
-         <li><strong>Nanoindentation:</strong> Performed indentation and retraction to evaluate hardness and subsurface plasticity</li>                
-      </ul>
-      <h3>Key Findings</h3>
-      <p>Study demonstrated that shear-processed HEAs exhibit:</p>
-      <ul>
-        <li>Finer, equiaxed nanocrystalline grain structures</li>
-        <li>More stable dislocation motion with fewer entanglements</li>
-        <li>Enhanced strength–ductility balance</li>
-        <li>Greater thermal stability across high-temperature range</li>
-        <li>Strengthening via TWIP and TRIP mechanisms</li>
-        <li>Intensified Al–Fe and Al–Co chemical short-range ordering</li>
-      </ul>
-      <h3>Applications</h3>
-      <p>Potential applications of these HEAs include:</p>
-      <ul>
-        <li>Aerospace components</li>
-        <li>High-temperature structural parts</li>
-        <li>Nuclear reactor materials</li>
-        <li>Advanced Manufacturing</li>
-      </ul>
-      <h3>Future Work</h3>
-      <p>Future research directions include optimization of processing parameters and exploration of new alloy systems.</p>
+        <p><strong>Molecular Dynamics Study of Shear-Assisted Microstructural Evolution and Property Response in Al<sub>0.3</sub>CoCrFeNi High-Entropy Alloy</strong></p>
+<h3>Methodology</h3>
+<ul>
+  <li><strong>Initial Structure:</strong> BCC structure prepared with Python and LAMMPS</li>
+  <li><strong>Alloy Processing:</strong> Applied shear flow during quenching from 3000 K to 300 K under NVT ensemble</li>
+  <li><strong>Microstructural Analysis:</strong> Used Common Neighbor Analysis (CNA), Polyhedral Template Matching (PTM), and Grain Segmentation to identify different phases and observe microstructure</li>
+  <li><strong>Mechanical Properties:</strong> Conducted uniaxial tensile simulations to determine stress–strain behavior at various temperatures (300–1200 K)</li>
+  <li><strong>Dislocation Dynamics:</strong> Applied DXA to study the evolution of various dislocations</li>
+  <li><strong>Chemical Ordering:</strong> Computed Warren–Cowley CSRO parameters</li>
+  <li><strong>Radiation Damage:</strong> Simulated primary knock-on atom (PKA) cascades at 5Kev to evaluate radiation damage tolerance across differently processed microstructures</li>
+  <li><strong>Low-Cycle Fatigue:</strong> Applied cyclic loading at different temperatures to study low-cycle fatigue tolerance</li>
+</ul>
+<h3>Key Findings</h3>
+<p>Study demonstrated that shear-processed HEAs exhibit:</p>
+<ul>
+  <li>Finer, equiaxed nanocrystalline grain structures</li>
+  <li>More stable dislocation motion with fewer entanglements</li>
+  <li>Enhanced strength–ductility balance</li>
+  <li>Greater thermal stability across the high-temperature range</li>
+  <li>Strengthening via TWIP and TRIP mechanisms</li>
+  <li>Intensified Al–Fe and Al–Co chemical short-range ordering</li>
+  <li>Radiation tolerance strongly dependent on processing condition, with distinct microstructural variants showing markedly different resistance to cumulative cascade damage</li>
+</ul>
+<h3>Applications</h3>
+<p>Potential applications of these HEAs include:</p>
+<ul>
+  <li>Aerospace components</li>
+  <li>High-temperature structural parts</li>
+  <li>Nuclear reactor materials</li>
+  <li>Advanced Manufacturing</li>
+</ul>
+<h3>Future Work</h3>
+<p>Future work includes extending radiation damage analysis beyond single-cascade events to a two-stage MC/MD multicascade framework — using kinetic Monte Carlo to capture defect relaxation between successive cascades — and applying this approach to new alloy systems currently under investigation.</p>
       <h3>Hybrid MC/MD Simulation</h3>
       <p style="text-align: justify;">Hybrid MC/MD simulation generates thermally equilibrated alloy structures by combining two techniques. Short Molecular Dynamics (MD) bursts relax atomic positions, then Monte Carlo (MC) proposes atom swaps to sample chemical configurations. The energy change after MD relaxation determines if a swap is accepted. This process efficiently explores the system's structural and chemical landscape to study properties like chemical short-range order (CSRO) and phase stability.</p>
       <p style="text-align: justify;"> This interesting process has been explored in this project. The atomic structure and radial distribution function; g(r) shows checmical ordering after MC/MD hybrid simulation </p>
