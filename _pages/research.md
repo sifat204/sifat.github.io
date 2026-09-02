@@ -41,9 +41,9 @@ author_profile: true
     <img src="{{ site.baseurl }}/assets/images/Masters/Sample_A_CNA.png"
          alt="CNA analysis of Sample A"
          style="width: 100%; height: auto;">
-    <figcaption class="center-caption" style="text-align: center;">
-      (a) CNA analysis of Sample A
-    </figcaption>
+        <figcaption style="text-align: center !important; width: 100%;">
+        (a) CNA analysis of Sample A
+        </figcaption>
   </figure>
 
   <!-- (b) -->
@@ -106,7 +106,7 @@ author_profile: true
          alt="Wigner-Seitz defect sites in Samples A and B"
          style="width: 100%; height: auto;">
     <figcaption class="center-caption" style="text-align: center;">
-      (f) Wigner-Seitz defect sites in Samples A and B
+      (f) Wigner-Seitz defect distributions for a representative cascade in Sample A and B
     </figcaption>
   </figure>
 
