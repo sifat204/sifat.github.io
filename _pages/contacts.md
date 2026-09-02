@@ -31,7 +31,7 @@ author_profile: true
   </div>
   <!-- References Section -->
   <div class="references-section">
-    <h2 style="border-bottom: 2px solid #2ecc71; padding-bottom: 8px; margin-bottom: 25px;">
+    <h2 style="border-bottom: 2px solid #8f1609; padding-bottom: 8px; margin-bottom: 25px;">
       References
     </h2>
     <!-- Reference 1 -->
@@ -86,7 +86,7 @@ author_profile: true
   </div>
 </div>
 <!-- Reference 4 -->
-<div class="reference-item" style="margin-bottom: 35px; padding: 25px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #f39c12;">
+<div class="reference-item" style="margin-bottom: 35px; padding: 25px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #767572;">
   <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 10px;">
     Dr. Muhammad Rizwanur Rahman, D.I.C.
   </h3>

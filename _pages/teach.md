@@ -94,12 +94,30 @@ author_profile: true
         </figcaption>
       </figure>
     </div>
-    <!-- Image 2 -->
+            <!-- Image 2 -->
+    <div class="image-item" style="margin-bottom: 30px;">
+      <figure style="margin: 0; text-align: center;">
+        <img src="{{ site.baseurl }}/assets/images/teach/IUT_Award_2026.jpg" alt="Lab Supervision" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
+          IUT Excellence Award Ceremony - 2026
+        </figcaption>
+      </figure>
+    </div>
+        <!-- Image 2 -->
+    <div class="image-item" style="margin-bottom: 30px;">
+      <figure style="margin: 0; text-align: center;">
+        <img src="{{ site.baseurl }}/assets/images/teach/DSCF0447.JPG" alt="Lab Supervision" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
+          Measurement and Instrumentation Project Co-Supervison - 2026
+        </figcaption>
+      </figure>
+    </div>
+    <!-- Image 3 -->
     <div class="image-item" style="margin-bottom: 30px;">
       <figure style="margin: 0; text-align: center;">
         <img src="{{ site.baseurl }}/assets/images/teach/mic.jpg" alt="Lab Supervision" style="width: 100%; max-width: 350px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <figcaption style="text-align: center; font-style: italic; margin-top: 10px;">
-          Measurement and Instrumentation Project Co Supervison
+          Measurement and Instrumentation Project Co-Supervison - 2025
         </figcaption>
       </figure>
     </div>

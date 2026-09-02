@@ -55,7 +55,7 @@ author_profile: true
     <a href="https://www.sciencedirect.com/science/article/pii/S2590174526001273"
        target="_blank"
        style="color: #2c3e50; text-decoration: none;">
-      Drying kinetics and energy-exergy performance of a hybrid solar-biomass dryer
+      2. Drying kinetics and energy-exergy performance of a hybrid solar-biomass dryer
     </a>
   </h4>
 
@@ -133,7 +133,7 @@ author_profile: true
 
 <!-- Conference Paper 1 -->
 <div class="publication-item" style="margin-bottom: 40px; padding-bottom: 30px; border-bottom: 1px solid #eee;">
-  <h4 style="margin-top: 0; color: #000000ff; font-size: 1.3em;">A Molecular Dynamics Study of Shear Driven Solidification and High Temperature Mechanical Properties of Al0.3CoCrFeNi High Entropy Alloy</h4>
+  <h4 style="margin-top: 0; color: #000000ff; font-size: 1.3em;">1. A Molecular Dynamics Study of Shear Driven Solidification and High Temperature Mechanical Properties of Al0.3CoCrFeNi High Entropy Alloy</h4>
 <div style="display: flex; gap: 30px; flex-wrap: wrap; align-items: flex-start;">
     <div style="flex: 1; min-width: 300px;">
       <h5 style="color: #000000ff; margin-bottom: 10px;">Highlights</h5>
@@ -170,7 +170,7 @@ author_profile: true
   <!-- <p style="font-size: 1.1em; color: #000000ff; margin-bottom: 20px;">The following papers are currently under review:</p> -->
   <ol style="padding-left: 20px; font-size: 1.1em; line-height: 1.6;">
     <li style="margin-bottom: 15px;">
-      <strong>Enhancing Microstructure and Mechanical Stability of High-Entropy Alloys via Shear-Assisted Solidification: An Atomistic Study</strong><br>
+      <strong>1. Enhancing Microstructure and Mechanical Stability of High-Entropy Alloys via Shear-Assisted Solidification: An Atomistic Study</strong><br>
       <!-- <span style="color: #000000ff; font-size: 0.95em;">Submitted to Materials Science Journal</span> -->
     </li>
   </ol>

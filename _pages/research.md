@@ -138,7 +138,7 @@ author_profile: true
 
 </div>
 
-<p style="text-align: justify;"><em>**This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.**</em></p>
+<p style="text-align: justify;"><em><strong>This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.</strong></em></p>
 *For more details and resources* <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here !</a>
 
 ## LAMMPS-based Molecular Dynamics Projects 
@@ -148,7 +148,7 @@ author_profile: true
 
   <li>Investigated the influence of chemical short-range order (CSRO) on the mechanical response and underlying deformation mechanisms.</li>
 
-  <li>Performed radiation-damage simulations using Primary Knock-on Atom (PKA) collision cascades to evaluate irradiation-induced defect evolution.</li>
+  <li>Performed radiation-damage simulations using Primary Knock-on Atom (PKA) multicascade collison to evaluate irradiation-induced defect evolution.</li>
 </ul>
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
