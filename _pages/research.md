@@ -139,7 +139,7 @@ author_profile: true
 </div>
 
 <p style="text-align: justify;"><em><strong>This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.</strong></em></p>
-*For more details and resources* <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here !</a>
+*For more details and resources, please * <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here !</a>
 
 ## LAMMPS-based Molecular Dynamics Projects 
 **1. WMoZrTiTa Refractory High Entropy Alloy (RHEA)**
