@@ -41,9 +41,13 @@ author_profile: true
     <img src="{{ site.baseurl }}/assets/images/Masters/Sample_A_CNA.png"
          alt="CNA analysis of Sample A"
          style="width: 100%; height: auto;">
-        <figcaption style="text-align: center !important; width: 100%;">
-        (a) CNA analysis of Sample A
-        </figcaption>
+<figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">
+  (a) CNA analysis of Sample A
+</figcaption>
   </figure>
 
   <!-- (b) -->
@@ -51,7 +55,11 @@ author_profile: true
     <img src="{{ site.baseurl }}/assets/images/Masters/sample_A_planar_faults_defect_only_refined.png"
          alt="Planar faults in Sample A"
          style="width: 100%; height: auto;">
-    <figcaption class="center-caption" style="text-align: center;">
+    <figcaption style="
+  text-align: center !important;
+  width: 100%;
+  font-style: italic;
+">
       (b) Planar-fault structure of Sample A
     </figcaption>
   </figure>
