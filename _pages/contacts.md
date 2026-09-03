@@ -50,7 +50,7 @@ author_profile: true
       </div>
     </div>
     <!-- Reference 2 -->
-    <div class="reference-item" style="margin-bottom: 35px; padding: 25px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #e74c3c;">
+    <!--div class="reference-item" style="margin-bottom: 35px; padding: 25px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #e74c3c;">
       <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 10px;">Dr. Mohammad Monjurul Ehsan</h3>
       <p style="margin: 5px 0; color: #34495e; font-weight: bold;">Professor</p>
       <p style="margin: 5px 0; color: #555;">
@@ -63,33 +63,10 @@ author_profile: true
           mpe.ehsan@iut-dhaka.edu
         </a>
       </div>
-    </div>
+    </div-->
     <!-- Reference 3 -->
 <div class="reference-item" style="margin-bottom: 35px; padding: 25px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #f39c12;">
-  <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 10px;">Chowdhury Sadid Alam</h3>
-
-  <p style="margin: 5px 0; color: #34495e; font-weight: bold;">
-    Assistant Professor
-  </p>
-
-  <p style="margin: 5px 0; color: #555;">
-    Department of Mechanical and Production Engineering<br>
-    Islamic University of Technology (IUT), Bangladesh
-  </p>
-
-  <div style="margin-top: 10px;">
-    <strong style="color: #34495e;">Email:</strong>
-    <a href="mailto:chsadidalam@iut-dhaka.edu"
-       style="color: #007cba; text-decoration: none; margin-left: 5px;">
-      chsadidalam@iut-dhaka.edu
-    </a>
-  </div>
-</div>
-<!-- Reference 4 -->
-<div class="reference-item" style="margin-bottom: 35px; padding: 25px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #767572;">
-  <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 10px;">
-    Dr. Muhammad Rizwanur Rahman, D.I.C.
-  </h3>
+  <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 10px;">Dr. Muhammad Rizwanur Rahman, D.I.C.</h3>
 
   <p style="margin: 5px 0; color: #34495e; font-weight: bold;">
     Assistant Professor
@@ -105,6 +82,29 @@ author_profile: true
     <a href="mailto:mrizwanur@iut-dhaka.edu"
        style="color: #007cba; text-decoration: none; margin-left: 5px;">
       mrizwanur@iut-dhaka.edu
+    </a>
+  </div>
+</div>
+<!-- Reference 4 -->
+<div class="reference-item" style="margin-bottom: 35px; padding: 25px; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #767572;">
+  <h3 style="color: #2c3e50; margin-top: 0; margin-bottom: 10px;">
+    Chowdhury Sadid Alam
+  </h3>
+
+  <p style="margin: 5px 0; color: #34495e; font-weight: bold;">
+    Assistant Professor
+  </p>
+
+  <p style="margin: 5px 0; color: #555;">
+    Department of Mechanical and Production Engineering<br>
+    Islamic University of Technology (IUT), Bangladesh
+  </p>
+
+  <div style="margin-top: 10px;">
+    <strong style="color: #34495e;">Email:</strong>
+    <a href="mailto:chsadidalam@iut-dhaka.edu"
+       style="color: #007cba; text-decoration: none; margin-left: 5px;">
+      chsadidalam@iut-dhaka.edu
     </a>
   </div>
 </div>
