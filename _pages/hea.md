@@ -106,160 +106,108 @@ description: "Detailed information about High Entropy Alloys research including 
       </figure>
     </div>
 
-    <!-- Right Column - Code and Images -->
+<!-- Right Column - Code and Images -->
     <div class="right-column">
-      
-      <h2>Code Implementation</h2>
-      
-      <h3>Initial Structure</h3>
-      <div class="code-block">
-        <pre><code class="language-python">
-import numpy as np
-import random
-# HEA composition
-composition = {
-    'Al': 6.977,
-    'Fe': 23.256,
-    'Ni': 23.256,
-    'Cr': 23.256,
-    'Co': 23.256
-}
-# Output file name
-output_filename = "alloy.in"
-# Box size (90 nm cube)
-box_size_nm = 2.0
-box_size_angstrom = box_size_nm * 10.0
-# FCC lattice parameter (approximate average)
-lattice_param = 3.6
-atoms_per_cell = 4
-# Number of FCC unit cells per side
-cells_per_side = int(box_size_angstrom / lattice_param)
-total_cells = cells_per_side ** 3
-total_atoms = total_cells * atoms_per_cell
-# Distribute atom types
-elements = []
-for elem, perc in composition.items():
-    count = int(round((perc / 100) * total_atoms))
-    elements.extend([elem] * count)
-while len(elements) < total_atoms:
-    elements.append(random.choice(list(composition.keys())))
-random.shuffle(elements)
-# FCC basis
-fcc_basis = np.array([
-    [0.0, 0.0, 0.0],
-    [0.5, 0.5, 0.0],
-    [0.5, 0.0, 0.5],
-    [0.0, 0.5, 0.5]
-])
-# Generate atom positions
-positions = []
-for i in range(cells_per_side):
-    for j in range(cells_per_side):
-        for k in range(cells_per_side):
-            origin = np.array([i, j, k]) * lattice_param
-            for basis in fcc_basis:
-                pos = origin + basis * lattice_param
-                positions.append(pos)
-positions = np.array(positions[:total_atoms])
-# Create data file
-type_map = {elem: idx + 1 for idx, elem in enumerate(composition.keys())}
-masses = {'Al': 26.9815, 'Fe': 55.845, 'Ni': 58.6934, 'Cr': 51.9961, 'Co': 58.9332}
-with open(output_filename, 'w') as f:
-    f.write("LAMMPS data file for HEA in 90nm box\n\n")
-    f.write(f"{total_atoms} atoms\n")
-    f.write(f"{len(composition)} atom types\n\n")
-    f.write(f"0.0 {box_size_angstrom:.6f} xlo xhi\n")
-    f.write(f"0.0 {box_size_angstrom:.6f} ylo yhi\n")
-    f.write(f"0.0 {box_size_angstrom:.6f} zlo zhi\n\n")
-    f.write("Masses\n\n")
-    for elem, idx in type_map.items():
-        f.write(f"{idx} {masses[elem]} # {elem}\n")
-    f.write("\nAtoms\n\n")
-    for atom_id, (elem, pos) in enumerate(zip(elements, positions), start=1):
-        f.write(f"{atom_id} {type_map[elem]} {pos[0]:.6f} {pos[1]:.6f} {pos[2]:.6f}\n")
 
-print(f"HEA structure written to {output_filename}")
-        </code></pre>
+      <h2>Code Implementation</h2>
+      <p style="font-size: 0.9em;">
+        Full repository:
+        <a href="https://github.com/sifat204/LAMMPS-Codes" target="_blank" style="color: #007cba; text-decoration: none;">github.com/sifat204/LAMMPS-Codes →</a>
+      </p>
+
+      <div class="code-link-grid">
+        <a class="code-card" href="https://github.com/sifat204/LAMMPS-Codes/blob/main/Structure_Python.txt" target="_blank">
+          <h4>Initial Structure Generation</h4>
+          <p>Python script for building the initial HEA structure and generating the LAMMPS data file.</p>
+        </a>
+        <a class="code-card" href="https://github.com/sifat204/LAMMPS-Codes/blob/main/LAMMPS-Solidified%20Structure.txt" target="_blank">
+          <h4>Tensile Test Simulation</h4>
+          <p>LAMMPS script for uniaxial tensile testing at elevated temperature.</p>
+        </a>
       </div>
-      <h3>LAMMPS Input Script for Tensile Test Simulation at 600 K</h3>
+
+      <h3>Featured: MC/MD Hybrid Simulation</h3>
       <div class="code-block">
-        <pre><code class="language-lammps">
-log log_file.txt
-# ------------------------ INITIALIZATION ----------------------------
-units       metal
-dimension   3
-boundary    p p p
-atom_style  atomic
+        <details open>
+          <summary>View full script</summary>
+          <pre><code class="language-lammps">
+log MC_log_file.txt
+units metal
+atom_style atomic
+dimension 3
+boundary p p p
 
 package gpu 1
-neighbor    2.0 bin
+neighbor 2.0 bin
 neigh_modify every 1 delay 0 check yes
 
-# -----------------------STRUCTURE ---------------------
-read_data annealed_structure_sample_A.data
+# structure
+read_data test_st.data
 
-# Define interatomic potential
+# Potential setup (matches data types)
 pair_style eam/alloy/gpu
 pair_coeff * * FeCrCoNiAl.setfl Al Fe Ni Cr Co
 
-# ------------------------ MINIMIZATION -----------------------------
+# ---- ENERGY MINIMIZATION ----
+minimize 1.0e-5 1.0e-7 5000 10000
 reset_timestep 0
-timestep 0.001  
-min_style fire
-minimize 1e-6 1e-8 1000 10000
 
-# ------------------------ EQUILIBRATION @300K -----------------------------
-velocity all create 300 12345 mom yes rot no
-fix eq1 all npt/gpu temp 300 300 1 iso 0 0 1 drag 1
+# ---- DYNAMICS SETUP ----
+timestep 0.002
+velocity all create 1000.0 12345 rot yes dist gaussian
+fix nvt all nvt temp 1000.0 1000.0 0.1
 thermo 1000
-run 30000  
-unfix eq1
-write_data Pre_melt_structure.data
+run 50000  # 100 ps equilibration
+unfix nvt
 
-# ------------------------ Heating to 6000K -----------------------------
-dump pre all custom 1000 dump.pre_tensile.txt id type x y z vx vy vz
-dump_modify pre element Al Fe Ni Cr Co
+fix nvt_prod all nvt temp 1000.0 1000.0 0.1  # MD Step
 
-fix melt all npt/gpu temp 300 600 1 iso 0 0 1 drag 1
-run 30500  
-unfix melt
+# ---- MONTE CARLO SETUP (Canonical Ensemble) ----
+fix swap1 all atom/swap 100 10 12345 1000.0 types 1 2
+fix swap2 all atom/swap 100 10 12346 1000.0 types 2 3
+fix swap3 all atom/swap 100 10 12347 1000.0 types 3 4
+fix swap4 all atom/swap 100 10 12348 1000.0 types 4 5
 
-velocity all scale 600
-fix hold all npt/gpu temp 600 600 1 iso 0 0 1 drag 1
-run 30000  
-unfix hold
+# Count atoms of each type
+compute c_Al all count/type atom
 
+# Composition monitoring
+fix composition all ave/time 100 50 5000 c_c_Al[1] c_c_Al[2] c_c_Al[3] c_c_Al[4] c_c_Al[5] file composition.txt
 
-undump pre
-variable tmp equal "lx"
-variable L0 equal ${tmp}
-print "Initial Length, L0: ${L0}"
-
-# ------------------------ TENSILE TEST -----------------------------
-reset_timestep 0
-fix 1 all nve
-
-variable srate equal 3.0e9
-variable srate1 equal "v_srate/1.0e12"
-fix 2 all deform 1 x erate ${srate1} units box remap x
-
-variable strain equal "(lx-v_L0)/v_L0"
-variable p1 equal "v_strain"
-variable p2 equal "-pxx/10000"
-variable p3 equal "-pyy/10000"
-variable p4 equal "-pzz/10000"
-fix def1 all print 100 "${p1} ${p2} ${p3} ${p4}" file Al_HEA.def1.txt screen no
-
-dump 1 all custom 1000 dump.tensile.txt id type x y z vx vy vz
-dump_modify 1 element Al Fe Ni Cr Co append yes
-
+# Output settings
 thermo 1000
-thermo_style custom step v_strain temp v_p2 v_p3 v_p4 ke pe press
-run 80000  
+thermo_style custom step temp pe etotal press vol f_swap1[1] f_swap1[2] f_swap2[1] f_swap2[2]
+thermo_modify flush yes
 
-print "All done"
-        </code></pre>
+# Run MC/MD simulation
+restart 50000 restart.mc.*
+run 600000
+unfix swap1
+unfix swap2
+unfix swap3
+unfix swap4
+
+# Ramp temperature down
+thermo_style custom step temp pe etotal press vol
+unfix nvt_prod
+fix nvt all nvt temp 1000.0 300.0 0.1
+run 400000  # ~0.8 ns cool
+unfix nvt
+
+fix npt all npt temp 300.0 300.0 0.1 iso 0.0 0.0 1.0
+run 50000  # 0.4 ns hold
+
+# Output final structure
+write_data final_st.data
+          </code></pre>
+        </details>
       </div>
+      <p style="font-size: 0.9em;">
+        <a href="https://github.com/sifat204/LAMMPS-Codes/blob/main/MC_MD%20Hybrid%20LAMMPS.txt" target="_blank" style="color: #007cba; text-decoration: none;">View on GitHub →</a>
+      </p>
+
+      <p style="font-size: 0.9em; color: #666;"><em>Additional simulation code (shear-assisted processing and radiation damage) will be released following publication of the associated manuscript.</em></p>
+
     </div>
 
   </div>
@@ -267,8 +215,7 @@ print "All done"
   <!-- Additional Resources Section -->
   <div class="additional-resources">
     <ul>
-      <!-- <li><a href="{{ site.baseurl }}/assets/documents/hea_publication.pdf">Download Full Paper (PDF)</a></li>
-      <li><a href="https://github.com/yourusername/hea-research">GitHub Repository</a></li> -->
+      <!-- <li><a href="{{ site.baseurl }}/assets/documents/hea_publication.pdf">Download Full Paper (PDF)</a></li> -->
       <li><a href="{{ site.baseurl }}/research/">Back to Research Overview</a></li>
     </ul>
   </div>
@@ -324,6 +271,44 @@ print "All done"
   font-size: 0.7em;
   line-height: 1;
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+.code-block summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 4px 0;
+}
+
+.code-link-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.code-card {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.15s ease;
+}
+
+.code-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.code-card h4 {
+  margin: 0 0 0.4rem 0;
+  color: #007cba;
+}
+
+.code-card p {
+  margin: 0;
+  font-size: 0.85em;
+  color: #555;
 }
 
 figure {
