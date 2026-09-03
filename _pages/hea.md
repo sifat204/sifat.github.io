@@ -234,7 +234,7 @@ write_data final_st.data
       <p style="font-size: 0.9em;">
         <a href="https://github.com/sifat204/LAMMPS-Codes/blob/main/MC_MD%20Hybrid%20LAMMPS.txt" target="_blank" style="color: #007cba; text-decoration: none;">View on GitHub →</a>
       </p>
-      <p style="font-size: 0.9em; color: #666;"><em><strong>Additional simulation code (shear-assisted processing, radiation damage and low cycle fatigue test) will be released following publication of the associated manuscript.</strong></em></p>
+      <p style="font-size: 0.9em; color: #666;"><strong>Additional simulation code (shear-assisted processing, radiation damage and low cycle fatigue test) will be released following publication of the associated manuscript.</strong></p>
 
     </div>
 
@@ -295,8 +295,10 @@ write_data final_st.data
   overflow-x: auto;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
 .code-block pre code {
-  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-family: 'JetBrains Mono', ui-monospace, Menlo, Consolas, monospace;
   font-size: 0.8em;
   line-height: 1.5;
 }
