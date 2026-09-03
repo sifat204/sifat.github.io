@@ -296,9 +296,9 @@ write_data final_st.data
 }
 
 .code-block pre code {
-  font-size: 0.7em;
-  line-height: 1;
-  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: 0.8em;
+  line-height: 1.5;
 }
 
 .code-block summary {
