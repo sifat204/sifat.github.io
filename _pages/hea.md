@@ -122,7 +122,7 @@ description: "Detailed information about High Entropy Alloys research including 
         </a>
         <a class="code-card" href="https://github.com/sifat204/LAMMPS-Codes/blob/main/LAMMPS-Solidified%20Structure.txt" target="_blank">
           <h4>Tensile Test Simulation</h4>
-          <p>LAMMPS script for uniaxial tensile testing at elevated temperature.</p>
+          <p>LAMMPS script for prepaing microstructure and uniaxial tensile testing at 300 K temperature.</p>
         </a>
       </div>
 
@@ -131,6 +131,12 @@ description: "Detailed information about High Entropy Alloys research including 
         <details open>
           <summary>View full script</summary>
           <pre><code class="language-lammps">
+# Hybrid MC/MD simulation for Al-Fe-Ni-Cr-Co HEA
+# Combines continuous MD (NVT integration) with periodic Monte Carlo
+# atom-swap moves to sample chemical ordering (CSRO) at fixed T.
+#----- Note ----
+# Requires LAMMPS built with the MC package (needed for atom/swap).
+
 log MC_log_file.txt
 units metal
 atom_style atomic
@@ -141,10 +147,13 @@ package gpu 1
 neighbor 2.0 bin
 neigh_modify every 1 delay 0 check yes
 
-# structure
+# ---- STRUCTURE ----
 read_data test_st.data
 
-# Potential setup (matches data types)
+# ---- POTENTIAL ----
+# Note: GPU acceleration here applies to the pair style / neighbor list.
+# The integrator fixes below (nvt, npt) intentionally do not use /gpu
+# suffixes, since GPU offload mainly benefits pairwise force evaluation.
 pair_style eam/alloy/gpu
 pair_coeff * * FeCrCoNiAl.setfl Al Fe Ni Cr Co
 
@@ -152,7 +161,7 @@ pair_coeff * * FeCrCoNiAl.setfl Al Fe Ni Cr Co
 minimize 1.0e-5 1.0e-7 5000 10000
 reset_timestep 0
 
-# ---- DYNAMICS SETUP ----
+# ---- INITIAL EQUILIBRATION @ 1000 K ----
 timestep 0.002
 velocity all create 1000.0 12345 rot yes dist gaussian
 fix nvt all nvt temp 1000.0 1000.0 0.1
@@ -160,44 +169,64 @@ thermo 1000
 run 50000  # 100 ps equilibration
 unfix nvt
 
-fix nvt_prod all nvt temp 1000.0 1000.0 0.1  # MD Step
+# ---- HYBRID MC/MD PRODUCTION RUN ----
+# The nvt_prod fix provides continuous MD integration; the atom/swap
+# fixes below perform periodic MC moves on top of it. Running both
+# together (rather than alternating) is the standard LAMMPS pattern
+# for hybrid MC+MD, per the fix atom/swap documentation.
+fix nvt_prod all nvt temp 1000.0 1000.0 0.1
 
 # ---- MONTE CARLO SETUP (Canonical Ensemble) ----
+# Atom type mapping: 1=Al, 2=Fe, 3=Ni, 4=Cr, 5=Co
+# fix atom/swap only swaps between the two types listed per instance,
+# so four fixes are chained (Al-Fe, Fe-Ni, Ni-Cr, Cr-Co) to allow
+# composition sampling across all five elements. Non-adjacent pairs
+# (e.g. Al-Co) are sampled indirectly through this chain over the
+# course of the run, rather than swapped directly.
 fix swap1 all atom/swap 100 10 12345 1000.0 types 1 2
 fix swap2 all atom/swap 100 10 12346 1000.0 types 2 3
 fix swap3 all atom/swap 100 10 12347 1000.0 types 3 4
 fix swap4 all atom/swap 100 10 12348 1000.0 types 4 5
 
-# Count atoms of each type
-compute c_Al all count/type atom
+# ---- COMPOSITION MONITORING ----
+# typecounts returns one count per atom type (Al, Fe, Ni, Cr, Co, in
+# that order) -- not just Al, despite the shorter name below.
+compute typecounts all count/type atom
+fix composition all ave/time 100 50 5000 &
+    c_typecounts[1] c_typecounts[2] c_typecounts[3] c_typecounts[4] c_typecounts[5] &
+    file composition.txt
 
-# Composition monitoring
-fix composition all ave/time 100 50 5000 c_c_Al[1] c_c_Al[2] c_c_Al[3] c_c_Al[4] c_c_Al[5] file composition.txt
-
-# Output settings
+# ---- OUTPUT SETTINGS ----
+# f_swapN[1] = cumulative attempted swaps, f_swapN[2] = cumulative
+# accepted swaps for that fix (only swap1/swap2 shown here for brevity;
+# add f_swap3[*] and f_swap4[*] if you want full acceptance stats).
 thermo 1000
 thermo_style custom step temp pe etotal press vol f_swap1[1] f_swap1[2] f_swap2[1] f_swap2[2]
 thermo_modify flush yes
 
-# Run MC/MD simulation
+# Periodic restart files in case the run needs to be resumed
 restart 50000 restart.mc.*
-run 600000
+
+run 600000  # 1200 ps hybrid MC/MD hold at 1000 K
+
 unfix swap1
 unfix swap2
 unfix swap3
 unfix swap4
 
-# Ramp temperature down
-thermo_style custom step temp pe etotal press vol
+# ---- COOLING RAMP: 1000 K -> 300 K ----
 unfix nvt_prod
 fix nvt all nvt temp 1000.0 300.0 0.1
+thermo_style custom step temp pe etotal press vol
 run 400000  # ~0.8 ns cool
 unfix nvt
 
+# ---- FINAL HOLD @ 300 K (NPT) ----
 fix npt all npt temp 300.0 300.0 0.1 iso 0.0 0.0 1.0
 run 50000  # 0.4 ns hold
+unfix npt
 
-# Output final structure
+# ---- OUTPUT FINAL STRUCTURE ----
 write_data final_st.data
           </code></pre>
         </details>
@@ -205,8 +234,7 @@ write_data final_st.data
       <p style="font-size: 0.9em;">
         <a href="https://github.com/sifat204/LAMMPS-Codes/blob/main/MC_MD%20Hybrid%20LAMMPS.txt" target="_blank" style="color: #007cba; text-decoration: none;">View on GitHub →</a>
       </p>
-
-      <p style="font-size: 0.9em; color: #666;"><em>Additional simulation code (shear-assisted processing and radiation damage) will be released following publication of the associated manuscript.</em></p>
+      <p style="font-size: 0.9em; color: #666;"><em><strong>Additional simulation code (shear-assisted processing, radiation damage and low cycle fatigue test) will be released following publication of the associated manuscript.</strong></em></p>
 
     </div>
 
