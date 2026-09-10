@@ -9,6 +9,8 @@ author_profile: true
 **Tools:** LAMMPS, OVITO, Python, VESTA  
 **Keywords:** Molecular Dynamics, High-Entropy Alloys, Grain Refinement, Dislocation Mechanics, Radiation Damage
 
+### Microstructural Evolution and Mechanical Response
+
 <ul style="text-align: justify;">
   <li>Investigated how shear-assisted solidification modifies the microstructure and performance of Al<sub>0.3</sub>CoCrFeNi high-entropy alloys using molecular dynamics simulations.</li>
 
@@ -17,129 +19,85 @@ author_profile: true
   <li>Evaluated tensile strength, ductility, deformation mechanisms, and thermal stability to establish processing–microstructure–property relationships.</li>
 
   <li>Assessed the response of the processed microstructures under cyclic loading to compare their fatigue stability and defect-evolution behavior.</li>
-
-  <li>Investigated 5 keV displacement cascades to quantify radiation-induced defect generation, spatial defect distributions, defect recovery, and the post-irradiation mechanical response.</li>
-
-  <li>Demonstrated that different interface architectures provide distinct advantages under tensile, cyclic, and irradiation conditions, highlighting the potential of processing-controlled microstructure design for demanding structural applications.</li>
 </ul>
 
-<p><strong>Figures shown represent Samples A and B. Full results across all microstructural variants are presented in the associated manuscript, currently under review.</strong></p>
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
-<!-- ===================== -->
-<!-- Row 1: Figures (a-d) -->
-<!-- ===================== -->
-
-<div style="
-  display: flex;
-  gap: 12px;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 25px;
-">
-
-  <!-- (a) -->
-  <figure style="width: 23%; min-width: 170px; margin: 0;">
+  <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Masters/Sample_A_CNA.png"
-         alt="CNA analysis of Sample A"
-         style="width: 100%; height: auto;">
-<figcaption style="
-  text-align: center !important;
-  width: 100%;
-  font-style: italic;
-">
-  (a) CNA analysis of Sample A
-</figcaption>
+         alt="CNA microstructure of Sample A"
+         style="width: 100%;">
+    <figcaption class="center-caption">
+      (a) CNA analysis of Sample A
+    </figcaption>
   </figure>
 
-  <!-- (b) -->
-  <figure style="width: 23%; min-width: 170px; margin: 0;">
+  <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Masters/sample_A_planar_faults_defect_only_refined.png"
          alt="Planar faults in Sample A"
-         style="width: 100%; height: auto;">
-    <figcaption style="
-  text-align: center !important;
-  width: 100%;
-  font-style: italic;
-">
+         style="width: 100%;">
+    <figcaption class="center-caption">
       (b) Planar-fault structure of Sample A
     </figcaption>
   </figure>
 
-  <!-- (c) -->
-  <figure style="width: 23%; min-width: 170px; margin: 0;">
+  <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Masters/Sample_B_CNA.png"
-         alt="CNA analysis of Sample B"
-         style="width: 100%; height: auto;">
-    <figcaption style="
-  text-align: center !important;
-  width: 100%;
-  font-style: italic;
-">
+         alt="CNA microstructure of Sample B"
+         style="width: 100%;">
+    <figcaption class="center-caption">
       (c) CNA analysis of Sample B
     </figcaption>
   </figure>
 
-  <!-- (d) -->
-  <figure style="width: 23%; min-width: 170px; margin: 0;">
+  <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Masters/sample_B_planar_faults_defect_only_refined.png"
          alt="Planar faults in Sample B"
-         style="width: 100%; height: auto;">
-    <figcaption style="
-  text-align: center !important;
-  width: 100%;
-  font-style: italic;
-">
+         style="width: 100%;">
+    <figcaption class="center-caption">
       (d) Planar-fault structure of Sample B
     </figcaption>
   </figure>
 
 </div>
 
-<!-- ===================== -->
-<!-- Row 2: Figures (e-f) -->
-<!-- ===================== -->
+### Radiation Damage: Primary Cascade Simulations
 
-<div style="
-  display: flex;
-  gap: 25px;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-">
+<ul style="text-align: justify;">
+  <li>Investigated 5 keV Primary Knock-on Atom (PKA) displacement cascades to quantify radiation-induced defect generation across the processed microstructures.</li>
 
-  <!-- (e) -->
-  <figure style="width: 45%; min-width: 280px; margin: 0;">
+  <li>Analyzed spatial defect distributions, defect recovery kinetics, and the resulting post-irradiation mechanical response.</li>
+
+  <li>Demonstrated that different interface architectures provide distinct advantages under irradiation, on top of their tensile and cyclic-loading behavior, highlighting the potential of processing-controlled microstructure design for radiation-tolerant structural applications.</li>
+</ul>
+
+<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+
+  <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Masters/fp_evolution_vs_time.png"
          alt="Frenkel-pair evolution at 5 keV"
-         style="width: 100%; height: auto;">
-    <figcaption style="
-  text-align: center !important;
-  width: 100%;
-  font-style: italic;
-">
+         style="width: 100%;">
+    <figcaption class="center-caption">
       (e) Frenkel-pair evolution at 5 keV
     </figcaption>
   </figure>
 
-  <!-- (f) -->
-  <figure style="width: 45%; min-width: 280px; margin: 0;">
+  <figure style="width: 45%; margin: 0;">
     <img src="{{ site.baseurl }}/assets/images/Masters/ws_pairs_AB.png"
          alt="Wigner-Seitz defect sites in Samples A and B"
-         style="width: 100%; height: auto;">
-    <figcaption style="
-  text-align: center !important;
-  width: 100%;
-  font-style: italic;
-">
+         style="width: 100%;">
+    <figcaption class="center-caption">
       (f) Wigner-Seitz defect distributions for a representative cascade in Sample A and B
     </figcaption>
   </figure>
 
 </div>
 
-<p style="text-align: justify;"><em><strong>This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.</strong></em></p>
-For more details and resources, please <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here !</a>
+<p style="text-align: justify;"><em>Figures shown represent Samples A and B. Full results across all microstructural variants are presented in the associated manuscript, currently under review.</em></p>
+
+<p style="text-align: justify;"><em>This project marks a key milestone in my research development, combining atomic-scale modeling, mechanical property analysis, and radiation damage simulation to address complex challenges in HEA design. It also laid the groundwork for my doctoral research direction.</em></p>
+
+*For more details and resources* <a href="{{ site.baseurl }}/hea/" style="display: inline-block; padding: 8px 16px; background-color: #007cba; color: white; text-decoration: none; border-radius: 4px;">click here</a>
 
 ## LAMMPS-based Molecular Dynamics Projects 
 **1. WMoZrTiTa Refractory High Entropy Alloy (RHEA)**
@@ -243,7 +201,7 @@ For more details and resources, please <a href="{{ site.baseurl }}/hea/" style="
 
 </div>
 
-## Undergrade Projects 
+## Undergraduate Projects 
 **Thesis: Design and Evolution of a Novel Solar Biomass Hybrid Dryer**
 <ul style="text-align: justify;">
   <li>Designed and fabricated a solar–biomass hybrid dryer following a detailed engineering design and development process.</li>
@@ -297,12 +255,17 @@ For more details and resources, please <a href="{{ site.baseurl }}/hea/" style="
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
+<<<<<<< HEAD
+    <img src="{{ site.baseurl }}/assets/images/Undergrade/Review Schematic .png" alt="Schematic Diagram of the Power plant" style="width: 100%;">
+    <figcaption class="center-caption">(a) Schematic Diagram of the Power Plant</figcaption>
+=======
     <img src="{{ site.baseurl }}/assets/images/Undergrade/Review Schematic .png" alt="Schedmatic Diagram of the Power plant" style="width: 100%;">
     <figcaption style="
   text-align: center !important;
   width: 100%;
   font-style: italic;
 ">(a) Schematic Diagram of the Pwoer Plant</figcaption>
+>>>>>>> 689c9530c44c5a956ec64c0cee30c8219b6d4911
   </figure>
 
   <figure style="width: 45%; margin: 0;">
