@@ -16,6 +16,12 @@ My current research uses large-scale, GPU-accelerated <strong>Molecular Dynamics
 I am also interested in exploring <strong>Machine-learned interatomic potentials (MLIPs) </strong> to improve the predictive accuracy of large-scale atomistic simulations without sacrificing the system sizes needed for practical materials studies.
 <br><br>
 I plan to pursue a <strong>PhD</strong> to deepen my work in atomistic modeling and computational materials science, and to complement it with hands-on experimental exposure to irradiation and characterization techniques. My long-term goal is to contribute to the design and characterization of materials that can perform reliably in the demanding environments encountered in aerospace, nuclear, and energy applications.
+
+## Research Questions I Want to Pursue
+- How does processing-controlled microstructure — grain size, stacking-fault density, dislocation networks introduced via shear-assisted solidification — govern radiation tolerance in high-entropy and refractory high-entropy alloys?
+- Can chemical short-range order (CSRO) be deliberately engineered to promote self-organizing defect sinks that suppress long-term defect accumulation under sustained irradiation?
+- Can machine-learned interatomic potentials extend multi-cascade radiation damage simulations to the system sizes and fluences needed to capture realistic long-term microstructural evolution, without sacrificing the chemical accuracy required for compositionally complex alloys?
+
 </p>
 <div style="
   display: flex;
