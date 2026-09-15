@@ -255,17 +255,8 @@ author_profile: true
 <div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
 
   <figure style="width: 45%; margin: 0;">
-<<<<<<< HEAD
     <img src="{{ site.baseurl }}/assets/images/Undergrade/Review Schematic .png" alt="Schematic Diagram of the Power plant" style="width: 100%;">
     <figcaption class="center-caption">(a) Schematic Diagram of the Power Plant</figcaption>
-=======
-    <img src="{{ site.baseurl }}/assets/images/Undergrade/Review Schematic .png" alt="Schedmatic Diagram of the Power plant" style="width: 100%;">
-    <figcaption style="
-  text-align: center !important;
-  width: 100%;
-  font-style: italic;
-">(a) Schematic Diagram of the Pwoer Plant</figcaption>
->>>>>>> 689c9530c44c5a956ec64c0cee30c8219b6d4911
   </figure>
 
   <figure style="width: 45%; margin: 0;">
