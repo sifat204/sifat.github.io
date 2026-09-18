@@ -7,15 +7,59 @@ redirect_from:
   - /about.html
 ---
 <p style="text-align: justify;">
-Hi! I am <strong>Sifat Abdul Bari</strong>, a <strong>Mechanical Engineer</strong> and <strong>Lecturer</strong> in the <strong><em><a href="https://mpe.iutoic-dhaka.edu/" target="_blank" style="color: #9e0404; text-decoration: none;">Department of Mechanical and Production Engineering</a></em></strong> at IUT.
-<br><br>
+<div class="snapshot-card">
+  <div class="snapshot-header">
+    <h2>Sifat Abdul Bari</h2>
+    <p class="snapshot-role">Mechanical Engineer · Lecturer, Dept. of Mechanical &amp; Production Engineering, IUT</p>
+    <p class="snapshot-tagline">Studying how alloys behave — and fail — at the atomic scale.</p>
+  </div>
+
+  <div class="snapshot-grid">
+    <div class="snapshot-item">
+      <span class="snapshot-icon">🎯</span>
+      <div>
+        <strong>Research Focus</strong>
+        <p>Radiation damage &amp; mechanical response of High-Entropy and Refractory High-Entropy Alloys</p>
+      </div>
+    </div>
+    <div class="snapshot-item">
+      <span class="snapshot-icon">⚛️</span>
+      <div>
+        <strong>Methods</strong>
+        <p>GPU-accelerated MD · hybrid MC/MD · multicascade PKA simulations · exploring MLIPs</p>
+      </div>
+    </div>
+    <div class="snapshot-item">
+      <span class="snapshot-icon">🚀</span>
+      <div>
+        <strong>Applications</strong>
+        <p>Aerospace, nuclear, and energy materials for extreme environments</p>
+      </div>
+    </div>
+    <div class="snapshot-item">
+      <span class="snapshot-icon">🎓</span>
+      <div>
+        <strong>Goal</strong>
+        <p>Pursuing a PhD in atomistic modeling &amp; computational materials science</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="hook-text" style="text-align: justify;">
 There's a moment in HBO's <em>Chernobyl</em> where Valery Legasov tells General Tarakanov that studying the atom requires humility. Tarakanov replies, <em>"It's not humbling, it's humiliating."</em> That exchange stayed with me because it captures something important about materials research. At the atomic scale, materials do not always behave the way we expect them to. A displaced atom does not care whether our model predicted it correctly. Understanding that difference between what we expect a material to do and what actually happens under loading, irradiation, or other extreme conditions is what draws me to this field.
-<br><br>
-My current research uses large-scale, GPU-accelerated <strong>Molecular Dynamics simulations</strong> to study the behavior of <strong>High-Entropy Alloys (HEAs)</strong> and <strong>Refractory High-Entropy Alloys (RHEAs)</strong> under radiation damage and mechanical loading. I use hybrid <strong>Monte Carlo/Molecular Dynamics (MC/MD)</strong> simulations to examine chemical ordering and microstructural evolution before performing successive <strong>Primary Knock-on Atom (PKA) collision cascades</strong>. This allows me to study how irradiation-induced defects accumulate and interact with an already damaged microstructure rather than treating each cascade as an isolated event. I then examine how the resulting defect structures influence the subsequent mechanical response of the material.
-<br><br>
-I am also interested in exploring <strong>Machine-learned interatomic potentials (MLIPs) </strong> to improve the predictive accuracy of large-scale atomistic simulations without sacrificing the system sizes needed for practical materials studies.
-<br><br>
-I plan to pursue a <strong>PhD</strong> to deepen my work in atomistic modeling and computational materials science, and to complement it with hands-on experimental exposure to irradiation and characterization techniques. My long-term goal is to contribute to the design and characterization of materials that can perform reliably in the demanding environments encountered in aerospace, nuclear, and energy applications.
+</p>
+
+<details class="read-more">
+  <summary>More on my research approach →</summary>
+  <p style="text-align: justify;">
+  My current research uses large-scale, GPU-accelerated <strong>Molecular Dynamics simulations</strong> to study the behavior of <strong>High-Entropy Alloys (HEAs)</strong> and <strong>Refractory High-Entropy Alloys (RHEAs)</strong> under radiation damage and mechanical loading. I use hybrid <strong>Monte Carlo/Molecular Dynamics (MC/MD)</strong> simulations to examine chemical ordering and microstructural evolution before performing successive <strong>Primary Knock-on Atom (PKA) collision cascades</strong>. This allows me to study how irradiation-induced defects accumulate and interact with an already damaged microstructure rather than treating each cascade as an isolated event. I then examine how the resulting defect structures influence the subsequent mechanical response of the material.
+  <br><br>
+  I am also interested in exploring <strong>Machine-learned interatomic potentials (MLIPs)</strong> to improve the predictive accuracy of large-scale atomistic simulations without sacrificing the system sizes needed for practical materials studies.
+  <br><br>
+  I plan to pursue a <strong>PhD</strong> to deepen my work in atomistic modeling and computational materials science, and to complement it with hands-on experimental exposure to irradiation and characterization techniques. My long-term goal is to contribute to the design and characterization of materials that can perform reliably in the demanding environments encountered in aerospace, nuclear, and energy applications.
+  </p>
+</details>
 </p>
 
 ## Research Questions I Want to Pursue
@@ -197,6 +241,7 @@ I plan to pursue a <strong>PhD</strong> to deepen my work in atomistic modeling 
     </div>
   </div>
 </div>
+
 <style>
 .about-container {
   line-height: 1.6;
@@ -204,6 +249,83 @@ I plan to pursue a <strong>PhD</strong> to deepen my work in atomistic modeling 
 .about-section p, .education-item p, .skill-category p {
   font-size: 1em;
 }
+
+/* --- Intro snapshot card --- */
+.snapshot-card {
+  border: 1px solid #e5d5d5;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 20px 0;
+  background: #fdfafa;
+}
+
+.snapshot-header h2 {
+  margin: 0 0 4px 0;
+}
+
+.snapshot-role {
+  margin: 0 0 8px 0;
+  color: #555;
+  font-size: 0.95em;
+}
+
+.snapshot-tagline {
+  margin: 0 0 16px 0;
+  font-style: italic;
+  color: #9e0404;
+  font-size: 0.95em;
+}
+
+.snapshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.snapshot-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.snapshot-icon {
+  font-size: 1.4em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.snapshot-item strong {
+  display: block;
+  margin-bottom: 2px;
+  color: #9e0404;
+}
+
+.snapshot-item p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #444;
+  line-height: 1.4;
+}
+
+.hook-text {
+  margin: 20px 0 8px 0;
+}
+
+.read-more {
+  margin: 8px 0 30px 0;
+}
+
+.read-more summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #9e0404;
+  padding: 4px 0;
+}
+
+.read-more[open] summary {
+  margin-bottom: 12px;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .about-container {
