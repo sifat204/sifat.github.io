@@ -47,7 +47,7 @@ redirect_from:
 </div>
 
 <p class="hook-text" style="text-align: justify;">
-There's a moment in HBO's <em>Chernobyl</em> where Valery Legasov tells General Tarakanov that studying the atom requires humility. Tarakanov replies, <em>"It's not humbling, it's humiliating."</em> That exchange stayed with me because it captures something important about materials research. At the atomic scale, materials do not always behave the way we expect them to. A displaced atom does not care whether our model predicted it correctly. Understanding that difference between what we expect a material to do and what actually happens under loading, irradiation, or other extreme conditions is what draws me to this field.
+There's a moment in HBO's <em><strong>Chernobyl</strong></em> where Valery Legasov tells General Tarakanov that studying the atom requires humility. Tarakanov replies, <em><strong>"It's not humbling, it's humiliating."</strong></em> That exchange stayed with me because it captures something important about materials research. At the atomic scale, materials do not always behave the way we expect them to. A displaced atom does not care whether our model predicted it correctly. Understanding that difference between what we expect a material to do and what actually happens under loading, irradiation, or other extreme conditions is what draws me to this field.
 </p>
 
 <details class="read-more">
@@ -262,12 +262,13 @@ There's a moment in HBO's <em>Chernobyl</em> where Valery Legasov tells General 
 .snapshot-role {
   margin: 0 0 8px 0;
   color: #555;
+  font-style: italic;
   font-size: 0.95em;
 }
 
 .snapshot-tagline {
   margin: 0 0 16px 0;
-  font-style: italic;
+  font-style: bold;
   color: #9e0404;
   font-size: 0.95em;
 }
