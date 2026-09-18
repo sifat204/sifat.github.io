@@ -9,9 +9,9 @@ redirect_from:
 <p style="text-align: justify;">
 <div class="snapshot-card">
   <div class="snapshot-header">
-    <h2>Sifat Abdul Bari</h2>
-    <p class="snapshot-role">Mechanical Engineer · Lecturer, Dept. of Mechanical &amp; Production Engineering, IUT</p>
-    <p class="snapshot-tagline">Studying how alloys behave — and fail — at the atomic scale.</p>
+    <h2><strong>Sifat Abdul Bari</strong></h2>
+    <p class="snapshot-role">Mechanical Engineer | Lecturer, <strong><em><a href="https://mpe.iutoic-dhaka.edu/" target="_blank" style="color: #9e0404; text-decoration: none;">Department of Mechanical and Production Engineering</a></em></strong></p>
+    <p class="snapshot-tagline">Studying how alloys behave and fail at the atomic scale.</p>
   </div>
 
   <div class="snapshot-grid">
@@ -26,7 +26,7 @@ redirect_from:
       <span class="snapshot-icon">⚛️</span>
       <div>
         <strong>Methods</strong>
-        <p>GPU-accelerated MD · hybrid MC/MD · multicascade PKA simulations · exploring MLIPs</p>
+        <p>GPU-accelerated MD | hybrid MC/MD | multicascade PKA simulations | exploring MLIPs</p>
       </div>
     </div>
     <div class="snapshot-item">
