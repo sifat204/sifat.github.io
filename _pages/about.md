@@ -62,10 +62,6 @@ There's a moment in HBO's <em>Chernobyl</em> where Valery Legasov tells General 
 </details>
 </p>
 
-## Research Questions I Want to Pursue
-- How does processing-controlled microstructure; grain size, stacking-fault density, dislocation networks introduced via shear-assisted solidification — govern radiation tolerance in high-entropy and refractory high-entropy alloys?
-- Can chemical short-range order (CSRO) be deliberately engineered to promote self-organizing defect sinks that suppress long-term defect accumulation under sustained irradiation?
-- Can machine-learned interatomic potentials extend multi-cascade radiation damage simulations to the system sizes and fluences needed to capture realistic long-term microstructural evolution, without sacrificing the chemical accuracy required for compositionally complex alloys?
 
 <div style="
   display: flex;
