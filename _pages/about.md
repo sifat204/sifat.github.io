@@ -99,12 +99,12 @@ There's a moment in HBO's <em><strong>Chernobyl</strong></em> where Valery Legas
       playsinline
       preload="metadata"
       style="
-        width: 220px;
-        height: 125px;
+        width: 275px;
+        height: 150px;
         object-fit: cover;
         border-radius: 8px;
       ">
-      <source src="{{ site.baseurl }}/assets/videos/blackhole_cinematic.mp4"
+      <source src="{{ site.baseurl }}/assets/videos/blackhole_final.mp4"
               type="video/mp4">
       Your browser does not support the video tag.
     </video>
